@@ -1,0 +1,525 @@
+/* ===================================================
+   Intellektual mulk huquqi — 8-mavzu prezentatsiyasi
+   Professional academic theme
+   =================================================== */
+
+:root {
+  --primary: #0d3b66;
+  --primary-light: #2e6fb8;
+  --primary-pale: #e7eff8;
+  --accent: #009e60;
+  --accent-light: #d4f1e3;
+  --warn: #c92a2a;
+  --warn-light: #fce4e4;
+  --gold: #d4a017;
+  --gold-light: #fdf4d8;
+  --ink: #1a1a1a;
+  --ink-soft: #4a5568;
+  --bg-soft: #f7f9fc;
+  --border: #d8dee9;
+}
+
+/* ============ BASE ============ */
+.reveal {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink);
+  font-weight: 400;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal section {
+  font-size: 0.72em;
+  line-height: 1.4;
+  padding: 0.2em 0.3em;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Slayd ichidagi scrollbar diskret */
+.reveal section::-webkit-scrollbar { width: 6px; }
+.reveal section::-webkit-scrollbar-track { background: transparent; }
+.reveal section::-webkit-scrollbar-thumb { background: rgba(13,59,102,0.3); border-radius: 3px; }
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.3em;
+  margin-top: 0;
+}
+
+.reveal h1 { font-size: 1.7em; line-height: 1.15; }
+.reveal h2 {
+  font-size: 1.3em;
+  line-height: 1.2;
+  padding-bottom: 0.25em;
+  border-bottom: 3px solid var(--primary-light);
+  margin-bottom: 0.5em;
+}
+.reveal h3 {
+  font-size: 1.0em;
+  color: var(--primary-light);
+  margin-top: 0.4em;
+  margin-bottom: 0.25em;
+}
+.reveal h4 { font-size: 0.9em; color: var(--accent); }
+
+.reveal ul, .reveal ol { margin-left: 1.1em; margin-top: 0.2em; margin-bottom: 0.3em; }
+.reveal li { margin: 0.15em 0; }
+.reveal p { margin: 0.3em 0; }
+.reveal strong { color: var(--primary); font-weight: 700; }
+.reveal em { font-style: italic; color: var(--ink-soft); }
+
+/* ============ TITLE SLIDE ============ */
+.title-slide {
+  text-align: center !important;
+  padding: 0.8em 1em;
+  background: linear-gradient(135deg, #ffffff 0%, var(--primary-pale) 100%);
+}
+.title-slide h1 {
+  font-size: 1.7em;
+  margin: 0.4em 0 0.3em;
+  line-height: 1.2;
+}
+.title-slide .subtitle {
+  font-size: 0.95em;
+  color: var(--ink-soft);
+  margin-bottom: 0.8em;
+}
+.title-slide .flag {
+  width: 70px;
+  display: block;
+  margin: 0 auto 0.5em;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.18);
+  border-radius: 4px;
+}
+.title-slide .meta {
+  font-size: 0.72em;
+  line-height: 1.8;
+  background: #fff;
+  padding: 1em 1.4em;
+  border-left: 5px solid var(--primary);
+  display: inline-block;
+  text-align: left;
+  margin-top: 0.5em;
+  box-shadow: 0 4px 16px rgba(13,59,102,0.1);
+  border-radius: 4px;
+}
+
+/* ============ SECTION DIVIDERS ============ */
+.section-divider {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: #fff !important;
+  text-align: center !important;
+  padding: 2em 1.5em;
+}
+.section-divider h1, .section-divider h2, .section-divider p {
+  color: #fff !important;
+  border: none !important;
+}
+.section-divider h1 {
+  font-size: 2.2em;
+  margin: 0.4em 0;
+}
+.section-divider .badge {
+  display: inline-block;
+  background: rgba(255,255,255,0.25);
+  padding: 0.4em 1.4em;
+  border-radius: 999px;
+  font-size: 0.85em;
+  margin-bottom: 1em;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.section-divider .icon {
+  font-size: 3em;
+  margin: 0.3em 0;
+  opacity: 0.9;
+}
+
+/* ============ LAW REFERENCE BOX ============ */
+.law-ref {
+  background: var(--accent-light);
+  border-left: 4px solid var(--accent);
+  padding: 0.5em 0.8em;
+  margin: 0.4em 0;
+  font-size: 0.85em;
+  border-radius: 0 5px 5px 0;
+}
+.law-ref strong { color: var(--accent); }
+.law-ref .src {
+  display: block;
+  font-size: 0.78em;
+  color: var(--ink-soft);
+  margin-top: 0.3em;
+  font-style: italic;
+  border-top: 1px dashed rgba(0,158,96,0.3);
+  padding-top: 0.25em;
+}
+
+/* ============ DEFINITION BOX (lug'at) ============ */
+.def-box {
+  background: var(--gold-light);
+  border-left: 4px solid var(--gold);
+  padding: 0.45em 0.8em;
+  margin: 0.35em 0;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.95em;
+}
+.def-box .term {
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 1em;
+}
+
+/* ============ CARDS / GRID ============ */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.5em;
+  margin: 0.4em 0;
+}
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 0.55em 0.75em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+  font-size: 0.92em;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.card .card-title {
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 0.25em;
+  font-size: 0.96em;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+.card ul, .card ol { margin-left: 1em; }
+.card p { margin: 0.2em 0; }
+.card.accent-green { border-left: 4px solid var(--accent); }
+.card.accent-blue { border-left: 4px solid var(--primary-light); }
+.card.accent-gold { border-left: 4px solid var(--gold); }
+.card.accent-red { border-left: 4px solid var(--warn); }
+
+/* ============ TABLES ============ */
+.reveal table {
+  font-size: 0.82em;
+  border-collapse: collapse;
+  margin: 0.35em auto;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.reveal table th {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.4em 0.6em;
+  text-align: left;
+  font-weight: 700;
+  font-size: 0.92em;
+}
+.reveal table td {
+  padding: 0.35em 0.6em;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.reveal table tr:nth-child(even) td { background: var(--bg-soft); }
+.reveal table tr:last-child td { border-bottom: none; }
+
+/* ============ PILL BADGES ============ */
+.pill {
+  display: inline-block;
+  padding: 0.15em 0.7em;
+  border-radius: 999px;
+  font-size: 0.75em;
+  background: var(--primary-light);
+  color: #fff;
+  margin: 0.1em 0.2em 0.1em 0;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.pill.green { background: var(--accent); }
+.pill.red { background: var(--warn); }
+.pill.gray { background: #6c757d; }
+.pill.gold { background: var(--gold); }
+
+/* ============ TWO-COLUMN ============ */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  align-items: start;
+}
+.three-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.8em;
+}
+
+/* ============ PROCESS STEPS ============ */
+.steps {
+  display: flex;
+  gap: 0.4em;
+  flex-wrap: wrap;
+  margin: 0.8em 0;
+  justify-content: center;
+}
+.step {
+  flex: 1 1 130px;
+  background: #fff;
+  border: 2px solid var(--primary-light);
+  border-radius: 10px;
+  padding: 0.7em 0.5em;
+  text-align: center;
+  min-width: 130px;
+  position: relative;
+}
+.step .num {
+  display: inline-block;
+  background: var(--primary);
+  color: #fff;
+  width: 32px; height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-bottom: 0.4em;
+  font-size: 0.95em;
+}
+.step .label {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--primary);
+  line-height: 1.25;
+}
+.step .sub {
+  font-size: 0.7em;
+  color: var(--ink-soft);
+  margin-top: 0.2em;
+}
+
+/* ============ LOGO GRID ============ */
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.7em;
+  margin: 0.6em 0;
+}
+.logo-box {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.7em 0.5em;
+  text-align: center;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: transform 0.2s;
+}
+.logo-box:hover { transform: scale(1.05); }
+.logo-box img,
+.logo-box svg {
+  max-width: 90px;
+  max-height: 60px;
+  margin-bottom: 0.4em;
+}
+.logo-box .caption {
+  font-size: 0.72em;
+  color: var(--ink-soft);
+  line-height: 1.3;
+}
+.logo-box .caption strong { color: var(--primary); display: block; font-size: 0.95em; }
+
+/* ============ CALLOUTS ============ */
+.callout {
+  background: var(--gold-light);
+  border-left: 4px solid var(--gold);
+  padding: 0.45em 0.8em;
+  margin: 0.35em 0;
+  border-radius: 0 5px 5px 0;
+  font-size: 0.92em;
+}
+.callout ul, .callout ol { margin: 0.2em 0 0.2em 1em; }
+.callout p { margin: 0.2em 0; }
+.callout.danger { background: var(--warn-light); border-left-color: var(--warn); }
+.callout.danger strong { color: var(--warn); }
+.callout.success { background: var(--accent-light); border-left-color: var(--accent); }
+.callout.success strong { color: var(--accent); }
+.callout.info { background: var(--primary-pale); border-left-color: var(--primary-light); }
+
+/* ============ NUMBERED LIST (big) ============ */
+.big-num-list {
+  list-style: none;
+  padding: 0;
+  counter-reset: item;
+  margin-left: 0 !important;
+}
+.big-num-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6em;
+  margin: 0.3em 0;
+  padding: 0.35em 0.6em;
+  background: #fff;
+  border-left: 4px solid var(--primary-light);
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  font-size: 0.95em;
+}
+.big-num-list li::before {
+  content: counter(item);
+  counter-increment: item;
+  background: var(--primary);
+  color: #fff;
+  min-width: 26px; height: 26px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85em;
+  flex-shrink: 0;
+}
+
+/* ============ ABBREVIATIONS LIST ============ */
+.abbr-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4em 0.8em;
+  font-size: 0.85em;
+}
+.abbr-item {
+  display: flex;
+  gap: 0.6em;
+  align-items: baseline;
+  padding: 0.3em 0;
+  border-bottom: 1px dashed var(--border);
+}
+.abbr-item .abbr {
+  font-weight: 700;
+  color: var(--primary);
+  min-width: 70px;
+  font-family: "Consolas", monospace;
+  font-size: 0.95em;
+}
+.abbr-item .expand {
+  color: var(--ink-soft);
+  font-size: 0.92em;
+}
+
+/* ============ LOGO FRAME (large) ============ */
+.logo-frame {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  margin: 0.5em auto;
+  max-width: 280px;
+}
+.logo-frame img, .logo-frame svg { max-width: 180px; max-height: 100px; }
+
+/* ============ ARROW FLOW ============ */
+.arrow-flow {
+  display: flex;
+  gap: 0.3em;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.6em 0;
+}
+.arrow-flow .item {
+  background: var(--primary-pale);
+  padding: 0.5em 0.8em;
+  border-radius: 6px;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--primary);
+}
+.arrow-flow .arrow {
+  color: var(--primary-light);
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+/* ============ KEY-VALUE INFO BOX ============ */
+.kv-box {
+  background: var(--bg-soft);
+  border-radius: 8px;
+  padding: 0.6em 0.9em;
+  margin: 0.4em 0;
+}
+.kv-box .kv-row {
+  display: flex;
+  gap: 0.7em;
+  padding: 0.25em 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9em;
+}
+.kv-box .kv-row:last-child { border-bottom: none; }
+.kv-box .kv-key {
+  font-weight: 700;
+  color: var(--primary);
+  min-width: 130px;
+}
+
+/* ============ FOOTNOTE (manba snoska) ============ */
+.footnote {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  font-size: 0.62em;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--border);
+  padding: 0.35em 0.6em 0.2em;
+  background: rgba(255,255,255,0.9);
+  font-style: italic;
+  line-height: 1.3;
+}
+.footnote strong { color: var(--primary); font-style: normal; font-weight: 600; }
+.footnote .src-marker {
+  display: inline-block;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.85em;
+  padding: 0 0.4em;
+  border-radius: 3px;
+  margin-right: 0.3em;
+  font-style: normal;
+}
+
+/* Slayd kontentiga past padding (footnote uchun joy) */
+.reveal section.with-footer {
+  padding-bottom: 3em !important;
+}
+
+/* In-text superscript reference */
+sup.ref {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.78em;
+  background: var(--primary-pale);
+  padding: 0 0.25em;
+  border-radius: 3px;
+  margin: 0 0.1em;
+  cursor: help;
+}
+
+/* ============ PRINT-PDF ============ */
+@media print {
+  .reveal section { font-size: 0.7em; }
+}
