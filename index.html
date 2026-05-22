@@ -1,1161 +1,1380 @@
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="uz" dir="ltr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>8-mavzu — Individuallashtirish vositalari va oshkor etilmagan axborotga bo'lgan huquqlar</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/white.css" id="theme" />
-<link rel="stylesheet" href="css/custom.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#0d1530" />
+  <meta name="description" content="Intellektual mulk huquqi · 8-mavzu — Individuallashtirish vositalari va oshkor etilmagan axborotga bo'lgan huquqlar" />
+  <title>IP Law · 8-mavzu · Intellektual mulk huquqi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/custom.css" />
 </head>
 <body>
-<div class="reveal">
-<div class="slides">
 
-<!-- ============================================
-     SLAYD 1: TITUL
-     ============================================ -->
-<section class="title-slide">
-  <h1>Intellektual mulk huquqida<br/>Individuallashtirish vositalari va<br/>oshkor etilmagan axborotga bo'lgan huquqlar</h1>
+<!-- ═════════════ NAVIGATION ═════════════ -->
+<header class="site-header" id="header">
+  <div class="container nav-wrapper">
+    <a href="#hero" class="logo">
+      <span class="logo-mark">§</span>
+      <span class="logo-text"><strong>Mulk huquqi</strong></span>
+    </a>
+    <nav class="site-nav" aria-label="Asosiy navigatsiya">
+      <a href="#intro" class="nav-link">Kirish</a>
+      <a href="#glossary" class="nav-link">Atamalar</a>
+      <a href="#part1" class="nav-link">I bo'lim</a>
+      <a href="#part2" class="nav-link">II bo'lim</a>
+      <a href="#comparison" class="nav-link">Qiyos</a>
+      <a href="#sources" class="nav-link">Manbalar</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menyu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+</header>
+
+<!-- ═════════════ HERO ═════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-pattern"></div>
+  </div>
+  <div class="container hero-content">
+    <h1 class="hero-title reveal-up">
+      Individuallashtirish vositalari va
+      <span class="gradient-text">oshkor etilmagan axborotga</span>
+      bo'lgan huquqlar
+    </h1>
+    <p class="hero-subtitle reveal-up">
+      8-mavzu &middot; <em>Tovar belgisi, firma nomi, tovar kelib chiqqan joy nomi va tijorat siri institutining huquqiy tahlili</em>
+    </p>
+    <div class="hero-cta reveal-up">
+      <a href="#intro" class="btn btn-primary">
+        <span>Boshlash</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#sources" class="btn btn-ghost">Manbalar</a>
+    </div>
+
+  </div>
+  <a href="#intro" class="scroll-indicator" aria-label="Pastga">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M6 13l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
 </section>
 
-<!-- ============================================
-     SLAYD 2: ASOSIY ATAMALAR LUG'ATI
-     ============================================ -->
-<section class="with-footer">
-  <h2>📖 Asosiy huquqiy atamalar va ularning ma'nosi</h2>
-  <p style="font-size:0.88em;color:var(--ink-soft)">Prezentatsiyada ishlatiladigan asosiy huquqiy atamalarning ta'rifi:</p>
-  <div class="def-box">
-    <span class="term">Intellektual mulk</span> — inson aqliy faoliyatining natijalari (asarlar, ixtirolar) va ularga tenglashtirilgan individuallashtirish vositalariga (firma nomi, tovar belgisi) nisbatan tan olinadigan mutlaq huquqlar majmui.
-  </div>
-  <div class="def-box">
-    <span class="term">Mutlaq huquq (lotincha <em>jus erga omnes</em>)</span> — huquq egasiga obyektdan o'zi foydalanish va boshqalarning foydalanishini taqiqlash imkonini beradigan, dunyodagi <em>barcha</em> uchinchi shaxslarga qarshi qaratilgan huquq turi.
-  </div>
-  <div class="def-box">
-    <span class="term">Individuallashtirish vositalari</span> — tovar yoki xizmat ishlab chiqaruvchi shaxsni hamda uning mahsulotini boshqalardan farqlab, ajratib turuvchi huquqiy belgilar (tovar belgisi, firma nomi, tovar kelib chiqqan joy nomi).
-  </div>
-  <div class="def-box">
-    <span class="term">Oshkor etilmagan axborot / Tijorat siri (xalqaro atama: nou-hau, inglizcha <em>know-how</em>)</span> — uchinchi shaxslarga noma'lum bo'lgan, tijorat qimmatiga ega va egasi tomonidan maxfiy saqlanadigan ma'lumotlar (retsept, formula, mijozlar bazasi, ishlab chiqarish texnologiyasi).
-  </div>
-  <div class="def-box">
-    <span class="term">Litsenziya shartnomasi</span> — huquq egasi (litsenziar) boshqa shaxsga (litsenziatga) o'z obyektidan foydalanish huquqini beruvchi shartnoma. To'liq, mutlaq (eksklyuziv) yoki oddiy (noeksklyuziv) bo'lishi mumkin.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Fuqarolik kodeksi</strong> (97 va 98-moddalar) &middot; <strong>Zokirov Iskandar Bobojonovich.</strong> Fuqarolik huquqi. Darslik. I qism. — Toshkent: Toshkent davlat yuridik instituti nashriyoti, 2009. — 611 bet (171–172, 233–235, 278–280-betlar).
-  </div>
-</section>
 
-<!-- ============================================
-     SLAYD 3: QISQARTMALAR
-     ============================================ -->
-<section class="with-footer">
-  <h2>🔤 Prezentatsiyada uchraydigan xalqaro qisqartmalarning to'liq nomi</h2>
-  <p style="font-size:0.88em">Asosiy huquqiy hujjatlar va atamalar prezentatsiya ichida <strong>to'liq nomi bilan</strong> yozilgan. Quyida xalqaro qisqartmalarning yoyilmasi keltiriladi:</p>
-  <div class="abbr-list">
-    <div class="abbr-item"><span class="abbr">WIPO</span><span class="expand">World Intellectual Property Organization — Jahon intellektual mulk tashkiloti (BMT ixtisoslashgan muassasasi, 193 ta a'zo davlat, 2025-yil holatiga)</span></div>
-    <div class="abbr-item"><span class="abbr">WTO</span><span class="expand">World Trade Organization — Jahon savdo tashkiloti (164 ta a'zo davlat, 2025-yil holatiga)</span></div>
-    <div class="abbr-item"><span class="abbr">TRIPS</span><span class="expand">Trade-Related Aspects of Intellectual Property Rights — Intellektual mulk huquqlarining savdo bilan bog'liq jihatlari to'g'risidagi bitim (Jahon savdo tashkiloti qoshidagi shartnoma, 1994-yil 15-aprel)</span></div>
-    <div class="abbr-item"><span class="abbr">NDA</span><span class="expand">Non-Disclosure Agreement — maxfiylik to'g'risidagi shartnoma (tijorat sirini saqlash bo'yicha fuqarolik-huquqiy hujjat)</span></div>
-    <div class="abbr-item"><span class="abbr">NICE</span><span class="expand">Nitsa tasnifi — tovarlar va xizmatlarni 45 ta sinfga ajratuvchi xalqaro tasnif (Nitsa bitimi, 1957-yil 15-iyun)</span></div>
-    <div class="abbr-item"><span class="abbr">3D</span><span class="expand">Three-Dimensional — uch o'lchovli (hajmiy belgi turini ifodalaydi)</span></div>
-    <div class="abbr-item"><span class="abbr">QR</span><span class="expand">Quick Response (code) — tezkor javob kodi (2025-yildan elektron guvohnomalarda qo'llaniladi)</span></div>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>Xalqaro qisqartmalarning rasmiy nomi <strong>wipo.int</strong> va <strong>wto.org</strong> saytlaridan, milliy hujjatlar nomi esa <strong>lex.uz</strong> ma'lumotlar bazasi orqali tekshirilgan.
-  </div>
-</section>
+<!-- ═════════════ GLOSSARY ═════════════ -->
+<section class="section" id="glossary">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">Atamalar lug'ati</span>
+      <h2 class="section-title">Asosiy huquqiy atamalar va ularning ma'nosi</h2>
+      <p class="section-lede">Prezentatsiyada ishlatiladigan asosiy huquqiy atamalarning ta'rifi.</p>
+    </div>
 
-<!-- ============================================
-     SLAYD 4: MAVZU REJASI
-     ============================================ -->
-<section class="with-footer">
-  <h2>📋 Mavzu rejasi — 8 ta savol</h2>
-  <div class="two-col">
-    <div>
-      <h3>🏷️ Birinchi bo'lim. Individuallashtirish vositalari</h3>
-      <ol style="font-size:0.9em">
-        <li><strong>Obyektlari:</strong> tovar (ish, xizmat) belgilari va firma nomi — mazmuni, ko'rinishlari, ro'yxatdan o'tkazib bo'lmaydigan belgilar, aynan yoki adashtirish darajasidagi o'xshashlik.</li>
-        <li><strong>Muhofaza tartibi:</strong> talabnoma topshirish, uning mazmuni, ustuvorlik, ekspertiza, ro'yxatga olish, guvohnoma berish va e'lon qilish.</li>
-        <li><strong>Huquqlar:</strong> mulkiy va mutlaq huquqlar, boshqalarga o'tkazib berish imkoniyati, amal qilish muddati hamda bekor bo'lishi.</li>
-        <li><strong>Himoya:</strong> individuallashtirish vositalariga bo'lgan huquqlarni himoya qilish choralari.</li>
-      </ol>
-    </div>
-    <div>
-      <h3>🔒 Ikkinchi bo'lim. Oshkor etilmagan axborot (tijorat siri)</h3>
-      <ol start="5" style="font-size:0.9em">
-        <li><strong>Obyektlar:</strong> qanday axborot tijorat siri sifatida qaraladi.</li>
-        <li><strong>Muhofaza tartibi va shartlari:</strong> tijorat sirini himoya qilishning huquqiy mexanizmi.</li>
-        <li><strong>Huquqlarni o'tkazish:</strong> tijorat sirini boshqa shaxslarga berish yoki foydalanishga ruxsat berish.</li>
-        <li><strong>Javobgarlik:</strong> huquqlarni buzganlik uchun huquqbuzarlik ko'rinishlari va javobgarlik choralari.</li>
-      </ol>
-    </div>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>Reja Toshkent davlat yuridik universiteti "Intellektual mulk huquqi" fani namunaviy o'quv dasturi (2023-yil tahriri) asosida tuzilgan.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 5: KIRISH — IM HUQUQIY ASOSLARI
-     ============================================ -->
-<section class="with-footer">
-  <h2>🌐 Kirish — Intellektual mulkning huquqiy asoslari</h2>
-  <div class="law-ref">
-    <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 97-moddasi</strong> (2007-yil 16-yanvardagi O'zbekiston Respublikasi Qonuni — ORQ-79-son tahririda):<br/>
-    <em>"Ushbu Kodeks va boshqa qonunlarda belgilangan hollarda va tartibda intellektual faoliyatning aniq ifoda etilgan natijalari hamda yuridik shaxsning bu natijalarga tenglashtirilgan o'ziga xos vositalari, ana shu ishlar yoki xizmatlarni ado etayotgan jismoniy yoki yuridik shaxsning mahsulotlari (<strong>firma nomi, tovar belgisi, xizmat ko'rsatish belgisi</strong> va hokazo)ga nisbatan fuqaroning yoki yuridik shaxsning <strong>mutlaq huquqi</strong> e'tirof etiladi."</em>
-  </div>
-  <h3>Jahon intellektual mulk tashkiloti (inglizcha: <em>World Intellectual Property Organization</em>) konvensiyasiga ko'ra intellektual mulk obyektlari:</h3>
-  <div class="card-grid">
-    <div class="card accent-blue">
-      <div class="card-title">📚 Mualliflik huquqi obyektlari</div>
-      Adabiy, badiiy va ilmiy asarlar (kitoblar, musiqa asarlari, kinofilmlar, elektron hisoblash mashinalari uchun dasturlar)
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">🎤 Turdosh huquqlar obyektlari</div>
-      Artistlarning ijro faoliyati, fonogrammalar, radio va televideniye eshittirishlari
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">⚙️ Sanoat mulki obyektlari</div>
-      Ixtirolar, foydali modellar, sanoat namunalari, <strong>tovar belgilari, firma nomlari, tovar kelib chiqqan joy nomlari</strong>
-    </div>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Fuqarolik kodeksining 97-moddasi</strong> (rasmiy huquqiy ma'lumotlar bazasi: lex.uz/docs/-180552) &middot; Jahon intellektual mulk tashkilotini ta'sis etish to'g'risidagi konvensiya (Stokgolm shahri, 1967-yil 14-iyul) — O'zbekiston Respublikasi <strong>1993-yil 28-iyundan e'tiboran</strong> ushbu hukumatlararo tashkilotning a'zosi &middot; Rahmonqulov Xojiakbar Raxmonqulovich, Oqyulov Omonulla Oqyulovich. O'zbekiston Respublikasi Fuqarolik kodeksiga sharh. 1-jild. — Toshkent: "Vektor-Press" nashriyoti, 2010. — 816 bet (276–277-betlar).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 6: I BO'LIM DIVIDER
-     ============================================ -->
-<section class="section-divider">
-  <div class="badge">BIRINCHI BO'LIM &middot; 1–4-savollar</div>
-  <div class="icon">🏷️</div>
-  <h1>Individuallashtirish vositalari</h1>
-  <p style="font-size:1.1em;margin-top:0.6em">
-    Tovar belgisi (xizmat ko'rsatish belgisi) &middot; Firma nomi &middot; Tovar kelib chiqqan joy nomi
-  </p>
-</section>
-
-<!-- ============================================
-     SLAYD 7: HUQUQIY BAZA — ZAMONAVIY QONUNCHILIK
-     ============================================ -->
-<section class="with-footer">
-  <h2>⚖️ Hozirgi huquqiy baza (2024–2025-yillardagi yangiliklar bilan)</h2>
-  <table>
-    <tr>
-      <th style="width:38%">Qonun nomi</th>
-      <th style="width:22%">Qabul qilingan sana va ro'yxat raqami</th>
-      <th style="width:40%">Mazmuni</th>
-    </tr>
-    <tr>
-      <td><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong></td>
-      <td>2001-yil 30-avgust<br/>№ 267-II<br/><span class="pill green">Yangi tahriri: 2024-yil 15-fevral — Qonun raqami: ЗРУ-908 (lotin yozuvida LRU-908)</span></td>
-      <td>Tovar belgilarini ro'yxatdan o'tkazish, ularni himoya qilish va ulardan foydalanish tartibini belgilaydi</td>
-    </tr>
-    <tr>
-      <td><strong>"Firma nomlari to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong></td>
-      <td>2006-yil 18-sentabr<br/>№ ORQ-51 (kirillchada ЎРҚ-51)</td>
-      <td>Tijorat tashkilotlari uchun firma nomining huquqiy holatini tartibga soladi</td>
-    </tr>
-    <tr>
-      <td><strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong></td>
-      <td>2014-yil 11-sentabr<br/>№ ORQ-374</td>
-      <td>Tijorat sirini himoya qilish va undan foydalanish munosabatlarini tartibga soladi</td>
-    </tr>
-    <tr>
-      <td><strong>"Intellektual mulk sohasidagi ba'zi qonunchilik hujjatlariga o'zgartish va qo'shimchalar kiritish to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong></td>
-      <td>2025-yil 13-may<br/>№ ORQ-1080</td>
-      <td>Intellektual mulk obyektlarini elektron tartibda ro'yxatga olish — 2025-yil 9-avgustdan; intellektual mulk huquqlarini buzganlik uchun kuchaytirilgan jinoiy javobgarlik — 2025-yil 10-noyabrdan kuchga kiritildi</td>
-    </tr>
-    <tr>
-      <td><strong>O'zbekiston Respublikasi Fuqarolik kodeksi</strong></td>
-      <td>Ikkinchi qism: 1996-yil 29-avgust</td>
-      <td>97 va 98-moddalar (umumiy qoidalar); 1095–1097-moddalar (oshkor etilmagan axborot); 1098–1111-moddalar (individuallashtirish vositalari)</td>
-    </tr>
-  </table>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>O'zbekiston Respublikasi rasmiy huquqiy ma'lumotlar bazasi (lex.uz) &middot; <strong>Jahon intellektual mulk tashkilotining xalqaro qonunchilik bazasi — WIPO Lex</strong> (wipo.int/wipolex/en/legislation/details/22560) &middot; "PETOŠEVIĆ" xalqaro intellektual mulk agentligi sharhi: "Uzbekistan Adopts New IP Law Amending Certain Legislative Acts" — "O'zbekiston intellektual mulk to'g'risidagi yangi qonunni qabul qildi" (2025-yil sentabr).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 8: 1-SAVOL: TOVAR BELGISI TA'RIFI
-     ============================================ -->
-<section class="with-footer">
-  <h2>1️⃣-savol. Tovar belgisi (xizmat ko'rsatish belgisi) — ta'rifi</h2>
-  <div class="law-ref">
-    <strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 3-moddasi:</strong><br/>
-    <em>"Tovar belgisi hamda xizmat ko'rsatish belgisi — bu bir yuridik va jismoniy shaxslar tovarlari va xizmatlarini boshqa yuridik va jismoniy shaxslarning shu turdagi tovarlaridan <strong>farqlash uchun xizmat qiladigan</strong>, belgilangan tartibda <strong>ro'yxatdan o'tkazilgan</strong> belgilardir."</em>
-  </div>
-  <h3>Tovar belgisining 4 ta asosiy funksiyasi:</h3>
-  <div class="card-grid">
-    <div class="card accent-green">
-      <div class="card-title">🎯 Farqlash funksiyasi</div>
-      Bir ishlab chiqaruvchining tovarini boshqalarnikidan ajratib turadi
-    </div>
-    <div class="card accent-green">
-      <div class="card-title">⭐ Kafolat funksiyasi</div>
-      Iste'molchiga tovar sifatining kafolatini beradi
-    </div>
-    <div class="card accent-green">
-      <div class="card-title">📢 Reklama funksiyasi</div>
-      Tovarni bozorda taniqli qilish va mijoz jalb qilish vositasi
-    </div>
-    <div class="card accent-green">
-      <div class="card-title">💎 Iqtisodiy funksiyasi</div>
-      Brendning bozor qiymati kompaniyaning eng katta nomoddiy aktivi hisoblanadi (masalan, "Apple" brendi qiymati 2024-yil "Interbrand" reytingi bo'yicha taxminan 488,9 milliard AQSh dollari)
-    </div>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 3-moddasi</strong> (O'zbekiston Respublikasi Oliy Majlisi Axborotnomasi, 2001-yil, 9–10-son, 178-modda) &middot; Zokirov Iskandar Bobojonovich. Fuqarolik huquqi, 2009. — 233-bet &middot; "Interbrand Best Global Brands 2024" reytingi (interbrand.com).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 9: TOVAR BELGISI TURLARI
-     ============================================ -->
-<section class="with-footer">
-  <h2>🎨 Tovar belgisining ko'rinishlari (turlari)</h2>
-  <p style="font-size:0.92em">Zokirov Iskandar Bobojonovich (Fuqarolik huquqi darsligi, 2009-yil, 233-bet) bo'yicha: <em>"Tovar belgisi sifatida <strong>so'zlar, tasvirlar, qabariq va boshqa belgilar yoki ularning jamlama ifodasi</strong> ro'yxatdan o'tkaziladi."</em></p>
-  <table>
-    <tr><th>Tur</th><th>Tavsifi</th><th>Misol</th></tr>
-    <tr>
-      <td><strong>So'zli (verbal) belgilar</strong></td>
-      <td>Nom, harf birikmasi, slogan, raqamlar</td>
-      <td>"Coca-Cola", "Samsung", "Artel", "Korzinka"</td>
-    </tr>
-    <tr>
-      <td><strong>Tasviriy belgilar</strong></td>
-      <td>Logotip, emblema, rasm, ramz — so'zsiz</td>
-      <td>"Apple" kompaniyasining olma tasviri 🍎, "Nike" kompaniyasining "Swoosh" belgisi ✓, "Shell" kompaniyasining ko'paklik tasviri</td>
-    </tr>
-    <tr>
-      <td><strong>Hajmiy (qabariq) belgilar</strong></td>
-      <td>Uch o'lchovli (inglizcha: <em>three-dimensional</em>) shakl — qadoq, butilka, paket</td>
-      <td>"Coca-Cola" butilkasi shakli, "Toblerone" shokoladining uchburchak shakli</td>
-    </tr>
-    <tr>
-      <td><strong>Jamlama (kombinatsiyalashgan) belgilar</strong></td>
-      <td>So'z va rasm bir vaqtda</td>
-      <td>"Microsoft" (to'rt rangli kvadrat logotip va "Microsoft" yozuvi), "Kentucky Fried Chicken" (polkovnik Sanders tasviri va "KFC" qisqartmasi)</td>
-    </tr>
-    <tr>
-      <td><strong>Boshqa zamonaviy turlar</strong></td>
-      <td>Ovozli, rangli, hidli, harakatli belgilar (yangi tendensiya)</td>
-      <td>"Metro-Goldwyn-Mayer" kinokompaniyasi sherining bo'kirishi (ovozli belgi), "Christian Louboutin" tufli to'qasining qizil rangi (rangli belgi)</td>
-    </tr>
-  </table>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>Zokirov Iskandar Bobojonovich.</strong> Fuqarolik huquqi: Darslik. I qism. — Toshkent: Toshkent davlat yuridik instituti nashriyoti, 2009. — 233-bet &middot; <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 1103-moddasi</strong> — tovar belgisiga bo'lgan mutlaq huquq.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 10: TOVAR BELGILARI — VIZUAL MISOLLAR
-     ============================================ -->
-<section class="with-footer">
-  <h2>🌟 Dunyodagi eng qimmat tovar belgilariga aniq misollar</h2>
-  <div class="logo-grid">
-    <div class="logo-box">
-      <img src="images/coca-cola.svg" alt="Coca-Cola" />
-      <div class="caption"><strong>"Coca-Cola"</strong>so'zli belgi (1893-yilda ro'yxatdan o'tgan)<br/>Brend qiymati: taxminan 61 milliard AQSh dollari</div>
-    </div>
-    <div class="logo-box">
-      <img src="images/apple.svg" alt="Apple" />
-      <div class="caption"><strong>"Apple"</strong>tasviriy belgi (1977-yildan)<br/>Brend qiymati: taxminan 488,9 milliard AQSh dollari</div>
-    </div>
-    <div class="logo-box">
-      <img src="images/microsoft.svg" alt="Microsoft" />
-      <div class="caption"><strong>"Microsoft"</strong>jamlama belgi (2012-yildagi yangi tahriri)<br/>Brend qiymati: taxminan 388,5 milliard AQSh dollari (Interbrand 2024 hisoboti — 2-o'rin)</div>
-    </div>
-    <div class="logo-box">
-      <img src="images/nike.svg" alt="Nike" />
-      <div class="caption"><strong>"Nike"</strong>tasviriy belgi (1971-yilda Kerolin Devidson tomonidan 35 AQSh dollariga chizilgan "Swoosh")<br/>Brend qiymati: taxminan 32,0 milliard AQSh dollari</div>
-    </div>
-    <div class="logo-box">
-      <img src="images/facebook.png" alt="Facebook" />
-      <div class="caption"><strong>"Facebook" / "Meta"</strong>jamlama belgi (2021-yildan "Meta Platforms, Inc.")<br/>Brend qiymati: taxminan 75,7 milliard AQSh dollari</div>
-    </div>
-  </div>
-  <div class="callout success" style="font-size:0.88em">
-    <strong>O'zbekistondagi mashhur brendlar:</strong> "Artel" (maishiy texnika ishlab chiqarish), "Korzinka" (savdo tarmog'i), "Anhor" axborot portali, "Hamkorbank", "UzAuto Motors" aksiyadorlik jamiyati — barcha sanab o'tilganlar O'zbekiston Respublikasi Adliya vazirligi huzuridagi Intellektual mulk agentligida tovar belgisi sifatida ro'yxatdan o'tkazilgan.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>"Interbrand Best Global Brands 2024" reytingi (interbrand.com) &middot; Wikipedia Commons (logotiplar tasvirlari) &middot; O'zbekiston Respublikasi Adliya vazirligi huzuridagi Intellektual mulk agentligining rasmiy ma'lumotlar bazasi (im.adliya.uz).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 11: FIRMA NOMI
-     ============================================ -->
-<section class="with-footer">
-  <h2>🏢 Firma nomi — tijorat tashkilotining individual nomi</h2>
-  <div class="law-ref">
-    <strong>"Firma nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 3-moddasi (2006-yil 18-sentabr, № ORQ-51):</strong><br/>
-    <em>"Firma nomi yuridik shaxs bo'lgan <strong>tijorat tashkilotining individual nomi</strong> bo'lib, unga doir mutlaq huquq yuridik shaxs <strong>davlat ro'yxatidan o'tkazilgan vaqtda</strong> yuzaga keladi."</em>
-  </div>
-  <h3>Firma nomining tarkibida 4 ta unsur (Zokirov Iskandar Bobojonovich, 2009-yil, 171-bet):</h3>
-  <ul style="font-size:0.88em">
-    <li><strong>1) Tashkiliy-huquqiy shakli</strong> — aksiyadorlik jamiyati, mas'uliyati cheklangan jamiyat, xususiy korxona va boshqalar</li>
-    <li><strong>2) Korxonaning tipi</strong> — davlat, jamoa yoki xususiy korxona</li>
-    <li><strong>3) Faoliyat turi</strong> — nashriyot, savdo, ishlab chiqarish, ilmiy tadqiqot</li>
-    <li><strong>4) Egasining shaxsi yoki o'ziga xos nomi</strong> — masalan, "Ford", "Sharq"</li>
-  </ul>
-  <div class="callout success">
-    <strong>Aniq misol:</strong> "<em>Sharq</em>" nashriyot-matbaa <em>aksiyadorlik kompaniyasi</em><br/>
-    🔹 <strong>"Sharq"</strong> — o'ziga xos nom &nbsp; 🔹 <strong>"nashriyot-matbaa"</strong> — faoliyat turi &nbsp; 🔹 <strong>"aksiyadorlik kompaniyasi"</strong> — tashkiliy-huquqiy shakli
-  </div>
-  <div class="callout danger">
-    <strong>⚖️ "Firma nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 12¹-moddasi — javobgarlik (2021-yil 21-aprel tahriri):</strong> <em>"Firma nomidan qonunga xilof ravishda foydalanish yuridik shaxslarga bazaviy hisoblash miqdorining <strong>100 baravaridan 200 baravarigacha</strong> bo'lgan miqdorida jarima solishga sabab bo'ladi."</em><br/>
-    <span style="font-size:0.85em">(<strong>2025-yil 1-avgustdan amal qiluvchi</strong> bazaviy hisoblash miqdori — 412 000 so'm; asos: O'zbekiston Respublikasi Prezidentining 2025-yil 2-iyundagi PF-91-son Farmoni. Demak, joriy jarima oralig'i: 41 200 000 so'mdan 82 400 000 so'mgacha)</span>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Firma nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 3, 12 va 12¹-moddalari</strong> (lex.uz/docs/-1055517) &middot; Zokirov Iskandar Bobojonovich. Fuqarolik huquqi, 2009. — 171-bet &middot; Oqyulov Omonulla. Intellektual mulkning huquqiy maqomining nazariy va amaliy muammolari. — Toshkent: Toshkent davlat yuridik instituti, 2004. — 149-bet.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 12: TOVAR KELIB CHIQQAN JOY NOMI
-     ============================================ -->
-<section class="with-footer">
-  <h2>🗺️ Tovar kelib chiqqan joy nomi — geografik ko'rsatkich</h2>
-  <div class="def-box">
-    <span class="term">Tovar kelib chiqqan joy nomi</span> — geografik nomdan iborat bo'lgan belgi bo'lib, u muayyan hududning <strong>tabiiy sharoiti</strong> yoki <strong>aholisining mahorati va malakasi</strong> bilan uzviy bog'liq tovarni belgilash uchun ishlatiladi.
-  </div>
-  <h3>O'zbekiston Respublikasi hududidan va dunyodan aniq misollar:</h3>
-  <div class="two-col">
-    <div class="card accent-blue">
-      <div class="card-title">🌊 Tabiiy sharoit bilan bog'liq</div>
-      <ul>
-        <li><strong>"Borjomi", "Essentuki"</strong> — ma'danli suvlar</li>
-        <li><strong>"Toshkent" suvi, "Tyan-Shan" suvi</strong></li>
-        <li><strong>"Braziliya kofesi", "Eron gilami", "Gruziya choyi"</strong></li>
-        <li><strong>"Shampan", "Konyak", "Kogor"</strong> sharoblari</li>
-      </ul>
-    </div>
-    <div class="card accent-gold">
-      <div class="card-title">🎨 Aholi mahorati bilan bog'liq</div>
-      <ul>
-        <li><strong>"Chust pichog'i"</strong> (Namangan viloyati)</li>
-        <li><strong>"Samarqand noni"</strong></li>
-        <li><strong>"Xiva gilami"</strong></li>
-        <li><strong>"Uchqo'ra mayizi", "Urgut tamakisi", "Yangiqo'rg'on anjiri", "Quva anori"</strong></li>
-      </ul>
-    </div>
-  </div>
-  <div class="callout danger">
-    <strong>Aniq cheklov (Zokirov Iskandar Bobojonovich, 2009-yil, 236-bet):</strong> <em>"Surxondaryoda faoliyat yuritayotgan hunarmand o'z mahsulotini <strong>Chust pichog'i</strong> deb bozorda sotishi maqsadga muvofiq emas"</em> — chunki bu nom mahsulotning kelib chiqqan haqiqiy joyiga (Namangan viloyati Chust tumani) to'g'ri kelmaydi.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Fuqarolik kodeksining 1108-moddasi, ikkinchi qismi</strong> &middot; <strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong>, tovar kelib chiqqan joy nomi bo'limi &middot; Zokirov Iskandar Bobojonovich. Fuqarolik huquqi, 2009. — 235–236-betlar &middot; Tovarlarning kelib chiqish mamlakatlarini aniqlash qoidalari — 1998-yil 8-aprelda Adliya vazirligi tomonidan ro'yxatga olingan.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 13: MUTLAQ ASOSLAR (10-modda)
-     ============================================ -->
-<section class="with-footer">
-  <h2>🚫 Mutlaq asoslar — 10-moddaning 1-12-bandlari (belgining o'z xususiyati)</h2>
-  <p style="font-size:0.88em">"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining <strong>10-moddasi</strong> (sarlavhasi: <em>"Tovar belgilari sifatida ro'yxatdan o'tkazilmaydigan belgilar"</em>) <strong>jami 20 ga yaqin asosni</strong> o'z ichiga oladi. Ulardan birinchi guruhi — <strong>mutlaq (absolyut) asoslar</strong> — belgining <em>o'z xususiyati</em> sababli rad etilishi:</p>
-  <ol style="font-size:0.85em;line-height:1.35">
-    <li><strong>Farqlash xususiyatiga ega bo'lmagan belgilar</strong> — juda oddiy geometrik shakl, bitta harf, raqam</li>
-    <li><strong>Davlat ramzlari</strong> — gerb, bayroq, davlat mukofotlari tasviri</li>
-    <li><strong>Rasmiy nomlar</strong> — davlatlar, xalqaro va hukumatlararo tashkilotlar nomlari (Birlashgan Millatlar Tashkiloti, Jahon savdo tashkiloti kabi)</li>
-    <li><strong>Nazorat va kafolat tamg'alari</strong> — rasmiy muhrlar, sertifikat namunasidagi belgilar</li>
-    <li><strong>Davlat xizmatining ajratish belgilari</strong> — armiya, ichki ishlar idoralarining belgilari</li>
-    <li><strong>Umumfoydalanishdagi belgilar</strong> — tovar turini bildiruvchi umumiy belgilar ("Wi-Fi" simsiz ulanish, "USB" universal ketma-ket shina belgisi)</li>
-    <li><strong>Umume'tirof etilgan ramz va atamalar</strong> — ♻️ qayta ishlash, ⚠️ ogohlantirish, © mualliflik huquqi, ® ro'yxatdan o'tgan tovar belgisi</li>
-    <li><strong>Tavsiflovchi belgilar</strong> — tovarning <em>turi, sifati, soni, xususiyati, maqsadi, qiymati, kelib chiqqan joyi va vaqtini</em> tavsiflovchi</li>
-    <li><strong>Yolg'on yoki chalg'ituvchi belgilar</strong> — tovar yoki ishlab chiqaruvchi haqida noto'g'ri tasavvur beruvchi</li>
-    <li><strong>Axloqqa zid belgilar</strong> — jamiyat manfaatlari, odamiylik va axloq qoidalariga zid</li>
-    <li><strong>Maxsus geografik nomlar</strong> — ma'danli suv, vino, kuchli spirtli ichimliklarning kelib chiqqan haqiqiy joyini bildiruvchi (Shampan, Konyak)</li>
-  </ol>
-  <p style="font-size:0.8em;color:var(--ink-soft);text-align:center">➡️ Nisbiy asoslar (10-moddaning 13-20-bandlari) keyingi slaydda batafsil yoritiladi</p>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 10-moddasi</strong> "Tovar belgilari sifatida ro'yxatdan o'tkazilmaydigan belgilar" (2001-yil 30-avgust, № 267-II; 2024-yil 15-fevraldagi ЗРУ-908 (LRU-908) tahririda) &middot; Zokirov Iskandar Bobojonovich. Fuqarolik huquqi, 2009. — 233–234-betlar &middot; <strong>Eslatma:</strong> 11-modda — bu alohida modda bo'lib, <em>tovar kelib chiqqan joy nomi</em> sifatida ro'yxatdan o'tkazilmaydigan belgilarga oid (geografik nomlar) &middot; lex.uz/docs/-24925.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 14: NISBIY ASOSLAR (11-modda)
-     ============================================ -->
-<section class="with-footer">
-  <h2>🚫 Nisbiy asoslar — 10-moddaning 13-20-bandlari (uchinchi shaxs huquqi)</h2>
-  <p style="font-size:0.88em">"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining <strong>10-moddasi davomi</strong> — belgi <em>boshqa shaxsning oldindan mavjud huquqlariga zid kelganligi</em> sababli ro'yxatdan o'tkazilmaydigan asoslar (<strong>nisbiy/relyativ asoslar</strong>):</p>
-  <ol style="font-size:0.85em;line-height:1.35">
-    <li><strong>Oldindan ro'yxatdan o'tgan tovar belgilari bilan adashtirish darajasidagi o'xshashlik</strong> — bir xil tovar (xizmat) sinflari uchun</li>
-    <li><strong>Mashhur tovar belgilarini takrorlash</strong> — hammaga ma'lum deb e'tirof etilgan belgilar ("Coca-Cola", "Apple", "Samsung")</li>
-    <li><strong>Tovar kelib chiqqan joy nomi bilan o'xshash</strong> — qonun hujjatlari bilan himoyalanadigan geografik nomlar ("Borjomi", "Chust pichog'i")</li>
-    <li><strong>Sertifikatlash belgilari bilan o'xshash</strong> — Xalqaro standartlashtirish tashkiloti (ISO) yoki Davlat standarti (GOST) kabi sertifikat belgilari</li>
-    <li><strong>Taniqli firma nomlarini takrorlovchi</strong> — O'zbekistonda taniqli bo'lgan firma nomlari ("Artel", "Hamkorbank")</li>
-    <li><strong>Sanoat namunalarini takrorlash</strong> — boshqa shaxsga tegishli sanoat namunalari (mahsulot dizayni)</li>
-    <li><strong>Mashhur asar nomlarini takrorlash</strong> — adabiy, badiiy va ilmiy asar nomlari, ulardagi qahramonlar yoki iboralar (mualliflik huquqi egasining roziligisiz)</li>
-    <li><strong>Atoqli shaxslar ismlari</strong> — O'zbekiston Respublikasining tarixiy va madaniy boyligi hisoblangan shaxslarning ism-familiyasi, portreti, dastxati (atoqli shaxsning o'zi, uning vorislari yoki vakolatli davlat organi roziligi olinmagan holda)</li>
-  </ol>
-  <div class="callout info">
-    <strong>📌 Mutlaq va nisbiy asoslar o'rtasidagi farq:</strong> <em>Mutlaq</em> asoslar belgining o'ziga xos kamchiliklari bilan bog'liq (umumiy, tavsiflovchi, axloqqa zid). <em>Nisbiy</em> asoslar — boshqa shaxsning oldindan mavjud huquqi bilan bog'liq (avval ro'yxatdan o'tgan tovar belgisi, firma nomi va hokazo). <strong>O'zbekiston Qonunchiligining xususiyati:</strong> mutlaq va nisbiy asoslarning ikkalasi ham bitta — <strong>10-moddada</strong> birlashtirilgan (Yevropa Ittifoqi yoki Turkiya qonunchiligidan farqli o'laroq, ular alohida moddalarda berilmagan).
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 10-moddasi (13-20 bandlar)</strong> (lex.uz/docs/-24925) &middot; Zokirov Iskandar Bobojonovich. Fuqarolik huquqi, 2009. — 234–235-betlar &middot; <strong>Diqqat:</strong> avvalgi tahrirlarda nisbiy asoslar uchun alohida modda (11-modda) deb keltirilgan ma'lumot lex.uz dagi joriy tahriri bo'yicha tasdiqlanmadi — 11-modda <em>tovar kelib chiqqan joy nomi</em>ga oid.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 15: ADASHTIRISH DARAJASIDAGI O'XSHASHLIK
-     ============================================ -->
-<section class="with-footer">
-  <h2>🔍 Aynan yoki adashtirish darajasidagi o'xshashlik</h2>
-  <div class="def-box">
-    <span class="term">Adashtirish darajasidagi o'xshashlik</span> — yangi belgining oldindan ro'yxatdan o'tgan belgiga shu darajada o'xshashligi-ki, <strong>oddiy iste'molchi ikkala belgini bir-biri bilan adashtirib yuborishi mumkin</strong> bo'ladi.
-  </div>
-  <h3>O'xshashlik 4 ta mezon bo'yicha baholanadi:</h3>
-  <table>
-    <tr><th>Mezon</th><th>Mohiyati</th><th>Misol</th></tr>
-    <tr>
-      <td><span class="pill">Vizual</span></td>
-      <td>Shakl, rang, shrift, kompozitsiya o'xshashligi (ko'rinishi bo'yicha)</td>
-      <td>Ikki sport brendining bir xil 3 chiziq logosi</td>
-    </tr>
-    <tr>
-      <td><span class="pill">Fonetik</span></td>
-      <td>Talaffuzdagi o'xshashlik (ovoz bo'yicha)</td>
-      <td>"Apple" va "Appel" — talaffuzi deyarli bir xil</td>
-    </tr>
-    <tr>
-      <td><span class="pill">Semantik</span></td>
-      <td>Ma'no va g'oya o'xshashligi (mazmunan)</td>
-      <td>"Coca-Cola" lotin va "Кока-Кола" kirill yozuvida</td>
-    </tr>
-    <tr>
-      <td><span class="pill">Kontseptual</span></td>
-      <td>Umumiy taassurot — iste'molchining birinchi qabul qilishi</td>
-      <td>Ikki brendning bir xil rangli yulduz logosi</td>
-    </tr>
-  </table>
-  <div class="callout info">
-    <strong>Qarorni kim qabul qiladi?</strong> Birinchidan — <strong>Adliya vazirligi huzuridagi Intellektual mulk agentligining ekspertizasi</strong>. Norozilik mavjud bo'lganda, ariza beruvchi avval Apellyatsiya kengashiga, undan keyin esa Toshkent shahar sudiga murojaat qilishi mumkin.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 13-moddasi</strong> (adashtirish darajasidagi o'xshashlik) &middot; Jahon intellektual mulk tashkilotining Tovar belgilarini xalqaro ro'yxatga olishning Madrid tizimi tavsiyalari (wipo.int/madrid).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 16: 2-SAVOL: MUHOFAZA TARTIBI
-     ============================================ -->
-<section class="with-footer">
-  <h2>2️⃣-savol. Muhofaza berish tartibi — 7 bosqich</h2>
-  <p>Tovar belgisini ro'yxatdan o'tkazish jarayoni quyidagi 7 bosqichdan iborat:</p>
-  <div class="steps">
-    <div class="step"><span class="num">1</span><div class="label">Talabnoma</div><div class="sub">topshirish</div></div>
-    <div class="step"><span class="num">2</span><div class="label">Ustuvorlik</div><div class="sub">belgilash</div></div>
-    <div class="step"><span class="num">3</span><div class="label">Rasmiy</div><div class="sub">ekspertiza</div></div>
-    <div class="step"><span class="num">4</span><div class="label">Mohiyat</div><div class="sub">ekspertizasi</div></div>
-    <div class="step"><span class="num">5</span><div class="label">Reestrga</div><div class="sub">kiritish</div></div>
-    <div class="step"><span class="num">6</span><div class="label">Guvohnoma</div><div class="sub">berish</div></div>
-    <div class="step"><span class="num">7</span><div class="label">Rasmiy</div><div class="sub">e'lon</div></div>
-  </div>
-  <div class="callout success">
-    <strong>📌 Vakolatli organ:</strong> <strong>O'zbekiston Respublikasi Adliya vazirligi</strong> — tovar belgilarini ro'yxatdan o'tkazish bo'yicha davlat xizmatini ko'rsatadi. Asos: VM 2019-yil 20-iyuldagi 609-son qarori bilan Intellektual mulk agentligi tashkil etilgan, keyinchalik vakolat Adliya vazirligi tarkibiga o'tkazilgan. Rasmiy sayti: <strong>im.adliya.uz</strong>
-  </div>
-  <div class="callout info">
-    <strong>🆕 2025-yildagi yangilik:</strong> Endi arizalar <strong>elektron shaklda</strong> Adliya vazirligining maxsus axborot tizimi yoki Yagona interaktiv davlat xizmatlari portali (my.gov.uz) orqali topshiriladi. Guvohnomalar <strong>tezkor javob (QR) kodi bilan elektron tarzda</strong> beriladi (asos: 2025-yil 13-maydagi № O'RQ-1080-sonli "Intellektual mulk sohasidagi ba'zi qonunchilik hujjatlariga o'zgartish va qo'shimchalar kiritish to'g'risida"gi Qonun, IM ro'yxatga olish qoidalari 2025-yil 9-avgustdan, jinoiy javobgarlik 2025-yil 10-noyabrdan kuchga kirgan).
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>O'zbekiston Respublikasi Vazirlar Mahkamasining <strong>2019-yil 20-iyuldagi № 609-son qarori</strong> &middot; <strong>Adliya vazirligining 2023-yil 19-sentabrdagi 480-son qarori bilan tasdiqlangan ma'muriy reglament</strong> (lex.uz/uz/docs/-6613366) &middot; <strong>2025-yil 13-maydagi № O'RQ-1080-sonli O'zbekiston Respublikasi Qonuni</strong> &middot; "PETOŠEVIĆ" xalqaro intellektual mulk agentligi sharhi (2025-yil sentabr).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 17: TALABNOMA MAZMUNI
-     ============================================ -->
-<section class="with-footer">
-  <h2>📝 1-bosqich: Talabnoma topshirish va uning mazmuni</h2>
-  <div class="law-ref">
-    <strong>Adliya vazirligining 480-son qarori (19.09.2023) bilan tasdiqlangan reglament:</strong> Talabnoma <strong>yuridik yoki jismoniy shaxs</strong> tomonidan <strong>shaxsan yoki vakili (patent vakili yoxud ishonchli shaxs) orqali</strong> berilishi mumkin.<br/>
-    <strong>📥 Topshirish kanallari (rasmiy talab):</strong>
-    <ul style="margin:0.3em 0 0 1em;font-size:0.92em">
-      <li><strong>Rezidentlar uchun:</strong> Adliya vazirligining maxsus axborot tizimi <em>yoki</em> Yagona interaktiv davlat xizmatlari portali (my.gov.uz)</li>
-      <li><strong>Norezidentlar uchun:</strong> faqat Adliya vazirligining maxsus axborot tizimi (pochta aloqasi orqali topshirish <strong>taqiqlangan</strong>)</li>
-      <li><strong>Keyingi harakatlar:</strong> talabnoma topshirilgandan keyingi barcha jarayonlar maxsus axborot tizimi orqali amalga oshiriladi</li>
-    </ul>
-  </div>
-  <h3>Talabnomaning majburiy tarkibi (Reglamentning 11-bandi):</h3>
-  <div class="card-grid">
-    <div class="card accent-blue">
-      <div class="card-title">📋 Ariza beruvchi ma'lumotlari</div>
-      To'liq nomi va yuridik manzili (yuridik shaxs uchun) yoki pasport ma'lumotlari (jismoniy shaxs uchun); aloqa ma'lumotlari
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">🎨 Belgi tasviri</div>
-      Yuqori sifatli rasmi (tasviriy, so'zli, hajmiy, jamlama, pozitsion, ovozli, harakatli, golografik va boshqa turlari uchun)
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">📚 Nitsa tasnifi (NICE)</div>
-      Tovar va xizmatlarni xalqaro tasniflash bo'yicha Nitsa bitimi (1957-yil 15-iyun) doirasidagi 45 ta sinfdan tegishli sinflar ko'rsatilishi kerak
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">📖 Belgi tavsifi</div>
-      Belgining matnli izohi, ranglar haqida ma'lumot, hajmiy belgi bo'lsa — uning turli rakurslari
-    </div>
-  </div>
-  <div class="callout">
-    <strong>🆕 2025-yildagi yangilik (O'RQ-1080, 13.05.2025):</strong> 2025-yil 9-avgustdan boshlab <strong>davlat bojini to'lash hujjatini taqdim etish talab qilinmaydi</strong> — talabnoma topshirilgandan keyin elektron tizim avtomatik tarzda elektron hisob-faktura yaratadi. Patent boji <strong>"Davlat boji to'g'risida"gi Qonun</strong> bilan belgilangan miqdorlarda to'lanadi.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Adliya vazirligining 2023-yil 19-sentabrdagi 480-son qarori bilan tasdiqlangan ma'muriy reglament</strong> (lex.uz/uz/docs/-6613366) &middot; <strong>"Tovar belgilari..." Qonunining 8-moddasi</strong> &middot; Zokirov I.B. Fuqarolik huquqi, 2009. — 233-bet &middot; <strong>2025-yil 13-maydagi № O'RQ-1080-sonli Qonun</strong> (elektron tartib).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 18: USTUVORLIK
-     ============================================ -->
-<section class="with-footer">
-  <h2>⏱️ 2-bosqich: Ustuvorlik (prioritet)</h2>
-  <div class="def-box">
-    <span class="term">Ustuvorlik</span> — bir nechta shaxs bir xil yoki o'xshash belgini ro'yxatdan o'tkazish uchun talabnoma bersa, <strong>kim oldinroq talabnoma topshirganligi</strong>ni huquqiy aniqlash mexanizmi.
-  </div>
-  <div class="law-ref">
-    <strong>Zokirov Iskandar Bobojonovich, Fuqarolik huquqi darsligi, 2009-yil, 233-bet:</strong><br/>
-    <em>"Tovar belgisining ustuvorligi tovar belgisini ro'yxatdan o'tkazish uchun <strong>Intellektual mulk agentligiga talabnoma berilgan sanaga</strong> qarab belgilanadi."</em>
-  </div>
-  <h3>Ustuvorlikning 3 ta turi:</h3>
-  <div class="card-grid">
-    <div class="card accent-green">
-      <div class="card-title">📅 Oddiy (talabnoma) ustuvorligi</div>
-      Intellektual mulk agentligiga talabnoma kelib tushgan kun bo'yicha belgilanadi
-    </div>
-    <div class="card accent-green">
-      <div class="card-title">🌍 Konventsion ustuvorlik</div>
-      Sanoat mulkini muhofaza qilish to'g'risidagi Parij konventsiyasiga (1883-yil 20-mart) a'zo davlatda birinchi talabnoma berilgan sanadan <strong>6 oy</strong> ichida boshqa a'zo davlatga taqdim etilsa, birinchi sana saqlanadi
-    </div>
-    <div class="card accent-green">
-      <div class="card-title">🎪 Ko'rgazma ustuvorligi</div>
-      Rasmiy yoki rasman tan olingan xalqaro ko'rgazmada belgi qo'yilgan tovar namoyish qilingan sanadan boshlanadi
-    </div>
-  </div>
-  <p style="font-size:0.85em;color:var(--ink-soft);text-align:center"><strong>🆕 2024-yildagi yangilik:</strong> O'zbekiston Respublikasi <em>Tovar belgilari to'g'risidagi qonun bo'yicha Singapur shartnomasini</em> (inglizcha: <em>Singapore Treaty on the Law of Trademarks</em>) 2024-yil 13-avgustda ratifikatsiya qildi (asos: 2024-yil 13-avgustdagi № ORQ-941-sonli O'zbekiston Respublikasi Qonuni) — bu xalqaro ustuvorlikni rasmiylashtirish tartibini soddalashtiradi.</p>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong>, ustuvorlik bo'limi &middot; "Sanoat mulkini muhofaza qilish to'g'risida"gi Parij konventsiyasi (1883-yil 20-mart) — O'zbekiston Respublikasi 1991-yil 25-dekabrdan a'zo &middot; <strong>2024-yil 13-avgustdagi № ORQ-941-sonli O'zbekiston Respublikasi Qonuni</strong> (Singapur shartnomasini ratifikatsiya qilish to'g'risida).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 19: EKSPERTIZA
-     ============================================ -->
-<section class="with-footer">
-  <h2>🔬 3 va 4-bosqichlar: Ekspertizadan o'tkazish (aniq muddatlar)</h2>
-  <div class="two-col">
-    <div class="card accent-blue">
-      <div class="card-title">🟦 Rasmiy ekspertiza</div>
-      <p><strong>Muddati:</strong> <strong>30 kun</strong> (Adliya vazirligi 480-son reglament, 19.09.2023)</p>
-      <p><strong>Nima tekshiriladi:</strong></p>
-      <ul style="font-size:0.9em">
-        <li>Talabnoma hujjatlarining to'liqligi va rasmiy rekvizitlarga muvofiqligi</li>
-        <li>Davlat boji to'langanligi (2025-yildan elektron tarzda)</li>
-        <li>Belgi tasvirining sifati va aniqligi</li>
-        <li>Nitsa tasnifining to'g'ri ko'rsatilganligi</li>
-        <li>Ariza beruvchi ma'lumotlarining haqqoniyligi</li>
-      </ul>
-    </div>
-    <div class="card accent-red">
-      <div class="card-title">🟥 Mohiyat bo'yicha ekspertiza</div>
-      <p><strong>Muddati:</strong> <strong>7 oy ichida, kamida 6 oydan keyin</strong> (tezkor tartibda o'tkazish istisno) — Reglamentning 19-bandi</p>
-      <p><strong>Nima tekshiriladi:</strong></p>
-      <ul style="font-size:0.9em">
-        <li>Belgi qonun talablariga javob beradimi (Qonunning 3-moddasi)</li>
-        <li>10-moddaning 1-20 bandlari bo'yicha taqiq asoslari mavjudligi (mutlaq va nisbiy)</li>
-        <li>Oldin ro'yxatdan o'tgan belgilar bilan o'xshashlik darajasi</li>
-        <li>Mashhur belgilar bilan adashtirish ehtimoli</li>
-        <li>Farqlash xususiyatiga ega ekanligi</li>
-      </ul>
-    </div>
-  </div>
-  <div class="callout danger">
-    <strong>📨 Norozilik tartibi:</strong> Rad etish qaroriga ariza beruvchi <strong>3 oy ichida</strong> Adliya vazirligi huzuridagi <strong>Apellyatsiya kengashiga</strong> shikoyat berishi, undan keyin esa Toshkent shahar sudiga murojaat qilishi mumkin.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Adliya vazirligining 2023-yil 19-sentabrdagi 480-son qarori bilan tasdiqlangan "Tovar belgilari va xizmat ko'rsatish belgilarini ro'yxatdan o'tkazish bo'yicha davlat xizmatini ko'rsatishning ma'muriy reglamenti"</strong> (lex.uz/uz/docs/-6613366; kuchga kirish sanasi: 20.09.2023) &middot; <strong>"Tovar belgilari..." Qonunining 10-moddasi</strong> &middot; im.adliya.uz.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 20: REESTR, GUVOHNOMA, E'LON
-     ============================================ -->
-<section class="with-footer">
-  <h2>📜 5, 6 va 7-bosqichlar: Ro'yxatga olish → Guvohnoma → E'lon qilish</h2>
-  <ol class="big-num-list">
-    <li>
-      <div>
-        <strong>5. Davlat reestriga kiritish</strong> — Tovar belgisi <em>O'zbekiston Respublikasi Tovar belgilarining Davlat reestriga</em> <strong>avtomatik tarzda</strong> kiritiladi (480-son reglament bo'yicha — patent boji to'langach). Reestr <strong>ochiq</strong> — har bir manfaatdor shaxs uni Adliya vazirligining saytida (im.adliya.uz) ko'rib chiqishi mumkin.
+    <div class="def-stack reveal-up">
+      <div class="def-item">
+        <h4>Intellektual mulk</h4>
+        <p>Inson aqliy faoliyatining natijalari (asarlar, ixtirolar) va ularga tenglashtirilgan individuallashtirish vositalariga (firma nomi, tovar belgisi) nisbatan tan olinadigan mutlaq huquqlar majmui.</p>
       </div>
-    </li>
-    <li>
-      <div>
-        <strong>6. Guvohnoma berish</strong> — Ariza beruvchiga vakolatli organning maxsus axborot tizimi orqali <strong>elektron guvohnoma</strong> yuboriladi. 2025-yil 9-avgustdan boshlab guvohnomalar <strong>elektron shaklda va tezkor javob (QR) kodi bilan</strong> beriladi (O'RQ-1080-son Qonun asosida). Bu hujjat egasining mutlaq huquqlarini tasdiqlaydi va sudda asosiy dalil hisoblanadi.
+      <div class="def-item">
+        <h4>Mutlaq huquq <em>(lotincha: jus erga omnes)</em></h4>
+        <p>Huquq egasiga obyektdan o'zi foydalanish va boshqalarning foydalanishini taqiqlash imkonini beradigan, dunyodagi <strong>barcha</strong> uchinchi shaxslarga qarshi qaratilgan huquq turi.</p>
       </div>
-    </li>
-    <li>
-      <div>
-        <strong>7. Rasmiy e'lon qilish</strong> — Adliya vazirligining rasmiy <em>byulletenida</em> quyidagi ma'lumotlar nashr etiladi: belgi tasviri, egasining nomi, Nitsa tasnifi bo'yicha sinflar, ustuvorlik sanasi. Bu uchinchi shaxslarga xabar berish funksiyasini bajaradi va e'tiroz bildirish muddatini boshlaydi.
+      <div class="def-item">
+        <h4>Individuallashtirish vositalari</h4>
+        <p>Tovar yoki xizmat ishlab chiqaruvchi shaxsni hamda uning mahsulotini boshqalardan farqlab, ajratib turuvchi huquqiy belgilar (tovar belgisi, firma nomi, tovar kelib chiqqan joy nomi).</p>
       </div>
-    </li>
-  </ol>
-  <div class="callout success">
-    <strong>® va ™ belgilarining ma'nosi:</strong>
-    <ul style="margin-top:0.3em">
-      <li><strong>®</strong> (inglizcha <em>Registered</em> — "ro'yxatdan o'tkazilgan" so'zining qisqartmasi) — <em>ro'yxatdan o'tgan</em> tovar belgisi, qonun bilan to'liq himoyalangan</li>
-      <li><strong>™</strong> (inglizcha <em>Trademark</em> — "tovar belgisi" so'zining qisqartmasi) — <em>da'vo qilingan, lekin hali ro'yxatdan o'tmagan</em> tovar belgisi</li>
-    </ul>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 15–17-moddalari</strong> &middot; <strong>2025-yil 13-maydagi № ORQ-1080-sonli O'zbekiston Respublikasi Qonuni</strong> — elektron guvohnoma va tezkor javob (QR) kodi tizimini joriy etish to'g'risida ("PETOŠEVIĆ" agentligi sharhi, 2025-yil).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 21: 3-SAVOL: MUTLAQ HUQUQLAR
-     ============================================ -->
-<section class="with-footer">
-  <h2>3️⃣-savol. Individuallashtirish vositalariga nisbatan mutlaq huquqlar</h2>
-  <div class="law-ref">
-    <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 1103-moddasi</strong> (Zokirov Iskandar Bobojonovich, Fuqarolik huquqi darsligi, 2009-yil, 172 va 235-betlar):<br/>
-    <em>"Tovar belgisining egasi ushbu belgidan <strong>foydalanishda va uni tasarruf etishda</strong>, shu jumladan, undan o'zga shaxslar <strong>foydalanishiga ruxsat berish yoki taqiqlab qo'yishda mutlaq huquq</strong>qa egadir."</em>
-  </div>
-  <h3>Mutlaq huquqning 3 ta tarkibiy qismi:</h3>
-  <div class="three-col">
-    <div class="card accent-green">
-      <div class="card-title">1️⃣ Foydalanish huquqi</div>
-      <p style="font-size:0.88em">Belgini quyidagilarda ishlatish:</p>
-      <ul style="font-size:0.82em">
-        <li>Tovarda va qadog'ida</li>
-        <li>Reklamada va hujjatlarda</li>
-        <li>Internet saytida</li>
-        <li>Ko'rgazma va yarmarkalarda</li>
-        <li>Hisob-varaqlarda</li>
-      </ul>
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">2️⃣ Tasarruf etish huquqi</div>
-      <p style="font-size:0.88em">Belgi ustidan iqtisodiy ish ko'rish:</p>
-      <ul style="font-size:0.82em">
-        <li>Boshqa shaxsga sotish</li>
-        <li>Litsenziya berish</li>
-        <li>Franchayzing shartnomasi</li>
-        <li>Garovga qo'yish</li>
-        <li>Meros qoldirish</li>
-      </ul>
-    </div>
-    <div class="card accent-red">
-      <div class="card-title">3️⃣ Taqiqlash huquqi</div>
-      <p style="font-size:0.88em">Boshqalarning huquqlarini cheklash:</p>
-      <ul style="font-size:0.82em">
-        <li>Ruxsatsiz foydalanishni taqiqlash</li>
-        <li>Sudga murojaat qilish</li>
-        <li>Kontrafakt tovarlarni musodara qilish</li>
-        <li>Etkazilgan zararni undirish</li>
-      </ul>
-    </div>
-  </div>
-  <p style="font-size:0.78em;color:var(--ink-soft);text-align:center"><em>Mutlaq huquqning asosiy xususiyati — barcha uchinchi shaxslarga qarshi qaratilganligi (lotincha: <strong>jus erga omnes</strong> — "barchaga qarshi qaratilgan huquq")</em></p>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Fuqarolik kodeksining 1103-moddasi</strong> &middot; Zokirov Iskandar Bobojonovich. Fuqarolik huquqi, 2009. — 172 va 235-betlar.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 22: HUQUQLARNI O'TKAZISH
-     ============================================ -->
-<section class="with-footer">
-  <h2>🔄 Huquqlarni boshqalarga o'tkazib berish — 4 shakl</h2>
-  <table>
-    <tr>
-      <th style="width:22%">Shartnoma turi</th>
-      <th style="width:45%">Mohiyati</th>
-      <th style="width:33%">Misol</th>
-    </tr>
-    <tr>
-      <td><strong>Tovar belgisini berish</strong><br/>(uzungoq qilish)</td>
-      <td>Huquq <em>butunlay</em> boshqa shaxsga o'tadi. Yangi egasi reestrga kiritiladi.</td>
-      <td>Brendni qo'shilishlarda butunlay sotish</td>
-    </tr>
-    <tr>
-      <td><strong>Oddiy litsenziya</strong><br/>(noeksklyuziv)</td>
-      <td>Egasi ruxsat beradi, o'zi ham foydalanadi va boshqalarga ham ruxsat bera oladi.</td>
-      <td>Bir nechta hududdagi turli distributorlar</td>
-    </tr>
-    <tr>
-      <td><strong>Mutlaq (eksklyuziv) litsenziya</strong></td>
-      <td>Faqat bir litsenziat foydalanadi, egasi boshqasiga ruxsat bera olmaydi.</td>
-      <td>Region bo'yicha eksklyuziv distributor</td>
-    </tr>
-    <tr>
-      <td><strong>Franchayzing</strong><br/>(kompleks tadbirkorlik litsenziyasi)</td>
-      <td>Tovar belgisi + firma nomi + tijorat siri + biznes uslubi <em>to'plam holida</em>.</td>
-      <td>McDonald's, KFC, Subway — barchasi shu sxema bo'yicha</td>
-    </tr>
-  </table>
-  <div class="law-ref">
-    <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 46-moddasi (Fuqarolik kodeksiga sharh, 2010-yil, 131-bet):</strong> Litsenziya yoki franshiza shartnomalarida <em>iste'molchini chalg'itishni istisno etadigan chora-tadbirlar</em> nazarda tutilishi shart.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Fuqarolik kodeksining 46 hamda 489–500-moddalari</strong> (litsenziya shartnomasi qoidalari) &middot; Rahmonqulov Xojiakbar Raxmonqulovich, Oqyulov Omonulla Oqyulovich. O'zbekiston Respublikasi Fuqarolik kodeksiga sharh. 1-jild. — Toshkent: "Vektor-Press" nashriyoti, 2010. — 131-bet.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 23: AMAL QILISH MUDDATI
-     ============================================ -->
-<section class="with-footer">
-  <h2>⏰ Amal qilish muddati va bekor bo'lishi — aniq modda asoslari</h2>
-  <div class="law-ref">
-    <strong>📜 "Tovar belgilari..." Qonunining 21-moddasi (rasmiy matn):</strong> <em>"Tovar belgisiga doir guvohnoma <strong>ro'yxatdan o'tkazilgan kunidan boshlab o'n yil davomida</strong> amal qiladi."</em><br/>
-    <strong>📜 22-modda — uzaytirish:</strong> <em>"Muddat <strong>har safar o'n yil uchun</strong> takroriy ro'yxatdan o'tkazish asosida uzaytiriladi. Uzaytirish arizasi guvohnoma muddati tugashidan oldin yoki uning tugaganidan keyin <strong>6 oy ichida</strong> taqdim etilishi mumkin (qo'shimcha boj to'lov bilan)."</em>
-  </div>
-  <h3>📊 Uch turdagi obyektlar bo'yicha aniq muddatlar va bekor bo'lish:</h3>
-  <table>
-    <tr><th style="width:18%">Obyekt</th><th style="width:25%">Amal qilish muddati</th><th>Bekor bo'lish asoslari (aniq modda bilan)</th></tr>
-    <tr>
-      <td><strong>🏷️ Tovar belgisi</strong></td>
-      <td><strong>10 yil</strong> ro'yxatdan o'tkazilgan kundan; har 10 yilga <strong>cheksiz miqdorda</strong> uzaytiriladi (Qonun 21-22-moddalar)</td>
-      <td>
-        <ul style="margin:0;font-size:0.92em">
-          <li><strong>Qonun 25-modda:</strong> egasining yozma arizasi asosida muddatdan oldin to'liq yoki qisman bekor qilish</li>
-          <li><strong>FK 1104-modda:</strong> <em>"Oxirgi 3 yil davomida O'zbekiston Respublikasi hududida uzrli sababsiz uzluksiz foydalanilmagan taqdirda — istalgan manfaatdor shaxsning talabi bo'yicha sud qaroriga asosan bekor qilinishi mumkin"</em> (litsenziya berilishi — foydalanish deb hisoblanadi)</li>
-          <li>Guvohnoma muddati tugashi va uzaytirilmaganlik</li>
-          <li>Yuridik shaxs tugatilishi (vorislik bo'lmagan taqdirda)</li>
-          <li>Qonun 26-modda: ro'yxatdan o'tkazish to'liq haqiqiy emas deb topilishi (10-modda bandlari buzilgan bo'lsa)</li>
+      <div class="def-item">
+        <h4>Oshkor etilmagan axborot / Tijorat siri <em>(know-how)</em></h4>
+        <p>Uchinchi shaxslarga noma'lum bo'lgan, tijorat qimmatiga ega va egasi tomonidan maxfiy saqlanadigan ma'lumotlar (retsept, formula, mijozlar bazasi, ishlab chiqarish texnologiyasi).</p>
+      </div>
+      <div class="def-item">
+        <h4>Litsenziya shartnomasi</h4>
+        <p>Huquq egasi (litsenziar) boshqa shaxsga (litsenziatga) o'z obyektidan foydalanish huquqini beruvchi shartnoma. To'liq, mutlaq (eksklyuziv) yoki oddiy (noeksklyuziv) bo'lishi mumkin.</p>
+      </div>
+      <div class="def-item">
+        <h4>NDA <em>(Non-Disclosure Agreement)</em> — Maxfiylik shartnomasi</h4>
+        <p>Ikki yoki undan ortiq tomon o'rtasida tuziladigan, <strong>ma'lumotlarni uchinchi shaxslarga oshkor etmaslik</strong> majburiyatini belgilovchi fuqarolik-huquqiy hujjat. Bu so'z xalqaro biznes atamasi bo'lib, O'zbekiston qonunchiligida bevosita ishlatilmasa-da, tushuncha quyidagi qonun moddalarida tartibga solinadi:</p>
+        <ul style="margin-top: 0.6rem; margin-bottom: 0.6rem;">
+          <li><a href="https://lex.uz/docs/-111189" target="_blank" rel="noopener noreferrer" class="law-link">FK 98-modda</a> — egasi maxfiylikni saqlash chora-tadbirlarini ko'rishi shart (NDA — bu chora)</li>
+          <li><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1097-modda</a> — OEA litsenziya shartnomasi (litsenziat maxfiylikni saqlashi shart)</li>
+          <li><a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri..." Qonun 10, 11, 14-moddalari</a> — yozma majburiyat olish, xodim NDA, konfidentga topshirish</li>
+          <li><a href="https://lex.uz/docs/-6257288" target="_blank" rel="noopener noreferrer" class="law-link">Mehnat kodeksi</a> — mehnat shartnomasiga NDA bandlari kiritish</li>
         </ul>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>🗺️ Tovar chiqarilgan joy nomi</strong></td>
-      <td><strong>10 yil</strong> ro'yxatdan o'tkazilgan kundan; <strong>har 10 yilga uzaytiriladi</strong> (Qonun 21-22-moddalar; FK 1108-modda)</td>
-      <td>
-        <ul style="margin:0;font-size:0.92em">
-          <li><strong>FK 1110-modda:</strong> geografik obyekt mavjud bo'lmay qolishi yoki uning tabiiy sharoitlari yo'qolishi</li>
-          <li>Ishlab chiqaruvchining shu hududda faoliyatdan to'xtashi</li>
-          <li>Guvohnoma muddati tugashi va uzaytirilmaganlik</li>
-          <li>Egasining yozma arizasi</li>
+        <p><strong>NDA turlari:</strong></p>
+        <ul style="margin-top: 0.4rem;">
+          <li><strong>Unilateral NDA</strong> (bir tomonlama) — faqat bitta tomon sirni saqlaydi (mas., kompaniya → xodim)</li>
+          <li><strong>Mutual NDA</strong> (ikki tomonlama) — ikkala tomon ham sir saqlaydi (hamkorlik muzokaralari)</li>
+          <li><strong>Multilateral NDA</strong> — 3 yoki undan ortiq tomon (konsorsium)</li>
         </ul>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>🏢 Firma nomi</strong></td>
-      <td>Yuridik shaxs davlat ro'yxatidan o'tkazilgan paytdan <strong>to yuridik shaxs tugatilgunga qadar</strong> (FK 1098 va 1100-moddalar)</td>
-      <td>
-        <ul style="margin:0;font-size:0.92em">
-          <li><strong>FK 1100-modda (rasmiy matn):</strong> <em>"Firma nomiga bo'lgan huquqning amal qilishi <strong>yuridik shaxs tugatilishi bilan</strong> yoki uning <strong>firma nomi o'zgarishi bilan</strong> bekor bo'ladi"</em></li>
-          <li>"Firma nomlari..." Qonun 10-moddasi: muhofaza qilishni to'xtatish</li>
-          <li>Yuridik shaxs qayta tashkil etilganda — vorislikka o'tadi (FK 1101)</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-  <div class="callout success">
-    <strong>🆕 2025-yil yangiliklari:</strong>
-    <ul style="margin:0.3em 0 0 1em">
-      <li>Davlat boji "Davlat boji to'g'risida"gi Qonun bilan belgilangan miqdorlarda to'lanadi (480-son Reglament).</li>
-      <li>2025-yil 13-maydagi O'RQ-1080-sonli Qonun bo'yicha boj to'lash uchun <strong>3 oylik muddatga 50% qo'shimcha bilan 6 oygacha qo'shimcha imkoniyat</strong> kiritildi.</li>
-      <li>Boj to'lash uchun "Davlat boji to'g'risida"gi Qonunga 2024-yil 15-fevral O'RQ-908-son qonun orqali o'zgartirishlar kiritilgan.</li>
-    </ul>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tovar belgilari..." Qonunining 21, 22, 25 va 26-moddalari</strong> (lex.uz/docs/-24925) &middot; <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 1098, 1100, 1104, 1108 va 1110-moddalari</strong> (lex.uz/docs/-180552) &middot; <strong>"Firma nomlari..." Qonunining 10-moddasi</strong> (O'RQ-51, 18.09.2006) &middot; Adliya vazirligining 480-son Reglamenti (19.09.2023) &middot; O'RQ-1080-son Qonun (13.05.2025).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 24: 4-SAVOL: HIMOYA + YANGI JINOIY JAVOBGARLIK
-     ============================================ -->
-<section class="with-footer">
-  <h2>4️⃣-savol. Huquqlarni himoya qilish — 3 daraja javobgarlik</h2>
-  <table>
-    <tr><th style="width:18%">Javobgarlik turi</th><th style="width:32%">Huquqiy asos</th><th>Chora-tadbirlar va aniq miqdorlar</th></tr>
-    <tr>
-      <td><span class="pill">Fuqarolik-huquqiy</span></td>
-      <td>O'zbekiston Respublikasi Fuqarolik kodeksining <strong>11, 14 va 46-moddalari</strong></td>
-      <td>(1) huquqni tan olish; (2) huquqbuzarlikdan oldingi holatni tiklash; (3) noqonuniy belgini kontrafakt (qalbaki) tovarlardan olib tashlash; (4) ularni yo'q qilish; (5) sud qarorini ommaviy axborot vositalarida e'lon qilish; (6) yetkazilgan zararni undirish</td>
-    </tr>
-    <tr>
-      <td><span class="pill red">Ma'muriy</span></td>
-      <td>O'zbekiston Respublikasining Ma'muriy javobgarlik to'g'risidagi kodeksining <strong>177-moddasi</strong></td>
-      <td>"Tovar belgisi, xizmat ko'rsatish belgisi, geografik ko'rsatkichi, tovar kelib chiqqan joy nomi yoki firma nomidan noqonuniy foydalanish":<br/>• Jismoniy shaxslarga: <strong>bazaviy hisoblash miqdorining 5 baravaridan 10 baravarigacha</strong> jarima<br/>• Mansabdor shaxslarga: <strong>bazaviy hisoblash miqdorining 10 baravaridan 20 baravarigacha</strong> jarima<br/>• Bir yil ichida takroran sodir etganda: jismoniy shaxslarga 10 baravardan 20 baravargacha va mansabdor shaxslarga 20 baravardan 30 baravargacha</td>
-    </tr>
-    <tr>
-      <td><span class="pill gold">Maxsus jarima</span></td>
-      <td>"Firma nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining <strong>12¹-moddasi</strong></td>
-      <td>Firma nomidan qonunga xilof ravishda foydalanganlik uchun yuridik shaxslarga <strong>bazaviy hisoblash miqdorining 100 baravaridan 200 baravarigacha</strong> miqdorida jarima solinadi</td>
-    </tr>
-    <tr>
-      <td><span class="pill red">Jinoiy <span style="background:#fff;color:var(--warn);padding:0 4px;border-radius:3px;font-size:0.85em">YANGI 2025-yil</span></span></td>
-      <td>O'zbekiston Respublikasining Jinoyat kodeksi (2025-yil 13-maydagi № ORQ-1080-sonli Qonun bilan kuchaytirilgan)</td>
-      <td>Tovar belgisi, xizmat ko'rsatish belgisi, geografik ko'rsatkich yoki firma nomidan noqonuniy foydalanish (katta miqdorda yoki qayta sodir etilganda) — <strong>bazaviy hisoblash miqdorining 50 baravaridan 150 baravarigacha jarima</strong>, tuzatish ishlari yoki <strong>3 yilgacha muddatga ozodlikdan mahrum etish</strong></td>
-    </tr>
-  </table>
-  <div class="callout success">
-    <strong>🌐 Jahon savdo tashkiloti talablariga moslashtirish:</strong> Yangi jinoiy javobgarlik me'yorlari <strong>Intellektual mulk huquqlarining savdo bilan bog'liq jihatlari to'g'risidagi bitim</strong> (inglizcha qisqartmasi: TRIPS — <em>Trade-Related Aspects of Intellectual Property Rights</em>) talablariga muvofiq joriy etildi — bu O'zbekiston Respublikasining Jahon savdo tashkilotiga to'liq a'zo bo'lishi uchun zarur shartlardan biridir.
-  </div>
-  <div class="callout info" style="font-size:0.83em">
-    <strong>📌 Bazaviy hisoblash miqdori bo'yicha aniq raqamlar:</strong> 2025-yil 1-avgustdan amal qiluvchi bazaviy hisoblash miqdori — <strong>412 000 so'm</strong> (asos: O'zbekiston Respublikasi Prezidentining 2025-yil 2-iyundagi PF-91-son Farmoni). Demak: Ma'muriy javobgarlik to'g'risidagi kodeksning 177-moddasi bo'yicha jismoniy shaxslar uchun jarima — <strong>2 060 000 so'mdan 4 120 000 so'mgacha</strong>; "Firma nomlari to'g'risida"gi Qonunning 12¹-moddasi bo'yicha yuridik shaxslar uchun jarima — <strong>41 200 000 so'mdan 82 400 000 so'mgacha</strong>; Jinoyat kodeksi bo'yicha jarima — <strong>20 600 000 so'mdan 61 800 000 so'mgacha</strong>.<br/><span style="font-size:0.82em;color:var(--ink-soft)"><em>Eslatma: 2025-yil 1-avgustga qadar (ya'ni 2024-yil 1-oktabrdan boshlab) bazaviy hisoblash miqdori 375 000 so'm edi.</em></span>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasining Ma'muriy javobgarlik to'g'risidagi kodeksining 177-moddasi</strong> (lex.uz/docs/-97664) &middot; <strong>"Firma nomlari to'g'risida"gi O'zbekiston Respublikasi Qonunining 12¹-moddasi</strong> (2021-yil 21-aprel tahriri) &middot; <strong>2025-yil 13-maydagi № ORQ-1080-sonli O'zbekiston Respublikasi Qonuni</strong> (Patentica.com tahliliy materiali, 2025-yil; "PETOŠEVIĆ" agentligi sharhi, 2025-yil sentabr).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 25: II BO'LIM DIVIDER
-     ============================================ -->
-<section class="section-divider">
-  <div class="badge">IKKINCHI BO'LIM &middot; 5–8-savollar</div>
-  <div class="icon">🔒</div>
-  <h1>Oshkor etilmagan axborot</h1>
-  <p style="font-size:1.1em;margin-top:0.6em">
-    Tijorat siri (nou-hau, inglizcha: <em>know-how</em>) &middot; "Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonuni (2014-yil 11-sentabr, № ORQ-374)
-  </p>
-</section>
-
-<!-- ============================================
-     SLAYD 26: 5-SAVOL: TIJORAT SIRI TA'RIFI
-     ============================================ -->
-<section class="with-footer">
-  <h2>5️⃣-savol. Oshkor etilmagan axborot — obyektlari</h2>
-  <div class="law-ref">
-    <strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 3-moddasi (2014-yil 11-sentabr, № ORQ-374):</strong><br/>
-    <em>"Tijorat siri — <strong>uchinchi shaxslarga noma'lumligi sababli</strong> fan-texnika, texnologiya, ishlab chiqarish, moliya-iqtisodiyot sohalarida hamda boshqa sohalarda <strong>tijorat qimmatiga ega bo'lgan</strong>, qonuniy asosda <strong>erkin foydalanilmaydigan axborot</strong>."</em>
-  </div>
-  <div class="law-ref" style="background:var(--primary-pale);border-left-color:var(--primary)">
-    <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 98-moddasi (xizmat va tijorat siri):</strong><br/>
-    <em>"Fuqarolik qonun hujjatlari xizmat yoki tijorat siri bo'lgan axborotni, basharti bu axborot uchinchi shaxslarga noma'lumligi sababli haqiqiy yoki nisbiy tijorat qimmatiga ega bo'lgan, qonun yo'li bilan undan erkin bahramand bo'lish mumkin bo'lmagan hamda axborot egasi uning maxfiyligini saqlashga doir choralar ko'rgan hollarda himoya etadi."</em>
-  </div>
-  <h3>Tijorat siri obyektlari sohalar bo'yicha:</h3>
-  <div class="card-grid">
-    <div class="card accent-blue"><div class="card-title">🔧 Fan-texnika va texnologiya</div>Kashfiyot, yangi g'oya, texnik chizmalar, dasturiy ta'minot</div>
-    <div class="card accent-blue"><div class="card-title">🏭 Ishlab chiqarish</div>Texnologik jarayon, retsept, formula, ishlab chiqarish usuli</div>
-    <div class="card accent-blue"><div class="card-title">💰 Moliya-iqtisodiyot</div>Byudjet, narx siyosati, mijozlar bazasi, marketing strategiyasi</div>
-    <div class="card accent-blue"><div class="card-title">🏛️ Tashkiliy soha</div>Boshqaruv tizimi, ish jarayonlari, kadrlar siyosati</div>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 3-moddasi</strong> (lex.uz/docs/-2460801) &middot; <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 98-moddasi</strong> &middot; Rahmonqulov Xojiakbar Raxmonqulovich, Oqyulov Omonulla Oqyulovich. O'zbekiston Respublikasi Fuqarolik kodeksiga sharh. 1-jild. — Toshkent: "Vektor-Press" nashriyoti, 2010. — 278-bet.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 27: NIMA TIJORAT SIRI EMAS
-     ============================================ -->
-<section class="with-footer">
-  <h2>🚫 Tijorat siri bo'la olmaydigan ma'lumotlar (5-modda)</h2>
-  <p>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 5-moddasiga ko'ra, quyidagi ma'lumotlar <strong>tijorat siri hisoblanmaydi</strong>:</p>
-  <ol style="font-size:0.85em;line-height:1.4">
-    <li><strong>Davlat ro'yxatidan o'tishni talab qiluvchi mulkka bo'lgan huquqlar</strong> haqidagi ma'lumotlar</li>
-    <li><strong>Yuridik shaxsning ta'sis hujjatlaridagi</strong> ma'lumotlar (Ustav, ta'sis shartnomasi)</li>
-    <li><strong>Tadbirkorlik faoliyatiga ruxsat hujjatlari</strong> (litsenziyalar, sertifikatlar)</li>
-    <li><strong>Davlat muassasalari mulki tarkibi va davlat byudjeti</strong> mablag'lardan foydalanish haqidagi ma'lumotlar</li>
-    <li><strong>Atrof-muhitni ifloslantirish va oziq-ovqat xavfsizligi</strong> haqidagi ma'lumotlar</li>
-    <li><strong>Xodimlar soni, ish haqi, mehnat sharoitlari, mehnat himoyasi</strong> haqidagi ma'lumotlar</li>
-    <li><strong>Ish beruvchining ish haqi yoki ijtimoiy to'lovlar bo'yicha qarzlari</strong> haqidagi ma'lumotlar</li>
-    <li><strong>Qonun buzilishi va shu uchun javobgarlikka tortish</strong> faktlari haqidagi ma'lumotlar</li>
-    <li><strong>Nodavlat notijorat tashkilotlarining daromad va aktivlari</strong> haqidagi ma'lumotlar</li>
-  </ol>
-  <div class="callout danger">
-    <strong>⚠️ Sababi:</strong> Bu ma'lumotlar <em>ommaviy manfaatlarga (atrof-muhit, sog'liq, mehnat huquqlari, soliq tushumlari)</em> daxldor bo'lib, jamiyatdan yashirib bo'lmaydi.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 5-moddasi</strong> (lex.uz/docs/-2460801).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 28: MASHHUR NOU-HAU MISOLLARI
-     ============================================ -->
-<section class="with-footer">
-  <h2>🌟 Mashhur tijorat siri (nou-hau) misollari</h2>
-  <p>Quyidagi kompaniyalar o'z sirlarini <em>patent orqali</em> emas, balki <strong>tijorat siri</strong> instituti orqali himoyalashni tanlagan:</p>
-  <div class="card-grid">
-    <div class="card accent-red">
-      <div class="card-title">🥤 "Coca-Cola" retsepti</div>
-      <p><strong>140 yildan ortiq sir saqlanmoqda.</strong> 1886-yildan beri faqat 2 nafar yuqori darajadagi mansabdor shaxs to'liq retseptni biladi. Asl nusxasi Atlanta shahridagi (AQSh, Jorjiya shtati) "World of Coca-Cola" muzeyidagi maxsus seyfda saqlanadi.</p>
-    </div>
-    <div class="card accent-red">
-      <div class="card-title">🍗 "KFC" — 11 ta ziravor</div>
-      <p>Polkovnik Xarland Sandersning 1940-yildagi "<em>11 herbs and spices</em>" — "11 ta turli xil o'tlar va ziravorlar" retsepti. Tarkibiy qismlar ikkita turli kompaniyada qisman tayyorlanadi va hech kim to'liq tarkibni bilmaydi.</p>
-    </div>
-    <div class="card accent-red">
-      <div class="card-title">🔍 "Google" qidiruv algoritmi</div>
-      <p>Qidiruv natijalarini saralash algoritmi (PageRank). Asosiy g'oya 1998-yili patent bilan himoyalangan, lekin <strong>aniq parametrlar nou-hau</strong> sifatida sir saqlanadi (algoritm 200 dan ortiq omilni hisobga oladi).</p>
-    </div>
-    <div class="card accent-red">
-      <div class="card-title">🍔 "McDonald's"ning "Big Mac" sousi</div>
-      <p>1968-yildan beri sir saqlanmoqda. Retsept bir necha bor o'zgartirilgan, lekin har doim korporatsiya ichida saqlangan.</p>
-    </div>
-  </div>
-  <div class="callout success">
-    <strong>❓ Nima uchun patent emas, balki tijorat siri tanlanadi?</strong><br/>
-    Patentning himoya muddati cheklangan (ixtirolar uchun — 20 yil), muddat tugagach ixtiro ommaviy mulkka aylanadi. Tijorat siri esa <strong>maxfiy qolgani holda cheksiz</strong> muddatda himoyalanadi.<br/>
-    "Coca-Cola" misoli — 140 yildan ortiq vaqt mobaynida sir saqlanib kelmoqda.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>"The Coca-Cola Company" kompaniyasining rasmiy ma'lumotlari (coca-colacompany.com) &middot; "KFC Corporation"ning kompaniya tarixi &middot; "Trade Secrets: Famous Cases" — "Tijorat sirlari: mashhur ishlar" maqolasi (World Intellectual Property Review, worldipreview.com).
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 29: 6-SAVOL: MUHOFAZA SHARTLARI
-     ============================================ -->
-<section class="with-footer">
-  <h2>6️⃣-savol. Tijorat sirini muhofaza qilish shartlari va choralari</h2>
-  <p><strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 10-moddasi</strong> bo'yicha — tijorat sirini saqlash uchun uning egasi quyidagi <strong>chora-tadbirlarni ko'rishi shart:</strong></p>
-  <ol class="big-num-list">
-    <li><div><strong>Tijorat sirini tashkil etuvchi ma'lumotlar ro'yxati va hajmini belgilash</strong> — yozma ravishda qaysi ma'lumotlar sir ekanligini aniqlash.</div></li>
-    <li><div><strong>Tijorat siri bilan muomalada bo'lish tartibini belgilash</strong> — kim, qaysi shartlarda foydalanishi mumkinligini hujjatlashtirish.</div></li>
-    <li><div><strong>Foydalanuvchilarni hisobga olish</strong> — kim, qachon va qanday ma'lumotga kirganini qayd etish.</div></li>
-    <li><div><strong>"Tijorat siri" yorlig'ini qo'yish</strong> — barcha tegishli hujjat va materiallarda maxfiylik belgisini aks ettirish.</div></li>
-  </ol>
-  <div class="callout danger">
-    <strong>📌 Asosiy huquqiy iqtibos (O'zbekiston Respublikasi Fuqarolik kodeksining 98-moddasi):</strong><br/>
-    Ushbu choralar Fuqarolik kodeksining 98-moddasi va "Tijorat siri to'g'risida"gi Qonunning 3-moddasidagi 3 ta shart (<strong>uchinchi shaxslarga noma'lumligi, qonuniy erkin foydalanish mumkin emasligi, maxfiylikni saqlash choralarining ko'rilgani</strong>) bilan birgalikda qaralganda — agar shartlardan <em>birortasi mavjud bo'lmasa</em>, fuqarolik-huquqiy javobgarlik yuzaga kelmaydi.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 10-moddasi</strong> (lex.uz/docs/-2460801) &middot; <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 98-moddasi</strong> &middot; Zokirov Iskandar Bobojonovich. Fuqarolik huquqi, 2009. — 279-bet.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 30: TB vs OEA QIYOSIY JADVAL
-     ============================================ -->
-<section class="with-footer">
-  <h2>📊 Tovar belgisi va Tijorat siri — qiyosiy tahlil</h2>
-  <table>
-    <tr><th>Mezon</th><th>🏷️ Tovar belgisi</th><th>🔒 Tijorat siri (nou-hau)</th></tr>
-    <tr><td><strong>Ro'yxatga olish</strong></td><td>Intellektual mulk agentligida majburiy tartibda</td><td>Ro'yxatga olinmaydi</td></tr>
-    <tr><td><strong>Oshkoralik</strong></td><td>Ochiq — Davlat reestrida nashr etiladi</td><td>To'liq maxfiy</td></tr>
-    <tr><td><strong>Himoya muddati</strong></td><td>10 yil, cheksiz miqdorda yangilanishi mumkin</td><td>Maxfiy qolgani holda — <strong>cheksiz</strong></td></tr>
-    <tr><td><strong>Hududiy ta'siri</strong></td><td>Ro'yxatdan o'tkazilgan davlat hududi bilan cheklangan</td><td>Hudud bilan cheklanmaydi</td></tr>
-    <tr><td><strong>Huquqning yuzaga kelishi</strong></td><td>Guvohnoma berilgan paytdan boshlab</td><td>Maxfiylik rejimi joriy qilingan paytdan boshlab</td></tr>
-    <tr><td><strong>Teskari muhandislik (inglizcha: <em>reverse engineering</em>)</strong></td><td>Himoyaga ta'sir ko'rsatmaydi</td><td>Halol yo'l bilan topilsa — himoyani buzadi</td></tr>
-    <tr><td><strong>Asosiy xavf</strong></td><td>Adashtirish darajasidagi o'xshashlik</td><td>Insayder tomonidan oshkor qilinishi, sanoat josusligi</td></tr>
-    <tr><td><strong>Tipik misollar</strong></td><td>"Apple"®, "Coca-Cola"®, "Samsung"®</td><td>"Coca-Cola" retsepti, "Google" qidiruv algoritmi, "KFC" ziravorlari</td></tr>
-  </table>
-  <p style="font-size:0.85em;text-align:center;margin-top:0.5em;color:var(--ink-soft)"><em>Bir-birini to'ldiruvchi huquqiy institutlar: tovar belgisi — <strong>ochiq</strong> himoya yo'li, tijorat siri — <strong>maxfiy</strong> himoya yo'li.</em></p>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>Mualliflik tahlili: "Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonuni (2001-yil 30-avgust) va "Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonuni (2014-yil 11-sentabr) qiyoslash asosida tuzilgan.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 31: 7-SAVOL: HUQUQLARNI O'TKAZISH
-     ============================================ -->
-<section class="with-footer">
-  <h2>7️⃣-savol. Tijorat siriga bo'lgan huquqlarni o'tkazish</h2>
-  <div class="law-ref">
-    <strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 14-moddasi:</strong> Tijorat siri egasi uni boshqa shaxsga shartnoma asosida bera oladi. <em>Shartnoma asosida tijorat sirini olgan shaxs uni shartnoma shartlariga muvofiq <strong>maxfiy saqlashi shart</strong>.</em>
-  </div>
-  <h3>Huquqlarni o'tkazishning 4 ta asosiy shakli:</h3>
-  <div class="card-grid">
-    <div class="card accent-blue">
-      <div class="card-title">📄 Litsenziya shartnomasi</div>
-      <p style="font-size:0.88em">Huquq egasi litsenziatga belgilangan muddatda tijorat siridan foydalanishga ruxsat beradi.</p>
-      <p style="font-size:0.82em;color:var(--ink-soft)">Shartnomada quyidagilar ko'rsatiladi: foydalanish doirasi, royalti (foydalanish uchun haq) miqdori, maxfiylik talablari.</p>
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">👷 Mehnat shartnomasi orqali</div>
-      <p style="font-size:0.88em">Xodim maxfiylikni saqlash majburiyatini oladi (mehnat shartnomasi tarkibida yoki alohida hujjat shaklida).</p>
-      <p style="font-size:0.82em;color:var(--ink-soft)">Fuqarolik kodeksiga sharh, 2010-yil, 280-bet: <em>"yuridik shaxs tomonidan tuzilgan dalolatnomada belgilab qo'yiladi"</em>.</p>
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">🤝 Maxfiylik to'g'risidagi shartnoma (NDA — inglizcha <em>Non-Disclosure Agreement</em>)</div>
-      <p style="font-size:0.88em">Tomonlar o'rtasida maxfiylikni saqlash to'g'risida tuziladigan alohida fuqarolik-huquqiy shartnoma (qo'shilish/sotib olish, hamkorlik, muzokaralar jarayonida qo'llaniladi).</p>
-    </div>
-    <div class="card accent-blue">
-      <div class="card-title">🏢 Franchayzing shartnomasi</div>
-      <p style="font-size:0.88em">Tovar belgisi, firma nomi, tijorat siri va ish uslubi to'plam (kompleks) holida beriladi.</p>
-      <p style="font-size:0.82em;color:var(--ink-soft)">Misol: "McDonald's", "KFC" — maxfiy retsept va texnologiya bilan birgalikda.</p>
-    </div>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 14-moddasi</strong> &middot; <strong>O'zbekiston Respublikasi Fuqarolik kodeksining 98-moddasi 4-bandi</strong> &middot; Rahmonqulov Xojiakbar Raxmonqulovich, Oqyulov Omonulla Oqyulovich. O'zbekiston Respublikasi Fuqarolik kodeksiga sharh. 1-jild. — Toshkent: "Vektor-Press" nashriyoti, 2010. — 280-bet.
-  </div>
-</section>
-
-<!-- ============================================
-     SLAYD 32: 8-SAVOL: HUQUQBUZARLIK + JAVOBGARLIK
-     ============================================ -->
-<section class="with-footer">
-  <h2>8️⃣-savol. Tijorat siriga doir huquqbuzarlik va javobgarlik</h2>
-  <div class="two-col">
-    <div>
-      <h3 style="color:var(--warn)">Huquqbuzarlik ko'rinishlari</h3>
-      <ul style="font-size:0.92em">
-        <li><strong>1) Noqonuniy yig'ish (to'plash)</strong> — sanoat josusligi, xaker hujumi, aldash orqali ma'lumotni qo'lga kiritish</li>
-        <li><strong>2) Noqonuniy oshkor qilish</strong> — insayder (xodim, kontragent) tomonidan maxfiylik majburiyatining buzilishi</li>
-        <li><strong>3) Noqonuniy ishlatish (foydalanish)</strong> — boshqa shaxsning tijorat siridan o'z tijorat manfaatlari uchun foydalanish (mahsulot ishlab chiqarish, raqobat)</li>
-        <li><strong>4) Sotish va tarqatish</strong> — tijorat sirini uchinchi shaxslarga ruxsatsiz o'tkazish</li>
-      </ul>
-      <div class="callout danger">
-        <strong>Javobgarlik 2 toifa shaxsga yuklatiladi (Fuqarolik kodeksiga sharh, 2010-yil, 280-bet):</strong>
-        <br/><strong>A)</strong> Mehnat shartnomasini buzgan xodim (sobiq xodim ham bunga kiradi)
-        <br/><strong>B)</strong> Fuqarolik-huquqiy shartnoma orqali ma'lumotga ega bo'lgan shaxs (xaridor, podratchi, ijarachi, xo'jalik shirkati ishtirokchisi)
+        <p style="margin-top: 0.6rem;"><strong>Majburiy elementlari:</strong> maxfiy ma'lumotlar doirasi · maxfiylik muddati · foydalanish maqsadi · istisno hollar · javobgarlik shartlari · yozma shakl + imzo + sana.</p>
+        <p style="margin-top: 0.6rem;"><strong>📌 Real misol:</strong> 2006-yilda Coca-Cola xodimi kompaniya retseptiga oid hujjatlarni Pepsi'ga sotmoqchi bo'lganda, FBI tomonidan ushlandi va NDA shartlarini buzgani uchun <strong>8 yil qamoq jazosi</strong>ga hukm qilindi.</p>
       </div>
     </div>
-    <div>
-      <h3>Javobgarlik choralari</h3>
+
+    <h3 class="subheading reveal-up">Xalqaro qisqartmalar</h3>
+    <div class="abbr-grid reveal-up">
+      <div class="abbr-item"><span class="abbr">WIPO</span><span>World Intellectual Property Organization — Jahon intellektual mulk tashkiloti (BMT muassasasi, 193 a'zo)</span></div>
+      <div class="abbr-item"><span class="abbr">WTO</span><span>World Trade Organization — Jahon savdo tashkiloti (164 a'zo)</span></div>
+      <div class="abbr-item"><span class="abbr">TRIPS</span><span>Intellektual mulk huquqlarining savdo bilan bog'liq jihatlari to'g'risidagi bitim (1994)</span></div>
+      <div class="abbr-item"><span class="abbr">NDA</span><span><strong>Non-Disclosure Agreement</strong> — maxfiylik shartnomasi. Ma'lumotlarni uchinchi shaxslarga oshkor etmaslik majburiyatini belgilovchi fuqarolik-huquqiy hujjat. Asos: <a href="https://lex.uz/docs/-111189" target="_blank" rel="noopener noreferrer" class="law-link">FK 98-modda</a>, <a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1097-modda</a> va <a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri..." Qonun 10, 11, 14-moddalari</a></span></div>
+      <div class="abbr-item"><span class="abbr">NICE</span><span>Nitsa tasnifi — 45 ta tovar/xizmat sinflari bo'yicha xalqaro tasnif (1957)</span></div>
+      <div class="abbr-item"><span class="abbr">QR</span><span>Quick Response code — tezkor javob kodi (2025 elektron guvohnomalarda)</span></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ INTRO ═════════════ -->
+<section class="section section-alt" id="intro">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">Kirish</span>
+      <h2 class="section-title">Intellektual mulkning huquqiy asoslari</h2>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Ushbu Kodeks va boshqa qonunlarda belgilangan hollarda intellektual faoliyatning aniq ifoda etilgan natijalari hamda yuridik shaxsning bu natijalarga tenglashtirilgan o'ziga xos vositalari, ana shu ishlar yoki xizmatlarni ado etayotgan jismoniy yoki yuridik shaxsning mahsulotlari (<strong>firma nomi, tovar belgisi, xizmat ko'rsatish belgisi</strong> va hokazo)ga nisbatan fuqaroning yoki yuridik shaxsning <strong>mutlaq huquqi</strong> e'tirof etiladi.</p>
+      <cite><a href="https://lex.uz/docs/-111189" target="_blank" rel="noopener noreferrer" class="law-link">O'zbekiston Respublikasi Fuqarolik kodeksining 97-moddasi · ORQ-79, 2007</a></cite>
+    </div>
+
+    <h3 class="subheading reveal-up">WIPO konvensiyasiga ko'ra IM obyektlari</h3>
+    <div class="grid-3 reveal-up">
+      <article class="feature-card">
+        <div class="feature-icon" style="--accent: var(--c-primary)">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Mualliflik huquqi</h3>
+        <p>Adabiy, badiiy va ilmiy asarlar — kitoblar, musiqa, kinofilmlar, kompyuter dasturlari</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon" style="--accent: var(--c-violet)">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M12 1v6m0 10v6m11-11h-6M7 12H1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Turdosh huquqlar</h3>
+        <p>Artistlar ijro faoliyati, fonogrammalar, radio va televideniye eshittirishlari</p>
+      </article>
+      <article class="feature-card highlight">
+        <div class="feature-icon" style="--accent: white">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3.27 6.96 12 12.01l8.73-5.05M12 22.08V12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m20.49 8.04-8.49-4.92-8.49 4.92 8.49 4.92 8.49-4.92z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Sanoat mulki</h3>
+        <p>Ixtirolar, foydali modellar, sanoat namunalari, <strong>tovar belgilari, firma nomlari, tovar kelib chiqqan joy nomlari</strong></p>
+        <div class="card-tag">Bizning mavzu</div>
+      </article>
+    </div>
+
+    <h3 class="subheading reveal-up">Hozirgi huquqiy baza (2024-2025 yangiliklar bilan)</h3>
+    <div class="laws-table reveal-up">
       <table>
-        <tr><th>Turi</th><th>Huquqiy asos va chora</th></tr>
-        <tr>
-          <td><span class="pill">Fuqarolik-huquqiy</span></td>
-          <td>O'zbekiston Respublikasi Fuqarolik kodeksining 11, 14, 98-moddalari va "Tijorat siri to'g'risida"gi Qonunning 19-moddasi: <strong>yetkazilgan zararni undirish</strong>, huquqbuzarlikni to'xtatish, oldingi holatni tiklash</td>
-        </tr>
-        <tr>
-          <td><span class="pill red">Ma'muriy</span></td>
-          <td>O'zbekiston Respublikasining Ma'muriy javobgarlik to'g'risidagi kodeksi: tijorat siri yoki bank sirini noqonuniy oshkor qilganlik uchun jarima</td>
-        </tr>
-        <tr>
-          <td><span class="pill red">Jinoiy <span style="background:#fff;color:var(--warn);padding:0 4px;border-radius:3px;font-size:0.85em">2025-yil</span></span></td>
-          <td>O'zbekiston Respublikasining Jinoyat kodeksidagi tegishli moddalar bo'yicha — yirik miqdorda zarar yetkazilgan yoki qayta sodir etilgan hollarda: <strong>jarima yoki ozodlikdan mahrum etish</strong></td>
-        </tr>
-        <tr>
-          <td><span class="pill gray">Mehnat-huquqiy</span></td>
-          <td>O'zbekiston Respublikasining Mehnat kodeksi: maxfiylikni buzgan xodimni intizomiy javobgarlikka tortish, ishonchni yo'qotish asosida ishdan bo'shatish</td>
-        </tr>
+        <thead><tr><th>Qonun nomi</th><th>Sana / Raqam</th><th>Mazmuni</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi Qonun</strong><br><a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="verify-badge">Lex.uz</a></td>
+            <td>30.08.2001<br><code>№ 267-II</code><br><span class="status-tag">Yangi tahrir: 15.02.2024 · O'RQ-908</span></td>
+            <td>Tovar belgilarini ro'yxatdan o'tkazish, himoya qilish va foydalanish tartibi</td>
+          </tr>
+          <tr>
+            <td><strong>"Firma nomlari to'g'risida"gi Qonun</strong><br><a href="https://lex.uz/docs/-1055517" target="_blank" rel="noopener noreferrer" class="verify-badge">Lex.uz</a></td>
+            <td>18.09.2006<br><code>№ O'RQ-51</code></td>
+            <td>Tijorat tashkilotlari uchun firma nomining huquqiy holati</td>
+          </tr>
+          <tr>
+            <td><strong>"Tijorat siri to'g'risida"gi Qonun</strong><br><a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="verify-badge">Lex.uz</a></td>
+            <td>11.09.2014<br><code>№ O'RQ-374</code></td>
+            <td>Tijorat sirini himoya qilish munosabatlari</td>
+          </tr>
+          <tr>
+            <td><strong>"Intellektual mulk sohasidagi qonunchilik takomillashtirilishi to'g'risida" Qonun</strong><br><a href="https://lex.uz/uz/search/ext?q=O'RQ-1080" target="_blank" rel="noopener noreferrer" class="verify-badge">Lex.uz</a></td>
+            <td>13.05.2025<br><code>№ O'RQ-1080</code></td>
+            <td>IM elektron ro'yxatga olish (09.08.2025); kuchaytirilgan jinoiy javobgarlik (10.11.2025)</td>
+          </tr>
+          <tr>
+            <td><strong>Fuqarolik kodeksi (ikkinchi qism)</strong><br><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="verify-badge">Lex.uz</a></td>
+            <td>29.08.1996</td>
+            <td>97, 98-moddalar (umumiy); 1095-1097 (OEA); 1098-1111 (individuallashtirish)</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
-  <div class="callout info">
-    <strong>📞 Maxsus huquqiy asoslar:</strong> O'zbekiston Respublikasi Fuqarolik kodeksining <strong>133-moddasi</strong> (tijorat vakili topshiriqni bajarib bo'lganidan keyin ham sir saqlashi shart), <strong>786-moddasi</strong> (bank siri — bank mijozining hisob raqami va operatsiyalari to'g'risidagi ma'lumotlarni sir saqlashi shart); "Tijorat siri to'g'risida"gi Qonunning <strong>14 va 19-moddalari</strong>.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span><strong>O'zbekiston Respublikasi Fuqarolik kodeksining 11, 14, 98, 133 va 786-moddalari</strong> &middot; <strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonunining 14 va 19-moddalari</strong> (lex.uz/docs/-2460801) &middot; Rahmonqulov Xojiakbar Raxmonqulovich, Oqyulov Omonulla Oqyulovich. O'zbekiston Respublikasi Fuqarolik kodeksiga sharh. 1-jild. — Toshkent: "Vektor-Press" nashriyoti, 2010. — 280-bet &middot; <strong>2025-yil 13-maydagi № ORQ-1080-sonli O'zbekiston Respublikasi Qonuni</strong> (jinoiy javobgarlikning kuchaytirilishi to'g'risida).
-  </div>
 </section>
 
-<!-- ============================================
-     SLAYD 33: XULOSA
-     ============================================ -->
-<section class="with-footer">
-  <h2>🎯 Xulosa — asosiy tezislar</h2>
-  <ol style="font-size:0.84em;columns:2;column-gap:1.5em;line-height:1.35">
-    <li>Individuallashtirish vositalari (tovar belgisi, firma nomi, tovar kelib chiqqan joy nomi) — intellektual mulk huquqining muhim tarmog'i bo'lib, O'zbekiston Respublikasi Fuqarolik kodeksining 97-moddasi bilan mustahkamlangan.</li>
-    <li>Tovar belgisi 2001-yil 30-avgustdagi "Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi Qonun (2024-yil 15-fevralda yangi tahriri qabul qilingan) hamda O'zbekiston Respublikasi Fuqarolik kodeksining 1103-moddasi bilan tartibga solinadi.</li>
-    <li>Tovar belgisi <strong>farqlovchi xususiyatga ega</strong> bo'lishi va boshqa belgilar bilan adashtirilmasligi kerak (10 va 11-moddalar — mutlaq va nisbiy asoslar).</li>
-    <li>Muhofaza tartibi — 7 bosqich: talabnoma → ustuvorlik → rasmiy ekspertiza → mohiyat bo'yicha ekspertiza → Davlat reestriga kiritish → guvohnoma berish → rasmiy e'lon qilish (2025-yildan boshlab elektron shaklda va tezkor javob (QR) kodi bilan).</li>
-    <li>Mutlaq huquq — foydalanish, tasarruf etish va taqiqlash huquqlaridan iborat.</li>
-    <li>Huquqlarni o'tkazish — oddiy litsenziya, mutlaq (eksklyuziv) litsenziya, franchayzing yoki brendni butunlay sotish orqali amalga oshiriladi.</li>
-    <li>Tovar belgisi guvohnomasi amal qilish muddati — <strong>10 yil</strong>, cheksiz miqdorda yangilanadi.</li>
-    <li>Tijorat siri 2014-yil 11-sentabrdagi "Tijorat siri to'g'risida"gi Qonun va Fuqarolik kodeksining 98-moddasi bilan himoyalanadi — bu uchun <strong>3 ta majburiy shart</strong> bir vaqtning o'zida mavjud bo'lishi kerak.</li>
-    <li>Tijorat siri ro'yxatga olinmaydi, lekin maxfiy qolgani holda cheksiz muddatga himoyalanadi ("Coca-Cola" — 140 yildan ortiq).</li>
-    <li>O'tkazish — litsenziya shartnomasi, mehnat shartnomasi, maxfiylik to'g'risidagi shartnoma (NDA) yoki franchayzing shartnomasi orqali amalga oshiriladi.</li>
-    <li>Buzilgan huquqlar uchun javobgarlik: <strong>Fuqarolik kodeksining 11 va 14-moddalari; Ma'muriy javobgarlik to'g'risidagi kodeksning 177-moddasi (bazaviy hisoblash miqdorining 5 baravaridan 10 baravarigacha); "Firma nomlari to'g'risida"gi Qonunning 12¹-moddasi (bazaviy hisoblash miqdorining 100 baravaridan 200 baravarigacha); Jinoyat kodeksi (3 yilgacha ozodlikdan mahrum etish, bazaviy hisoblash miqdorining 50 baravaridan 150 baravarigacha jarima)</strong>.</li>
-    <li><strong>2025-yildagi asosiy yangilik:</strong> 2025-yil 13-maydagi № ORQ-1080-sonli O'zbekiston Respublikasi Qonuni — intellektual mulk qonunlari to'liq elektronlashtirildi va jinoiy javobgarlik kuchaytirildi (Jahon savdo tashkiloti va TRIPS bitimi talablariga moslashtirish).</li>
-  </ol>
-  <div class="callout success">
-    <strong>🔑 Asosiy g'oya:</strong> Individuallashtirish vositalari va tijorat siri — bir-birini <strong>to'ldiruvchi</strong> huquqiy institutlardir: birinchisi — <em>ochiq, davlat ro'yxati orqali</em>, ikkinchisi — <em>maxfiy, ichki rejim orqali</em> himoya qilish yo'li.
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Manba</span>Xulosa yuqorida keltirilgan barcha qonunlar (O'zbekiston Respublikasi Fuqarolik kodeksi, "Tovar belgilari to'g'risida"gi Qonun, "Firma nomlari to'g'risida"gi Qonun, "Tijorat siri to'g'risida"gi Qonun, № ORQ-1080-sonli 2025-yilgi Qonun) va ilmiy adabiyotlar (Zokirov, 2009-yil; Fuqarolik kodeksiga sharh, 2010-yil) asosida tuzilgan.
-  </div>
-</section>
 
-<!-- ============================================
-     SLAYD 34: MANBALAR
-     ============================================ -->
-<section class="with-footer">
-  <h2>📚 Foydalanilgan manbalar va adabiyotlar</h2>
-  <div class="two-col">
-    <div>
-      <h3>📖 Ilmiy adabiyotlar</h3>
-      <ol style="font-size:0.74em;line-height:1.35">
-        <li><strong>Zokirov Iskandar Bobojonovich.</strong> Fuqarolik huquqi: Darslik. I qism. Qayta ishlangan va to'ldirilgan 5-nashri. — Toshkent: Toshkent davlat yuridik instituti nashriyoti, 2009. — 611 bet. <small>(171–172, 233–237, 278–280-betlar)</small></li>
-        <li><strong>Rahmonqulov Xojiakbar Raxmonqulovich, Oqyulov Omonulla Oqyulovich</strong> (tahriri ostida). O'zbekiston Respublikasi Fuqarolik kodeksiga sharh. 1-jild. — Toshkent: "Vektor-Press" nashriyoti, 2010. — 816 bet.</li>
-        <li><strong>Baratov Murodjon.</strong> Mulk huquqi. — Toshkent, 2009. (7-bob, 208-bet va undan keyingi sahifalar)</li>
-        <li><strong>Oqyulov Omonulla.</strong> Intellektual mulk huquqining huquqiy maqomining nazariy va amaliy muammolari. — Toshkent: Toshkent davlat yuridik instituti, 2003–2004-yillar.</li>
-      </ol>
-      <h3>🌐 Internet manbalari</h3>
-      <ol start="5" style="font-size:0.74em;line-height:1.35">
-        <li><strong>lex.uz</strong> — O'zbekiston Respublikasining rasmiy huquqiy ma'lumotlar bazasi</li>
-        <li><strong>im.adliya.uz</strong> — O'zbekiston Respublikasi Adliya vazirligi huzuridagi Intellektual mulk agentligining rasmiy sayti</li>
-        <li><strong>wipo.int/wipolex</strong> — Jahon intellektual mulk tashkilotining qonunchilik bazasi</li>
-        <li><strong>petosevic.com</strong> va <strong>cwbip.com</strong> — intellektual mulk sohasidagi xalqaro yangiliklar</li>
-      </ol>
-    </div>
-    <div>
-      <h3>⚖️ Normativ-huquqiy hujjatlar</h3>
-      <ol start="9" style="font-size:0.74em;line-height:1.35">
-        <li><strong>O'zbekiston Respublikasi Fuqarolik kodeksi</strong> (birinchi qismi: 1995-yil 21-dekabr; ikkinchi qismi: 1996-yil 29-avgust) — 11, 14, 46, 97, 98, 133, 786 hamda <strong>1095–1097-moddalar (oshkor etilmagan axborot)</strong> va <strong>1098–1111-moddalar (individuallashtirish vositalari)</strong>; aniq taqsim: 1098 — firma nomiga huquq; 1099 — firma nomidan tovar belgisida foydalanish; 1100 — amal qilish; 1101 — boshqa shaxsga berish; 1102 — tovar belgisini muhofaza; 1103 — foydalanish va daxlsizlik; 1104 — uzluksiz foydalanmaslik oqibatlari; 1105 — huquqning o'tishi; 1106 — shartnoma shakli; 1107 — javobgarlik; 1107¹ — mutlaq huquqning tugashi; 1108–1111 — tovar chiqarilgan joy nomi</li>
-        <li><strong>"Tovar belgilari, xizmat ko'rsatish belgilari va tovar kelib chiqqan joy nomlari to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong> — 2001-yil 30-avgust, № 267-II <small>(yangi tahriri: 2024-yil 15-fevral, ЗРУ-908 / lotin yozuvida LRU-908)</small></li>
-        <li><strong>"Firma nomlari to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong> — 2006-yil 18-sentabr, № ORQ-51 (kirillchada ЎРҚ-51)</li>
-        <li><strong>"Tijorat siri to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong> — 2014-yil 11-sentabr, № ORQ-374</li>
-        <li><strong>O'zbekiston Respublikasi Vazirlar Mahkamasining 609-son qarori</strong> — 2019-yil 20-iyul (Intellektual mulk agentligini tashkil etish to'g'risida)</li>
-        <li><strong>"Tovar belgilari to'g'risidagi qonun bo'yicha Singapur shartnomasini ratifikatsiya qilish to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong> — 2024-yil 13-avgust, № ORQ-941</li>
-        <li><strong>"Intellektual mulk sohasidagi ba'zi qonunchilik hujjatlariga o'zgartish va qo'shimchalar kiritish to'g'risida"gi O'zbekiston Respublikasi Qonuni</strong> — <strong>2025-yil 13-may, № ORQ-1080</strong> (eng yangi hujjat)</li>
-      </ol>
+<!-- ═════════════ I QISM DIVIDER ═════════════ -->
+<section class="divider-section" id="part1">
+  <div class="container">
+    <div class="divider-content reveal-up">
+      <span class="divider-badge">BIRINCHI BO'LIM · 1–4 SAVOLLAR</span>
+      <h2>Individuallashtirish<br/>vositalari</h2>
+      <p>Tovar belgisi · Firma nomi · Tovar kelib chiqqan joy nomi</p>
     </div>
   </div>
-  <div style="text-align:center;margin-top:0.4em;background:linear-gradient(135deg,var(--accent-light),var(--primary-pale));padding:0.7em;border-radius:10px">
-    <h3 style="color:var(--accent);font-size:1.3em;margin:0">🎓 E'TIBORINGIZ UCHUN RAHMAT!</h3>
-  </div>
-  <div class="footnote">
-    <span class="src-marker">Eslatma</span>Barcha rasmiy qonun raqamlari va sanalari <strong>lex.uz</strong> rasmiy ma'lumotlar bazasi, Jahon intellektual mulk tashkilotining qonunchilik bazasi (<strong>WIPO Lex</strong>) hamda "PETOŠEVIĆ" va "CWB IP" agentliklarining tahliliy materiallari orqali tekshirilgan (2025-yil sentabr holatiga ko'ra).
+</section>
+
+
+<!-- ═════════════ Q1: TOVAR BELGISI ═════════════ -->
+<section class="section" id="q1">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">1-savol</span>
+      <h2 class="section-title">Tovar belgisi — ta'rifi va funksiyalari</h2>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tovar belgisi hamda xizmat ko'rsatish belgisi — bu bir yuridik va jismoniy shaxslar tovarlari va xizmatlarini boshqa yuridik va jismoniy shaxslarning shu turdagi tovarlaridan <strong>farqlash uchun xizmat qiladigan</strong>, belgilangan tartibda <strong>ro'yxatdan o'tkazilgan</strong> belgilardir.</p>
+      <cite><a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">"Tovar belgilari..." Qonunining 3-moddasi · 267-II, 30.08.2001</a></cite>
+    </div>
+
+    <div class="law-quote reveal-up" style="--quote-color: var(--c-violet)">
+      <div class="law-quote-mark">"</div>
+      <p>Tovar belgisi (xizmat ko'rsatish belgisi) uni <strong>ro'yxatdan o'tkazish asosida</strong> huquqiy jihatdan muhofaza qilinadi. Tovar belgisiga bo'lgan huquq tovar belgisi ro'yxatga olinganligi to'g'risidagi <strong>guvohnoma bilan tasdiqlanadi</strong>.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">Fuqarolik kodeksining 1102-moddasi · Tovar belgisini huquqiy muhofaza qilish</a></cite>
+    </div>
+
+    <h3 class="subheading reveal-up">Tovar belgisining 4 funksiyasi</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">🎯</span><h4>Farqlash</h4><p>Bir ishlab chiqaruvchini boshqalardan ajratib turadi</p></div>
+      <div class="mini-card"><span class="mini-icon">⭐</span><h4>Kafolat</h4><p>Iste'molchiga tovar sifatining kafolatini beradi</p></div>
+      <div class="mini-card"><span class="mini-icon">📢</span><h4>Reklama</h4><p>Tovarni bozorda taniqli qilish va mijoz jalb qilish</p></div>
+      <div class="mini-card"><span class="mini-icon">💎</span><h4>Iqtisodiy</h4><p>Brend qiymati nomoddiy aktiv (Apple = 488,9 mlrd $)</p></div>
+    </div>
+
+    <h3 class="subheading reveal-up">Tovar belgisining ko'rinishlari</h3>
+    <div class="types-table reveal-up">
+      <table>
+        <thead><tr><th>Tur</th><th>Tavsifi</th><th>Misol</th></tr></thead>
+        <tbody>
+          <tr><td><strong>So'zli (verbal)</strong></td><td>Nom, harf birikmasi, slogan, raqamlar</td><td>"Coca-Cola", "Samsung", "Artel", "Korzinka"</td></tr>
+          <tr><td><strong>Tasviriy</strong></td><td>Logotip, emblema, rasm — so'zsiz</td><td>Apple 🍎, Nike "Swoosh" ✓, Shell ko'paklik tasviri</td></tr>
+          <tr><td><strong>Hajmiy (qabariq)</strong></td><td>Uch o'lchovli — qadoq, butilka, paket</td><td>Coca-Cola butilka shakli, Toblerone uchburchak</td></tr>
+          <tr><td><strong>Jamlama</strong></td><td>So'z va rasm bir vaqtda</td><td>Microsoft (kvadrat+yozuv), KFC (polkovnik+yozuv)</td></tr>
+          <tr><td><strong>Zamonaviy</strong></td><td>Ovozli, rangli, hidli, harakatli</td><td>MGM sheri bo'kirishi, Christian Louboutin qizil to'qa</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>⭐ Hammaga ma'lum (notorious) tovar belgisi:</strong> Adliya vazirligi qarori bilan <strong>hammaga ma'lum</strong> deb e'tirof etilgan tovar belgisi (mas., Coca-Cola®, Apple®) <strong>kuchaytirilgan himoya</strong>ga ega bo'ladi — boshqa tovar/xizmat sinflarida ham. Bunday belgilar Davlat reestrida alohida ro'yxatga olinadi. <em>Asos:</em> <a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">"Tovar belgilari..." Qonun</a> + 2024-yil 15.02 O'RQ-908-son (JST/TRIPS uyg'unlashtirish).
+    </div>
+
+    <h3 class="subheading reveal-up">Dunyodagi eng qimmat tovar belgilari</h3>
+    <div class="brands-grid reveal-up">
+      <div class="brand-card"><img src="images/coca-cola.svg" alt="Coca-Cola"/><div class="brand-info"><strong>Coca-Cola</strong><span>1893-yildan · 61 mlrd $</span></div></div>
+      <div class="brand-card"><img src="images/apple.svg" alt="Apple"/><div class="brand-info"><strong>Apple</strong><span>1977-yildan · 488,9 mlrd $</span></div></div>
+      <div class="brand-card"><img src="images/microsoft.svg" alt="Microsoft"/><div class="brand-info"><strong>Microsoft</strong><span>2012-yildan · 388,5 mlrd $</span></div></div>
+      <div class="brand-card"><img src="images/nike.svg" alt="Nike"/><div class="brand-info"><strong>Nike</strong><span>1971 · 35$ logo</span></div></div>
+      <div class="brand-card"><img src="images/facebook.png" alt="Meta"/><div class="brand-info"><strong>Meta</strong><span>2021-yildan · 75,7 mlrd $</span></div></div>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>O'zbekistondagi mashhur brendlar:</strong> "Artel" (maishiy texnika), "Korzinka" (savdo tarmog'i), "Hamkorbank", "UzAuto Motors" aksiyadorlik jamiyati — barchasi Adliya vazirligi huzuridagi IM agentligida ro'yxatdan o'tgan.
+    </div>
   </div>
 </section>
 
-</div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
-<script>
-  Reveal.initialize({
-    hash: true,
-    slideNumber: 'c/t',
-    transition: 'fade',
-    transitionSpeed: 'slow',
-    backgroundTransition: 'fade',
-    width: 1920,
-    height: 1080,
-    margin: 0,
-    minScale: 0.2,
-    maxScale: 1.8,
-    center: false,
-    controls: true,
-    controlsTutorial: false,
-    progress: true,
-    history: true,
-    overview: true,
-    autoAnimate: true,
-    autoAnimateEasing: 'cubic-bezier(0.4, 0, 0.2, 1)',
-    autoAnimateDuration: 0.8,
-    plugins: [ RevealNotes, RevealHighlight ]
-  });
+<!-- ═════════════ FIRMA NOMI ═════════════ -->
+<section class="section section-alt" id="firma">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">1-savol davomi</span>
+      <h2 class="section-title">Firma nomi — tijorat tashkilotining individual nomi</h2>
+    </div>
 
-  /* Slayd ichidagi elementlarga entrance animatsiya qo'shish */
-  function animateSlide(slide) {
-    if (!slide) return;
-    const animTargets = slide.querySelectorAll(
-      '.card, .law-ref, .def-box, .callout, .step, .logo-box, .abbr-item, .big-num-list li, table tbody tr, .kv-row, .arrow-flow .item, .highlight-box'
-    );
-    animTargets.forEach((el, idx) => {
-      el.style.animation = 'none';
-      void el.offsetWidth;
-      el.style.animation = `slideUpFade 0.5s cubic-bezier(0.4, 0, 0.2, 1) ${Math.min(idx * 0.05, 0.6)}s both`;
-    });
-    const titles = slide.querySelectorAll('h1, h2, h3');
-    titles.forEach((t, i) => {
-      t.style.animation = 'none';
-      void t.offsetWidth;
-      t.style.animation = `titleSlideIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) ${i * 0.08}s both`;
-    });
-  }
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Firma nomi yuridik shaxs bo'lgan <strong>tijorat tashkilotining individual nomi</strong> bo'lib, unga doir mutlaq huquq yuridik shaxs <strong>davlat ro'yxatidan o'tkazilgan vaqtda</strong> yuzaga keladi.</p>
+      <cite><a href="https://lex.uz/docs/-1055517" target="_blank" rel="noopener noreferrer" class="law-link">"Firma nomlari to'g'risida"gi Qonunning 3-moddasi · O'RQ-51, 18.09.2006</a></cite>
+    </div>
 
-  Reveal.on('ready', e => animateSlide(e.currentSlide));
-  Reveal.on('slidechanged', e => animateSlide(e.currentSlide));
-</script>
+    <div class="law-quote reveal-up" style="--quote-color: var(--c-violet)">
+      <div class="law-quote-mark">"</div>
+      <p>Yuridik shaxs <strong>tovarlarda, idishi va o'rovida, reklamada, peshlavhalarda, bosma ma'lumotnomalarda, hisobvaraqlarda, bosma nashrlarda, rasmiy blankalarda</strong> va o'zining faoliyati bilan bog'liq boshqa hujjatlarda, shuningdek mahsulotlarni ko'rgazma va yarmarkalarda namoyish etish vaqtida <strong>firma nomidan foydalanishda alohida huquqqa ega</strong>. Yuridik shaxsning firma nomi <strong>ta'sis hujjatlarida ko'rsatiladi</strong>.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">Fuqarolik kodeksining 1098-moddasi · Firma nomiga bo'lgan huquq</a></cite>
+    </div>
+
+    <h3 class="subheading reveal-up">Firma nomining 4 unsuri</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">1️⃣</span><h4>Tashkiliy-huquqiy shakl</h4><p>AJ, MChJ, XK va boshqalar</p></div>
+      <div class="mini-card"><span class="mini-icon">2️⃣</span><h4>Korxonaning tipi</h4><p>Davlat, jamoa, xususiy</p></div>
+      <div class="mini-card"><span class="mini-icon">3️⃣</span><h4>Faoliyat turi</h4><p>Nashriyot, savdo, ishlab chiqarish</p></div>
+      <div class="mini-card"><span class="mini-icon">4️⃣</span><h4>Egasining shaxsi</h4><p>Masalan, "Ford", "Sharq"</p></div>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>Aniq misol:</strong> "<em>Sharq</em>" nashriyot-matbaa <em>aksiyadorlik kompaniyasi</em><br>
+      🔹 <strong>"Sharq"</strong> — o'ziga xos nom &nbsp;
+      🔹 <strong>"nashriyot-matbaa"</strong> — faoliyat turi &nbsp;
+      🔹 <strong>"aksiyadorlik kompaniyasi"</strong> — tashkiliy-huquqiy shakl
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📌 <a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1099-modda</a> — firma nomi va tovar belgisi aloqasi:</strong> <em>"Yuridik shaxsning firma nomidan unga tegishli tovar belgisida foydalanilishi mumkin."</em> Bu shuni anglatadiki, bitta yuridik shaxs o'zining nomini ham firma nomi sifatida, ham tovar belgisi sifatida qo'llashi mumkin (mas., "Apple Inc." — firma nomi va Apple tovar belgisi).
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong>⚖️ <a href="https://lex.uz/docs/-1055517" target="_blank" rel="noopener noreferrer" class="law-link">"Firma nomlari to'g'risida"gi Qonunning 12¹-moddasi</a> (jarima 2021):</strong> Firma nomidan qonunga xilof ravishda foydalanish yuridik shaxslarga <strong>bazaviy hisoblash miqdorining 100 baravaridan 200 baravarigacha</strong> jarima.<br>
+      <small>(2025-yil 1-avgustdan amal qiluvchi BHM = 412 000 so'm — <a href="https://lex.uz/uz/docs/-7553322" target="_blank" rel="noopener noreferrer" class="law-link">PF-91, 02.06.2025</a>; jarima 41 200 000 — 82 400 000 so'm)</small>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ TOVAR KELIB CHIQQAN JOY ═════════════ -->
+<section class="section" id="geo">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">1-savol yakuni</span>
+      <h2 class="section-title">Tovar kelib chiqqan joy nomi — geografik ko'rsatkich</h2>
+    </div>
+
+    <div class="def-stack reveal-up">
+      <div class="def-item">
+        <h4>Tovar kelib chiqqan joy nomi (FK 1108-modda)</h4>
+        <p>Geografik nomdan iborat bo'lgan belgi bo'lib, u muayyan hududning <strong>tabiiy sharoiti</strong> yoki <strong>aholisining mahorati va malakasi</strong> bilan uzviy bog'liq tovarni belgilash uchun ishlatiladi.</p>
+      </div>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Mamlakat, aholi punkti, joy yoki boshqa jo'g'rofiy obyektning tovarni belgilash uchun ishlatiladigan nomi alohida xususiyatlari <strong>tamomila yoki asosan ana shu jo'g'rofiy obyektga xos tabiiy sharoitlar yoki boshqa omillar</strong> yoxud ularning o'zaro birikmasi bilan belgilanadigan <strong>tovar chiqarilgan joy nomi (kelib chiqish ko'rsatkichi)</strong> deb e'tirof etiladi. Jo'g'rofiy obyektning <strong>tarixiy nomi</strong> ham tovar chiqarilgan joyning nomi bo'lishi mumkin.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">Fuqarolik kodeksining 1108-moddasi · Tovar chiqarilgan joy nomi</a></cite>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📌 <a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1109-modda</a> istisnosi:</strong> Tovar chiqarilgan joy nomidan foydalanish huquqini boshqa shaxsga berishga, o'tkazishga va <strong>litsenziya asosida foydalanish uchun berishga yo'l qo'yilmaydi</strong> — bu huquq faqat tegishli geografik hududda faoliyat yurituvchi shaxslarga beriladi. Bir necha shaxs birgalikda yoki mustaqil ravishda ro'yxatga olishlari mumkin.
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>🌍 <a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1110-modda</a> — muhofazaning amal qilish sohasi:</strong> O'zbekiston Respublikasida <strong>uning hududidagi</strong> tovarlar chiqarilgan joylarning nomlari huquqiy jihatdan muhofaza qilinadi (Chust pichog'i, Samarqand noni). Boshqa davlatdagi tovar chiqarilgan joy nomi, basharti bu nom <strong>tovar chiqarilgan mamlakatda ham</strong>, shuningdek O'zbekiston vakolatli davlat organida ro'yxatdan o'tkazilgan bo'lsa, O'zbekistonda himoyalanadi (mas., "Champagne", "Borjomi").
+    </div>
+
+    <div class="grid-2 reveal-up">
+      <div class="info-block accent-blue">
+        <div class="info-header">
+          <span class="info-badge">TABIIY SHAROIT</span>
+          <h4>Iqlim, suv, tuproq bilan bog'liq</h4>
+        </div>
+        <ul class="check-list">
+          <li><strong>"Borjomi", "Essentuki"</strong> — ma'danli suvlar</li>
+          <li><strong>"Toshkent" suvi, "Tyan-Shan" suvi</strong></li>
+          <li><strong>"Braziliya kofesi", "Eron gilami", "Gruziya choyi"</strong></li>
+          <li><strong>"Shampan", "Konyak", "Kogor"</strong> sharoblari</li>
+        </ul>
+      </div>
+      <div class="info-block accent-violet">
+        <div class="info-header">
+          <span class="info-badge">AHOLI MAHORATI</span>
+          <h4>Hunarmandlar an'analari</h4>
+        </div>
+        <ul class="check-list">
+          <li><strong>"Chust pichog'i"</strong> (Namangan viloyati)</li>
+          <li><strong>"Samarqand noni"</strong></li>
+          <li><strong>"Xiva gilami"</strong></li>
+          <li><strong>"Uchqo'ra mayizi", "Urgut tamakisi", "Yangiqo'rg'on anjiri", "Quva anori"</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong>Aniq cheklov:</strong> Surxondaryoda faoliyat yuritayotgan hunarmand o'z mahsulotini <strong>"Chust pichog'i"</strong> deb bozorda sotishi maqsadga muvofiq emas — chunki bu nom mahsulotning kelib chiqqan haqiqiy joyiga (Namangan viloyati Chust tumani) to'g'ri kelmaydi.
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ MUTLAQ ASOSLAR ═════════════ -->
+<section class="section section-alt" id="grounds">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">1-savol yakuni</span>
+      <h2 class="section-title">Ro'yxatdan o'tkazib bo'lmaydigan belgilar</h2>
+      <p class="section-lede">"Tovar belgilari..." Qonunining 10-moddasi — ham mutlaq, ham nisbiy asoslar birlashtirilgan.</p>
+    </div>
+
+    <h3 class="subheading reveal-up">Mutlaq asoslar (10-moddaning 1–12 bandlari)</h3>
+    <div class="info-block accent-rose reveal-up" style="margin-bottom: 1.5rem;">
+      <div class="info-header">
+        <span class="info-badge">BELGINING O'Z XUSUSIYATI</span>
+        <h4>11 ta mutlaq rad etish asoslari</h4>
+      </div>
+      <ol class="num-list">
+        <li><strong>Farqlash xususiyatiga ega bo'lmagan belgilar</strong> — oddiy geometrik shakl, bitta harf, raqam</li>
+        <li><strong>Davlat ramzlari</strong> — gerb, bayroq, davlat mukofotlari tasviri</li>
+        <li><strong>Rasmiy nomlar</strong> — davlatlar, xalqaro tashkilotlar (BMT, JST)</li>
+        <li><strong>Nazorat va kafolat tamg'alari</strong> — rasmiy muhrlar, sertifikatlar</li>
+        <li><strong>Davlat xizmatining belgilari</strong> — armiya, IIB belgilari</li>
+        <li><strong>Umumfoydalanishdagi belgilar</strong> — Wi-Fi, USB</li>
+        <li><strong>Umume'tirof etilgan ramzlar</strong> — ♻️, ⚠️, ©, ®</li>
+        <li><strong>Tavsiflovchi belgilar</strong> — tovarning turi, sifati, soni, qiymati</li>
+        <li><strong>Yolg'on yoki chalg'ituvchi belgilar</strong></li>
+        <li><strong>Axloqqa zid belgilar</strong></li>
+        <li><strong>Maxsus geografik nomlar</strong> — Shampan, Konyak (boshqa joyda chiqarilsa)</li>
+      </ol>
+    </div>
+
+    <h3 class="subheading reveal-up">Nisbiy asoslar (10-moddaning 13–20 bandlari)</h3>
+    <div class="info-block accent-violet reveal-up">
+      <div class="info-header">
+        <span class="info-badge">UCHINCHI SHAXS HUQUQI</span>
+        <h4>8 ta nisbiy rad etish asoslari</h4>
+      </div>
+      <ol class="num-list">
+        <li><strong>Oldindan ro'yxatdan o'tgan tovar belgilari</strong> bilan adashtirish darajasidagi o'xshashlik</li>
+        <li><strong>Mashhur (notorious) tovar belgilari</strong> — Coca-Cola, Apple, Samsung</li>
+        <li><strong>Tovar kelib chiqqan joy nomlari</strong> — Borjomi, Chust pichog'i</li>
+        <li><strong>Sertifikatlash belgilari</strong> — ISO, GOST</li>
+        <li><strong>Taniqli firma nomlari</strong> — Artel, Hamkorbank</li>
+        <li><strong>Sanoat namunalari</strong> — boshqa shaxsga tegishli mahsulot dizayni</li>
+        <li><strong>Mashhur asar nomlari, qahramonlari</strong> — muallifning roziligisiz</li>
+        <li><strong>Atoqli shaxslarning ismlari, portretlari</strong> — roziligisiz</li>
+      </ol>
+    </div>
+
+    <h3 class="subheading reveal-up">Adashtirish darajasidagi o'xshashlik — 4 mezon</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">👁️</span><h4>Vizual</h4><p>Shakl, rang, shrift, kompozitsiya</p></div>
+      <div class="mini-card"><span class="mini-icon">👂</span><h4>Fonetik</h4><p>Talaffuz: "Apple" vs "Appel"</p></div>
+      <div class="mini-card"><span class="mini-icon">💭</span><h4>Semantik</h4><p>Ma'no: lotin va kirill</p></div>
+      <div class="mini-card"><span class="mini-icon">🧠</span><h4>Kontseptual</h4><p>Umumiy taassurot</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ Q2: MUHOFAZA TARTIBI ═════════════ -->
+<section class="section" id="q2">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">2-savol</span>
+      <h2 class="section-title">Muhofaza berish tartibi — 7 bosqich</h2>
+      <p class="section-lede">Adliya vazirligi 480-son qarori bilan tasdiqlangan ma'muriy reglament (19.09.2023).</p>
+    </div>
+
+    <div class="timeline reveal-up">
+      <div class="timeline-item">
+        <div class="timeline-num">1</div>
+        <div class="timeline-content">
+          <h4>Talabnoma</h4>
+          <p>Adliya vazirligi axborot tizimi yoki my.gov.uz orqali</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-num">2</div>
+        <div class="timeline-content">
+          <h4>Ustuvorlik</h4>
+          <p>Talabnoma sanasiga qarab (6 oy konvension)</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-num">3</div>
+        <div class="timeline-content">
+          <h4>Rasmiy ekspertiza</h4>
+          <p><strong>30 kun</strong> — hujjatlar to'liqligi</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-num">4</div>
+        <div class="timeline-content">
+          <h4>Mohiyat ekspertizasi</h4>
+          <p><strong>7 oy</strong> (kamida 6 oydan keyin) — 10-modda bo'yicha</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-num">5</div>
+        <div class="timeline-content">
+          <h4>Reestrga kiritish</h4>
+          <p>Patent boji to'langach avtomatik</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-num">6</div>
+        <div class="timeline-content">
+          <h4>Guvohnoma</h4>
+          <p>2025-yildan elektron + QR kod</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-num">7</div>
+        <div class="timeline-content">
+          <h4>E'lon qilish</h4>
+          <p>Adliya vazirligi byulletenida</p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subheading reveal-up">Talabnomaning majburiy tarkibi</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">📋</span><h4>Ariza beruvchi</h4><p>Yuridik shaxs nomi/manzili yoki pasport</p></div>
+      <div class="mini-card"><span class="mini-icon">🎨</span><h4>Belgi tasviri</h4><p>Yuqori sifatli rasm yoki elektron fayl</p></div>
+      <div class="mini-card"><span class="mini-icon">📚</span><h4>Nitsa tasnifi</h4><p>45 ta sinfdan tegishlilari</p></div>
+      <div class="mini-card"><span class="mini-icon">📖</span><h4>Belgi tavsifi</h4><p>Matnli izoh, ranglar, hajmiy bo'lsa rakurslar</p></div>
+    </div>
+
+    <h3 class="subheading reveal-up">Ustuvorlikning 3 turi (Qonunning 12-moddasi)</h3>
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tovar belgisining ustuvorligi tovar belgisini ro'yxatdan o'tkazish uchun <strong>Vazirlikka talabnoma berilgan sanaga qarab</strong> belgilanadi. Konvensiya ustuvorligi <strong>6 oy ichida</strong> qo'llaniladi. Ko'rgazma ustuvorligi rasmiy xalqaro ko'rgazmada namoyish etilgan sanadan boshlanadi.</p>
+      <cite><a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">"Tovar belgilari..." Qonunining 12-moddasi</a></cite>
+    </div>
+    <div class="grid-3 reveal-up">
+      <div class="big-card accent-emerald">
+        <div class="big-num">1</div>
+        <h3>Oddiy ustuvorlik</h3>
+        <p>Patent idorasiga talabnoma kelib tushgan kun bo'yicha belgilanadi</p>
+      </div>
+      <div class="big-card accent-blue">
+        <div class="big-num">2</div>
+        <h3>Konvension ustuvorlik</h3>
+        <p>Parij konventsiyasi a'zo davlatda birinchi talabnoma berilgan sanadan <strong>6 oy</strong> ichida</p>
+      </div>
+      <div class="big-card accent-rose">
+        <div class="big-num">3</div>
+        <h3>Ko'rgazma ustuvorligi</h3>
+        <p>Rasmiy xalqaro ko'rgazmada tovar namoyish qilingan sanadan boshlanadi</p>
+      </div>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📌 Vakolatli organ:</strong> O'zbekiston Respublikasi Adliya vazirligi (<a href="https://im.adliya.uz" target="_blank" rel="noopener noreferrer" class="law-link">im.adliya.uz</a>). <a href="https://lex.uz/docs/-4430819" target="_blank" rel="noopener noreferrer" class="law-link">VM 2019-yil 20-iyuldagi 609-son qarori</a> bilan tashkil etilgan. AV reglamenti: <a href="https://lex.uz/uz/docs/-6613366" target="_blank" rel="noopener noreferrer" class="law-link">480-son, 19.09.2023</a>.
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong>⚖️ <a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 16-moddasi</a> — Shikoyat tartibi (rad etilgan taqdirda):</strong>
+      <ul style="margin-top: 0.5rem;">
+        <li>Ariza beruvchi <strong>3 oy ichida</strong> Apellyatsiya kengashiga shikoyat berishi mumkin</li>
+        <li>Apellyatsiya kengashi qaroriga norozilik bildirilsa — <strong>6 oy ichida</strong> sudga murojaat qilish mumkin</li>
+        <li>Toshkent shahar fuqarolik ishlari bo'yicha sudi vakolatli</li>
+      </ul>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>🔒 <a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 24-moddasi</a> — Guvohnomani haqiqiy emas deb topish:</strong> Mutlaq asoslar (10-modda 1-12 bandlari) buzilgan bo'lsa <strong>guvohnomaning butun amal qilish muddati davomida</strong>; nisbiy asoslar (10-modda 13-20 bandlari) buzilgan bo'lsa — <strong>guvohnoma berilgan kundan 5 yil ichida</strong> haqiqiy emas deb topilishi mumkin (insofsiz raqobat fakti aniqlanganda).
+    </div>
+
+    <div class="callout reveal-up">
+      <strong>📅 <a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 25-moddasi</a> — Tovar belgisining amal qilishini tugatish asoslari:</strong>
+      <ul style="margin-top: 0.5rem;">
+        <li>Guvohnoma muddati tugashi (uzaytirilmagan taqdirda)</li>
+        <li>Egasi tomonidan yozma arizaga binoan</li>
+        <li>3 yil davomida uzluksiz foydalanmaslik (FK 1104) — sud qarori</li>
+        <li>Yuridik shaxs tugatilgan paytda (huquqiy vorislik bo'lmagan hollarda)</li>
+        <li>Apellyatsiya kengashi yoki sud qarori</li>
+      </ul>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>🆕 2024-yil yangilik:</strong> O'zbekiston <em>Singapur shartnomasi</em>ni 2024-yil 13-avgustda ratifikatsiya qildi (<a href="https://lex.uz/en/docs/-7061704" target="_blank" rel="noopener noreferrer" class="law-link">O'RQ-941</a>) — bu xalqaro ustuvorlikni soddalashtiradi.
+    </div>
+
+    <div class="callout reveal-up">
+      <strong>🆕 2025-yil yangilik (<a href="https://lex.uz/uz/search/ext?q=O'RQ-1080" target="_blank" rel="noopener noreferrer" class="law-link">O'RQ-1080</a>):</strong> 2025-yil 9-avgustdan boshlab <strong>davlat boji to'lash hujjatini taqdim etish talab qilinmaydi</strong> — elektron tizim avtomatik tarzda hisob-faktura yaratadi.
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ Q3: HUQUQLAR ═════════════ -->
+<section class="section section-alt" id="q3">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">3-savol</span>
+      <h2 class="section-title">Individuallashtirish vositalariga mutlaq huquqlar</h2>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tovar belgisining egasi ushbu belgidan <strong>foydalanishda va uni tasarruf etishda</strong>, shu jumladan, undan o'zga shaxslar <strong>foydalanishiga ruxsat berish yoki taqiqlab qo'yishda mutlaq huquq</strong>qa egadir.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">O'zbekiston Respublikasi Fuqarolik kodeksining 1103-moddasi</a></cite>
+    </div>
+
+    <h3 class="subheading reveal-up">Mutlaq huquqning 3 tarkibiy qismi</h3>
+    <div class="grid-3 reveal-up">
+      <div class="big-card accent-emerald">
+        <div class="big-num">1</div>
+        <h3>Foydalanish</h3>
+        <ul>
+          <li>Tovarda va qadog'ida</li>
+          <li>Reklamada va hujjatlarda</li>
+          <li>Internet saytida</li>
+          <li>Ko'rgazma va yarmarkalarda</li>
+          <li>Hisob-varaqlarda</li>
+        </ul>
+      </div>
+      <div class="big-card accent-blue">
+        <div class="big-num">2</div>
+        <h3>Tasarruf etish</h3>
+        <ul>
+          <li>Boshqa shaxsga sotish</li>
+          <li>Litsenziya berish</li>
+          <li>Franchayzing shartnomasi</li>
+          <li>Garovga qo'yish</li>
+          <li>Meros qoldirish</li>
+        </ul>
+      </div>
+      <div class="big-card accent-rose">
+        <div class="big-num">3</div>
+        <h3>Taqiqlash</h3>
+        <ul>
+          <li>Ruxsatsiz foydalanishni taqiqlash</li>
+          <li>Sudga murojaat qilish</li>
+          <li>Kontrafakt mahsulot musodarasi</li>
+          <li>Yetkazilgan zararni undirish</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="subheading reveal-up">Huquqlarni boshqalarga o'tkazish — 4 shakl</h3>
+
+    <div class="law-quote reveal-up" style="--quote-color: var(--c-violet)">
+      <div class="law-quote-mark">"</div>
+      <p>Guvohnomada ko'rsatilgan tovarlar, ishlar va xizmatlarning <strong>barcha guruhlariga yoki bir qismiga</strong> nisbatan tovar belgisiga bo'lgan huquqni uning egasi shartnoma asosida boshqa shaxsga berishi mumkin. Tovar belgisiga bo'lgan huquqni, basharti u <strong>tovar yoki uning tayyorlovchisi haqida chalg'ishga sabab bo'lishi mumkin bo'lsa</strong>, boshqa shaxsga berishga yo'l qo'yilmaydi. Huquqning boshqa shaxsga o'tishi <strong>vakolatli davlat organida ro'yxatdan o'tkazilmog'i lozim</strong>.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">Fuqarolik kodeksining 1105-moddasi · Huquqning boshqa shaxsga o'tishi</a></cite>
+    </div>
+
+    <div class="types-table reveal-up">
+      <table>
+        <thead><tr><th>Shartnoma turi</th><th>Mohiyati</th><th>Misol</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Tovar belgisini berish</strong> (uzungoq)</td><td>Huquq butunlay boshqa shaxsga o'tadi. Yangi egasi reestrga kiritiladi</td><td>Brendni qo'shilishlarda butunlay sotish</td></tr>
+          <tr><td><strong>Oddiy litsenziya</strong> (noeksklyuziv)</td><td>Egasi ruxsat beradi, o'zi va boshqalarga ham berishi mumkin</td><td>Bir nechta hududdagi distributorlar</td></tr>
+          <tr><td><strong>Mutlaq litsenziya</strong> (eksklyuziv)</td><td>Faqat bir litsenziat foydalanadi</td><td>Region bo'yicha eksklyuziv distributor</td></tr>
+          <tr><td><strong>Franchayzing</strong></td><td>Tovar belgisi + firma nomi + tijorat siri to'plam holida</td><td>McDonald's, KFC, Subway</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📌 FK 1106-modda — shartnoma shakli:</strong> Tovar belgisiga bo'lgan huquqni boshqa shaxsga berish to'g'risidagi yoki litsenziya berish haqidagi shartnoma <strong>yozma shaklda tuzilishi va vakolatli davlat organida ro'yxatdan o'tkazilishi lozim</strong>. Yozma shaklga va ro'yxatdan o'tkazish talabiga rioya etmaslik shartnomaning <strong>haqiqiy emas deb topilishiga</strong> sabab bo'ladi.
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>🆕 FK 1107¹-modda · Exhaustion of rights (2017, O'RQ-429):</strong> Bevosita tovar belgisining egasi tomonidan yoki uning roziligi bilan <strong>fuqarolik muomalasiga qonuniy tarzda kiritilgan tovarlarga</strong> nisbatan tovar belgisidan boshqa shaxslarning foydalanishi mutlaq huquqning buzilishi bo'lmaydi.
+    </div>
+
+    <h3 class="subheading reveal-up">Amal qilish muddati va bekor bo'lish</h3>
+    <div class="grid-3 reveal-up">
+      <div class="duration-card">
+        <div class="duration-num">10<small>yil</small></div>
+        <h4>Tovar belgisi</h4>
+        <p>Cheksiz uzaytirilishi mumkin (<a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">Qonun 21-22-moddalar</a>)</p>
+      </div>
+      <div class="duration-card">
+        <div class="duration-num">10<small>yil</small></div>
+        <h4>Tovar kelib chiqqan joy nomi</h4>
+        <p>Uzaytiriladi (<a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1108-modda</a>)</p>
+      </div>
+      <div class="duration-card">
+        <div class="duration-num">∞</div>
+        <h4>Firma nomi</h4>
+        <p>Yuridik shaxs faoliyati davomi (<a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1100-m</a>)</p>
+      </div>
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1104-modda</a> — bekor bo'lish:</strong> Tovar belgisidan <strong>oxirgi 3 yil davomida</strong> O'zbekiston Respublikasi hududida uzrli sababsiz uzluksiz foydalanilmagan taqdirda, uning ro'yxatdan o'tkazilganligi <strong>sud qaroriga asosan bekor qilinishi mumkin</strong>.
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ Q4: HIMOYA ═════════════ -->
+<section class="section" id="q4">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">4-savol</span>
+      <h2 class="section-title">Huquqlarni himoya qilish — 4 daraja javobgarlik</h2>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tovar belgisidan qonunga xilof ravishda foydalanayotgan shaxs <strong>qoidabuzarlikni to'xtatishi va yetkazilgan zararni to'lashi shart</strong>. Tovar belgisining egasi zararlarning qoplanishi o'rniga qonunda belgilangan miqdorda va tartibda <strong>tovon to'lashini talab qilishga haqlidir</strong>. Qonunga xilof ravishda foydalanilgan holda ishlab chiqarilgan tovarlar hamda ularning o'rovlari va yorliqlari <strong>qoidabuzar hisobidan olib qo'yilishi hamda yo'q qilinishi lozim</strong>.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">Fuqarolik kodeksining 1107-moddasi · Tovar belgisini buzganlik uchun javobgarlik</a></cite>
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong>💰 <a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 26-moddasi</a> — TOVON KOMPENSATSIYASI:</strong> Tovar belgisi egasi zararlarning qoplanishi o'rniga huquqbuzar shaxsdan <strong>bazaviy hisoblash miqdorining 20 baravaridan 1000 baravarigacha</strong> bo'lgan miqdorda tovon to'lashini talab qilishi mumkin. Tovon miqdorini sud qoidabuzarlik xususiyatini hisobga olgan holda belgilaydi.<br>
+      <small>(2025-yil 1-avgustdan amal qiluvchi BHM = 412 000 so'm — minimal tovon <strong>8 240 000 so'm</strong>; maksimal tovon <strong>412 000 000 so'm</strong>)</small>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>✅ Tovon afzalligi:</strong> Tovar belgisi egasi <em>zararni isbotlash</em> uchun murakkab hisob-kitobga kirishmasdan, qonun bilan belgilangan miqdorda darhol tovon talab qilishi mumkin. Bu — <strong>statutory damages</strong> (qonuniy zarar) prinsipi.
+    </div>
+
+    <div class="law-quote reveal-up" style="--quote-color: var(--c-violet)">
+      <div class="law-quote-mark">"</div>
+      <p>Tovar chiqarilgan joy nomidan foydalanish huquqiga ega bo'lgan shaxs, shuningdek <strong>iste'molchilar huquqlarini himoya qiluvchi tashkilotlar</strong> qonunga xilof foydalanayotgan shaxsdan: foydalanishni to'xtatish; tovardan, idishidan, blankalardan qonunga xilof nomni yo'qotish; nom tasvirlari va o'xshash belgilarni yo'q qilish; iloji bo'lmasa — <strong>tovarni va o'rovni olib qo'yish hamda yo'q qilib tashlash</strong> talab qilishga haqlidir.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">Fuqarolik kodeksining 1111-moddasi · Joy nomi javobgarligi</a></cite>
+    </div>
+
+    <div class="responsibility-grid reveal-up">
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-primary)">Fuqarolik-huquqiy</span>
+        <h3><a href="https://lex.uz/docs/-111189" target="_blank" rel="noopener noreferrer" class="law-link">FK 11, 14, 46-moddalar</a></h3>
+        <p>Huquqni tan olish; kontrafakt belgini olib tashlash; ularni yo'q qilish; sud qarorini OAVda e'lon qilish; yetkazilgan zararni undirish</p>
+      </div>
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-amber)">Ma'muriy</span>
+        <h3><a href="https://lex.uz/docs/-97664" target="_blank" rel="noopener noreferrer" class="law-link">MJTK 177-modda</a></h3>
+        <p>Jismoniy shaxslar: <strong>5-10 BHM</strong><br>Mansabdor shaxslar: <strong>10-20 BHM</strong><br>Takror: 10-20 va 20-30 BHM</p>
+      </div>
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-violet)">Firma nomi maxsus</span>
+        <h3><a href="https://lex.uz/docs/-1055517" target="_blank" rel="noopener noreferrer" class="law-link">Qonun 12¹-modda</a></h3>
+        <p>Yuridik shaxslarga <strong>100-200 BHM</strong> jarima (41,2 mln — 82,4 mln so'm)</p>
+      </div>
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-rose)">Jinoiy (2025)</span>
+        <h3><a href="https://lex.uz/docs/-111453" target="_blank" rel="noopener noreferrer" class="law-link">JK</a> · <a href="https://lex.uz/uz/search/ext?q=O'RQ-1080" target="_blank" rel="noopener noreferrer" class="law-link">O'RQ-1080</a></h3>
+        <p>Katta miqdordagi yoki takroriy huquqbuzarlik: <strong>50-150 BHM</strong> jarima yoki <strong>3 yilgacha</strong> ozodlikdan mahrum etish</p>
+      </div>
+    </div>
+
+    <div class="highlight-quote reveal-up">
+      <p><strong>🌐 JST/TRIPS uyg'unlashtirish:</strong> Yangi jinoiy javobgarlik me'yorlari <em>Intellektual mulk huquqlarining savdo bilan bog'liq jihatlari to'g'risidagi bitim</em> talablariga muvofiq joriy etildi — bu O'zbekistonning JSTga to'liq a'zo bo'lishi uchun zarur.</p>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📌 Aniq raqamlar (BHM = 412 000 so'm, 2025-yil 1-avgustdan, PF-91):</strong>
+      <ul>
+        <li>MJTK 177-m bo'yicha jismoniy shaxslar: <strong>2 060 000 — 4 120 000 so'm</strong></li>
+        <li>"Firma nomlari..." Qonun 12¹-m bo'yicha yuridik shaxslar: <strong>41 200 000 — 82 400 000 so'm</strong></li>
+        <li>Jinoyat kodeksi bo'yicha: <strong>20 600 000 — 61 800 000 so'm</strong></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ II QISM DIVIDER ═════════════ -->
+<section class="divider-section dark" id="part2">
+  <div class="container">
+    <div class="divider-content reveal-up">
+      <span class="divider-badge">IKKINCHI BO'LIM · 5–8 SAVOLLAR</span>
+      <h2>Oshkor etilmagan<br/>axborot</h2>
+      <p>Tijorat siri · Know-how · O'RQ-374, 11.09.2014</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ Q5: OEA ═════════════ -->
+<section class="section" id="q5">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">5-savol</span>
+      <h2 class="section-title">Oshkor etilmagan axborot — obyektlari</h2>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tijorat siri — <strong>uchinchi shaxslarga noma'lumligi sababli</strong> fan-texnika, texnologiya, ishlab chiqarish, moliya-iqtisodiyot sohalarida hamda boshqa sohalarda <strong>tijorat qimmatiga ega bo'lgan</strong>, qonuniy asosda <strong>erkin foydalanilmaydigan axborot</strong>.</p>
+      <cite><a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri to'g'risida"gi Qonunning 3-moddasi · O'RQ-374, 11.09.2014</a></cite>
+    </div>
+
+    <div class="law-quote reveal-up" style="--quote-color: var(--c-primary)">
+      <div class="law-quote-mark">"</div>
+      <p>Fuqarolik qonun hujjatlari xizmat yoki tijorat siri bo'lgan axborotni, basharti bu axborot uchinchi shaxslarga noma'lumligi sababli haqiqiy yoki nisbiy tijorat qimmatiga ega bo'lgan, qonun yo'li bilan undan erkin bahramand bo'lish mumkin bo'lmagan hamda <strong>axborot egasi uning maxfiyligini saqlashga doir choralar ko'rgan</strong> hollarda himoya etadi.</p>
+      <cite><a href="https://lex.uz/docs/-111189" target="_blank" rel="noopener noreferrer" class="law-link">O'zbekiston Respublikasi Fuqarolik kodeksining 98-moddasi</a></cite>
+    </div>
+
+    <div class="law-quote reveal-up" style="--quote-color: var(--c-violet)">
+      <div class="law-quote-mark">"</div>
+      <p>Uchinchi shaxslarga ma'lum bo'lmagan <strong>texnikaviy, tashkiliy yoki tijorat axborotiga, shu jumladan ishlab chiqarish sirlariga (nou-xau)</strong> qonunan ega bo'lib turgan shaxs uni, basharti FK 98-moddasi shartlariga rioya etilgan bo'lsa, noqonuniy foydalanishdan muhofaza qilish huquqiga ega. Bu huquq <strong>biron-bir rasmiyatchilikni bajarishdan qat'i nazar</strong> (ro'yxatdan o'tkazish, guvohnoma olish va h.k.) vujudga keladi.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">Fuqarolik kodeksining 1095-moddasi · OEA muhofaza huquqi</a></cite>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📖 <a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri..." Qonunining 3-moddasi</a> — 5 ta asosiy tushuncha:</strong>
+      <ul style="margin-top: 0.5rem;">
+        <li><strong>Tijorat siri</strong> — uchinchi shaxslarga noma'lumligi sababli fan-texnika, texnologiya, ishlab chiqarish, moliya-iqtisodiyot sohalarida tijorat qimmatiga ega bo'lgan, qonuniy asosda erkin foydalanilmaydigan axborot</li>
+        <li><strong>Tijorat sirining maxfiyligi</strong> — sirning tarqalib ketishi, oshkor etilishi va ruxsatsiz foydalanilishi xavfsizligi <strong>ta'minlangan holati</strong></li>
+        <li><strong>Mulkdor</strong> — tijorat siriga egalik, foydalanish va tasarruf etishni amalga oshiruvchi va unga nisbatan rejim o'rnatgan shaxs</li>
+        <li><strong>Konfident</strong> — mulkdor bilan tuzilgan shartnoma asosida egalik qilish va foydalanishga olgan shaxs (mas., litsenziat, xodim, kontragent)</li>
+        <li><strong>Tijorat siri rejimi</strong> — tijorat siridan foydalanishni cheklaydigan <strong>huquqiy, tashkiliy, texnik va boshqa chora-tadbirlar tizimi</strong></li>
+      </ul>
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong>🚨 Tijorat sirini oshkor etish (3-modda) — 4 ta shakli:</strong> Mulkdor yoki konfident roziligisiz yoxud shartnomaga xilof ravishda axborot uchinchi shaxslarga ma'lum bo'lib qolishiga olib keladigan har qanday harakat:
+      <ul style="margin-top: 0.5rem;">
+        <li>🗣️ <strong>Og'zaki</strong> — gapirib berish, telefon orqali</li>
+        <li>✍️ <strong>Yozma</strong> — xat, hujjat, elektron pochta</li>
+        <li>💻 <strong>Texnika vositalari orqali</strong> — kompyuter, internet, USB</li>
+        <li>❓ <strong>Boshqa shaklda</strong> — imo-ishora, xulq-atvor, harakatsizlik</li>
+      </ul>
+    </div>
+
+    <h3 class="subheading reveal-up">Tijorat siri obyektlari — 4 soha</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">🔧</span><h4>Fan-texnika</h4><p>Kashfiyot, texnik chizmalar, dasturiy ta'minot</p></div>
+      <div class="mini-card"><span class="mini-icon">🏭</span><h4>Ishlab chiqarish</h4><p>Texnologik jarayon, retsept, formula</p></div>
+      <div class="mini-card"><span class="mini-icon">💰</span><h4>Moliya-iqtisodiyot</h4><p>Byudjet, mijozlar bazasi, marketing</p></div>
+      <div class="mini-card"><span class="mini-icon">🏛️</span><h4>Tashkiliy</h4><p>Boshqaruv tizimi, ish jarayonlari</p></div>
+    </div>
+
+    <h3 class="subheading reveal-up">Tijorat siri BO'LA OLMAYDIGAN ma'lumotlar (5-modda)</h3>
+    <div class="info-block accent-rose reveal-up">
+      <ol class="num-list">
+        <li>Davlat ro'yxatidan o'tishni talab qiluvchi mulkka bo'lgan huquqlar</li>
+        <li>Yuridik shaxsning ta'sis hujjatlari (Ustav, ta'sis shartnomasi)</li>
+        <li>Tadbirkorlik ruxsat hujjatlari (litsenziyalar, sertifikatlar)</li>
+        <li>Davlat muassasalari mulki va byudjet mablag'lari</li>
+        <li>Atrof-muhitni ifloslantirish va oziq-ovqat xavfsizligi</li>
+        <li>Xodimlar soni, ish haqi, mehnat sharoitlari</li>
+        <li>Ish beruvchining qarzlari</li>
+        <li>Qonun buzilishi va javobgarlikka tortish faktlari</li>
+        <li>NNT daromad va aktivlari</li>
+      </ol>
+    </div>
+
+    <h3 class="subheading reveal-up">Mashhur tijorat sirlari</h3>
+    <div class="grid-2 reveal-up">
+      <div class="famous-secret">
+        <div class="secret-emoji">🥤</div>
+        <div>
+          <h4>Coca-Cola retsepti</h4>
+          <p><strong>140 yildan ortiq</strong> sir saqlanmoqda. 1886-yildan beri faqat 2 nafar mansabdor shaxs to'liq retseptni biladi. Asl nusxasi Atlanta shahridagi (AQSh, Jorjiya) "World of Coca-Cola" muzeyi seyfida.</p>
+        </div>
+      </div>
+      <div class="famous-secret">
+        <div class="secret-emoji">🍗</div>
+        <div>
+          <h4>KFC — 11 ta ziravor</h4>
+          <p>Polkovnik Xarland Sandersning 1940-yildagi <em>"11 herbs and spices"</em> retsepti. Tarkibi ikkita kompaniyada qisman tayyorlanadi va hech kim to'liq bilmaydi.</p>
+        </div>
+      </div>
+      <div class="famous-secret">
+        <div class="secret-emoji">🔍</div>
+        <div>
+          <h4>Google qidiruv algoritmi</h4>
+          <p>PageRank algoritmi. Asosiy g'oya 1998-yili patentlangan, lekin <strong>aniq parametrlar nou-hau</strong> sifatida sir saqlanadi (200+ omilni hisobga oladi).</p>
+        </div>
+      </div>
+      <div class="famous-secret">
+        <div class="secret-emoji">🍔</div>
+        <div>
+          <h4>McDonald's Big Mac sousi</h4>
+          <p>1968-yildan beri sir saqlanmoqda. Retsept bir necha bor o'zgartirilgan, lekin har doim korporatsiya ichida saqlangan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>❓ Nima uchun patent emas, balki tijorat siri tanlanadi?</strong><br>
+      Patentning himoya muddati cheklangan (ixtirolar uchun 20 yil), muddat tugagach ixtiro ommaviy mulkka aylanadi. Tijorat siri esa <strong>maxfiy qolgani holda cheksiz</strong> muddatda himoyalanadi. Coca-Cola — 140+ yil sir saqlangan.
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ Q6: MUHOFAZA SHARTLARI ═════════════ -->
+<section class="section section-alt" id="q6">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">6-savol</span>
+      <h2 class="section-title">Tijorat sirini muhofaza qilish shartlari</h2>
+      <p class="section-lede">FK 98-modda + Qonun 3-moddasi — bir vaqtda 3 ta majburiy shart.</p>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tijorat siri quyidagi <strong>4 ta talabga</strong> javob berishi kerak:</p>
+      <ol style="margin-top: 0.6rem;">
+        <li>Uchinchi shaxslarga <strong>noma'lum bo'lishi</strong></li>
+        <li>Qonunchilikka muvofiq hamma uchun <strong>ochiq bo'lmasligi</strong></li>
+        <li>Maxfiyligi <strong>muhofaza qilish chora-tadbirlari</strong> bilan ta'minlangan bo'lishi</li>
+        <li><strong>Davlat sirlari</strong> belgilariga ega bo'lmasligi</li>
+      </ol>
+      <cite><a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri..." Qonunining 4-moddasi · Tijorat siriga doir talablar</a></cite>
+    </div>
+
+    <div class="grid-3 reveal-up">
+      <div class="condition-card">
+        <div class="cond-num">01</div>
+        <h4>Noma'lumlik</h4>
+        <p>Uchinchi shaxslarga noma'lum, ochiq manbalardan olib bo'lmaydi</p>
+      </div>
+      <div class="condition-card">
+        <div class="cond-num">02</div>
+        <h4>Tijorat qimmati</h4>
+        <p>Haqiqiy yoki nisbiy tijorat qimmatiga ega, foyda olish imkoni bor</p>
+      </div>
+      <div class="condition-card">
+        <div class="cond-num">03</div>
+        <h4>Maxfiylik choralari</h4>
+        <p>Egasi tomonidan tashkiliy/texnik/huquqiy choralar ko'rilgan</p>
+      </div>
+    </div>
+
+    <h3 class="subheading reveal-up">Qonuniy egalik asoslari</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">✨</span><h4>O'zi yaratgan</h4><p>Ishlab chiqqan</p></div>
+      <div class="mini-card"><span class="mini-icon">📝</span><h4>Buyurtma asosida</h4><p>Xizmat sir sifatida</p></div>
+      <div class="mini-card"><span class="mini-icon">🔁</span><h4>Vorislik</h4><p>Meros, qayta tashkil</p></div>
+      <div class="mini-card"><span class="mini-icon">💼</span><h4>Insofli sotib olish</h4><p>Litsenziya, sotib olish</p></div>
+    </div>
+
+    <h3 class="subheading reveal-up">Tijorat siri mulkdorining huquqlari (6-modda)</h3>
+    <div class="info-block accent-blue reveal-up">
+      <ol class="num-list">
+        <li>Tijorat siri <strong>rejimini belgilash, o'zgartirish va bekor qilish</strong></li>
+        <li>Tijorat siridan <strong>foydalanish tartibini belgilash</strong></li>
+        <li>Mehnat jarayonida foydalanishga <strong>ijozat berish yoki taqiqlash</strong></li>
+        <li>O'z ehtiyojlari uchun foydalanish</li>
+        <li><strong>Maxfiylik sharti</strong> bilan shartnomalar asosida konfidentga berish (litsenziya)</li>
+        <li>Buzilgan huquqlarini <strong>himoya qilish</strong></li>
+      </ol>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>⏰ <a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 7-moddasi</a> — Muhofaza muddati:</strong> <em>"Tijorat sirini muhofaza qilish tijorat sirining maxfiyligi yo'qoladigan paytga qadar davom etadi."</em> Bu — boshqa IM obyektlaridan asosiy farq: tovar belgisi 10 yil, ixtiro 20 yil, lekin tijorat siri <strong>cheksiz davom etishi mumkin</strong> (Coca-Cola — 140+ yil).
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>🏷️ <a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 8-moddasi</a> — Rejimni o'rnatish:</strong> Mulkdor <strong>"Tijorat siri" grifi</strong>ni qo'yadi, foydalanish va oshkor etish shartlarini belgilaydi. Rejim <strong>chora-tadbirlar ko'rilganidan keyin o'rnatilgan</strong> hisoblanadi — agar chora yo'q bo'lsa, tijorat siri rejimi yo'q.
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong>⚠️ 8-modda muhim cheklov:</strong> Tijorat siri rejimidan <strong>konstitutsiyaviy tuzumga, davlat mudofaasi va xavfsizligiga, fuqarolarning axloqi va sog'ligʻiga, boshqa shaxslarning huquqlariga zid maqsadlarda</strong> foydalanish mumkin emas. Tijorat siri yashirish vositasi emas!
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>📋 8-modda zaruriy shart:</strong> <em>"Maxfiylik haqidagi qoidalarni fuqarolik-huquqiy shartnomalarga kiritish — tijorat siri rejimini o'rnatishning zaruriy shartidir."</em> Bu degani — har bir kontragent, xodim, partner bilan tuzilgan shartnomada <strong>NDA bandlari majburiy</strong>.
+    </div>
+
+    <div class="callout reveal-up">
+      <strong>🛡️ 6-modda · Tasodifiy/yanglish olganlardan himoya:</strong> Mulkdor <strong>tasodifan yoki yanglishib</strong> tijorat sirini qo'lga kiritgan shaxslardan ham uning <strong>maxfiyligi muhofaza qilinishini talab qilish huquqi</strong>ga ega (mas., uchinchi shaxs noto'g'ri elektron pochtaga sir olib bo'lgan bo'lsa).
+    </div>
+
+    <h3 class="subheading reveal-up">Maxfiylikni ta'minlash chora-tadbirlari (Qonun 10-modda)</h3>
+    <div class="grid-2 reveal-up">
+      <div class="info-block accent-blue">
+        <div class="info-header">
+          <span class="info-badge">HUQUQIY VA TASHKILIY</span>
+          <h4>Ichki tartib-qoidalar</h4>
+        </div>
+        <ul class="check-list">
+          <li>"Tijorat siri to'g'risida" ichki nizom</li>
+          <li>Sir ma'lumotlar ro'yxatini tasdiqlash</li>
+          <li>Mehnat shartnomasiga NDA bandlari</li>
+          <li>Kontragentlar bilan NDA shartnomalar</li>
+          <li>"Tijorat siri" yorlig'ini qo'yish</li>
+          <li>Yopiq saqlash + jurnallar yuritish</li>
+        </ul>
+      </div>
+      <div class="info-block accent-violet">
+        <div class="info-header">
+          <span class="info-badge">TEXNIK VA MEHNAT</span>
+          <h4>Texnologik himoya</h4>
+        </div>
+        <ul class="check-list">
+          <li>Axborot tizimiga kirishni cheklash</li>
+          <li>Parol, shifrlash, sertifikatlar</li>
+          <li>Videokuzatuv</li>
+          <li>"Need-to-know" prinsipi</li>
+          <li><a href="https://lex.uz/docs/-6257288" target="_blank" rel="noopener noreferrer" class="law-link">Mehnat kodeksi</a>: moddiy javobgarlik</li>
+          <li>18 yoshgacha — cheklangan javobgarlik</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="subheading reveal-up">Xodimlar bilan munosabatlar (11, 12-moddalar)</h3>
+    <div class="grid-2 reveal-up">
+      <div class="info-block accent-blue">
+        <div class="info-header">
+          <span class="info-badge">11-MODDA · MEHNAT JARAYONI</span>
+          <h4>Ish beruvchining majburiyatlari</h4>
+        </div>
+        <p>Ish beruvchi (mulkdor/konfident) xodimga sir taqdim etishda:</p>
+        <ul class="check-list">
+          <li>Xodimni tijorat siri ma'lumotlari ro'yxati bilan <strong>tilxat olgan holda</strong> tanishtirishi</li>
+          <li>Rejim va javobgarlik choralari bilan <strong>tilxat olgan holda</strong> tanishtirishi</li>
+          <li>Rejimga rioya etish uchun zarur shart-sharoitlarni yaratishi</li>
+        </ul>
+        <p style="margin-top: 0.7rem;"><strong>Xodimning majburiyatlari:</strong></p>
+        <ul class="check-list">
+          <li>Tijorat siri rejimiga rioya etish</li>
+          <li>Ruxsatsiz oshkor etmaslik va shaxsiy maqsadda foydalanmaslik</li>
+          <li>Mehnat shartnomasi bekor qilingach — moddiy jismlarni topshirish yoki <strong>ish beruvchi nazoratida yo'q qilish/o'chirish</strong></li>
+        </ul>
+      </div>
+      <div class="info-block accent-rose">
+        <div class="info-header">
+          <span class="info-badge">12-MODDA · BEKOR QILISH</span>
+          <h4>Mehnat shartnomasini buzish</h4>
+        </div>
+        <p>Mehnat munosabatlarida tijorat siridan foydalanishni bekor qilish asoslari:</p>
+        <ul class="check-list">
+          <li>Mehnat shartnomasi (kontrakt) yoki fuqarolik-huquqiy shartnoma <strong>bekor qilinishi</strong></li>
+          <li>Tijorat sirini oshkor etmaslik majburiyatlarining <strong>buzilishi</strong></li>
+        </ul>
+        <p style="margin-top: 0.7rem;"><strong>⚠️ Muhim qoida:</strong> Foydalanishning bekor qilinishi xodimni tijorat sirini oshkor etmaslik majburiyatlaridan <strong>ozod etmaydi</strong> — sobiq xodim shartnomada belgilangan muddatgacha sirni saqlashi shart.</p>
+      </div>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>⚖️ 11-modda · Xodimning shikoyat huquqi:</strong> Agar tijorat siri rejimi <strong>qonunga xilof ravishda o'rnatilgan</strong> bo'lsa (mas., 5-modda ro'yxatidagi ma'lumotlarga sir grifi qo'yilgan bo'lsa), xodim <strong>sud tartibida shikoyat qilish huquqi</strong>ga ega.
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📜 13-modda · Xo'jalik yurituvchi subyektlar:</strong> Kompaniyalar o'rtasida savdo-iqtisodiy, fan-texnika, valyuta-moliyaviy munosabatlarda taraflar <strong>tijorat sirini tashkil etuvchi ma'lumotlarning ro'yxatini va muhofaza majburiyatlarini alohida shartnomada belgilashi shart</strong>. Bu — B2B NDA shartnomalari.
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ Q7: O'TKAZISH ═════════════ -->
+<section class="section" id="q7">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">7-savol</span>
+      <h2 class="section-title">Huquqlarni boshqa shaxslarga o'tkazish</h2>
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Oshkor etilmagan axborotga ega bo'lgan shaxs bu axborot mazmunini tashkil etuvchi ma'lumotlarning hammasini yoki bir qismini <strong>litsenziya shartnomasi asosida</strong> boshqa shaxsga berishi mumkin. Litsenziat axborotlarning maxfiyligini muhofaza qilishga doir choralarni ko'rishi shart.</p>
+      <cite><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1097-modda · Litsenziya shartnomasi</a></cite>
+    </div>
+
+    <h3 class="subheading reveal-up">O'tkazishning 4 asosiy shakli</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">📄</span><h4>Litsenziya shartnomasi</h4><p>Belgilangan muddatda foydalanish ruxsati; royalti yoki paushal to'lov</p></div>
+      <div class="mini-card"><span class="mini-icon">👷</span><h4>Mehnat shartnomasi</h4><p>NDA + <a href="https://lex.uz/docs/-6257288" target="_blank" rel="noopener noreferrer" class="law-link">Mehnat kodeksi</a> majburiyatlari</p></div>
+      <div class="mini-card"><span class="mini-icon">🤝</span><h4>NDA shartnomasi</h4><p>Non-Disclosure Agreement — qo'shilish/hamkorlik</p></div>
+      <div class="mini-card"><span class="mini-icon">🏢</span><h4>Franchayzing</h4><p>To'plam: tovar belgisi + firma nomi + tijorat siri + uslub</p></div>
+    </div>
+
+    <h3 class="subheading reveal-up">Litsenziya shartnomasining majburiy shartlari</h3>
+    <div class="laws-table reveal-up">
+      <table>
+        <thead><tr><th>#</th><th>Shart</th><th>Tafsilot</th></tr></thead>
+        <tbody>
+          <tr><td><strong>1</strong></td><td>O'tkaziladigan axborot doirasi</td><td>Aniq belgilangan — qaysi sir, qaysi hajmda</td></tr>
+          <tr><td><strong>2</strong></td><td>Haq to'lash shartlari</td><td>Paushal summa, royalti yoki kombinatsiya</td></tr>
+          <tr><td><strong>3</strong></td><td>Maxfiylik majburiyati</td><td>Shartnoma bekor bo'lganidan keyin ham litsenziatda saqlanadi</td></tr>
+          <tr><td><strong>4</strong></td><td>Sublitsenziya berish</td><td>Alohida kelishuv asosida mumkin</td></tr>
+          <tr><td><strong>5</strong></td><td>Javobgarlik shartlari</td><td>Maxfiylik buzilishi, to'lov kechiktirilishi</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>Shakl talabi:</strong> Yozma ravishda tuziladi. OEA litsenziya shartnomasi <strong>davlat ro'yxatidan o'tkazilmaydi</strong> (chunki obyektning o'zi ro'yxatga olinmaydi). Notarial guvohlantirilishi mumkin.
+    </div>
+
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tijorat siri mulkdori uni <strong>konfidentga (shartnoma asosida)</strong> topshirganda quyidagi shartlar bajarilishi kerak: 1) maxfiylik majburiyati yozma shartnomada belgilanadi; 2) konfident ma'lumotlarni faqat shartnomada nazarda tutilgan maqsadlarda ishlatadi; 3) konfident <strong>tijorat sirini boshqa shaxslarga oshkor etmasligi shart</strong>; 4) shartnoma bekor bo'lganidan keyin ham maxfiylik majburiyati saqlanadi.</p>
+      <cite><a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri..." Qonunining 14-moddasi · Konfidentga topshirish</a></cite>
+    </div>
+
+    <div class="callout success reveal-up">
+      <strong>📜 <a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 15-moddasi</a> — Davlat organi talabining shartlari:</strong>
+      <ul style="margin-top: 0.5rem;">
+        <li>Talab faqat <strong>vakolatli mansabdor shaxs tomonidan imzolangan</strong> bo'lishi</li>
+        <li>Talab nima maqsadda va <strong>huquqiy asosi</strong> ko'rsatilgan bo'lishi</li>
+        <li>Taqdim etish <strong>muddati</strong> ko'rsatilgan bo'lishi</li>
+        <li>Taqdim etish <strong>tekin</strong> amalga oshiriladi</li>
+        <li>Agar mulkdor rad etsa — davlat organi <strong>sud orqali</strong> talab qilishi mumkin</li>
+      </ul>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>🔐 <a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">Qonunning 16-moddasi</a> — Davlat organlari majburiyatlari:</strong> Davlat organlari xodimlari xizmat vazifalarini bajarish chog'ida ma'lum bo'lib qolgan tijorat sirini <strong>oshkor etishga, boshqa shaxslarga topshirishga, g'arazli yoki shaxsiy maqsadlarda foydalanishga haqli emas</strong>. Maxfiylikni ta'minlovchi shart-sharoitlar yaratishi shart.
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ Q8: JAVOBGARLIK ═════════════ -->
+<section class="section section-alt" id="q8">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">8-savol</span>
+      <h2 class="section-title">OEA huquqlarini buzganlik uchun javobgarlik</h2>
+    </div>
+
+    <h3 class="subheading reveal-up">Huquqbuzarlik ko'rinishlari (FK 1096-m)</h3>
+    <div class="grid-2 reveal-up">
+      <div class="info-block accent-rose">
+        <div class="info-header">
+          <span class="info-badge">INSOFSIZ EGALLASH</span>
+          <h4>1-qism · noqonuniy yo'llar</h4>
+        </div>
+        <ul class="check-list">
+          <li>Sanoat josusligi — axborotni o'g'irlash</li>
+          <li>Xodimni sotib olish</li>
+          <li>G'irrom raqobat — texnik vositalar</li>
+          <li>Aldash, tahdid, kuch ishlatish</li>
+          <li>Maxfiylik majburiyatini buzish</li>
+        </ul>
+      </div>
+      <div class="info-block accent-violet">
+        <div class="info-header">
+          <span class="info-badge">INSOFLI EGALLOVCHI</span>
+          <h4>2-qism · keyingi davom</h4>
+        </div>
+        <p>Bilmasdan olgan, lekin <strong>ogohlantirilgandan keyin</strong> foydalanishni davom ettirsa, javobgar bo'ladi.</p>
+        <p><em>FK 1096-m, 4-qism:</em> Sud insofli egallovchiga <strong>haq to'lab olinadigan alohida litsenziya</strong> asosida foydalanishga ruxsat berishi mumkin.</p>
+      </div>
+    </div>
+
+    <h3 class="subheading reveal-up">4 darajali javobgarlik</h3>
+    <div class="responsibility-grid reveal-up">
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-primary)">Fuqarolik</span>
+        <h3><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link">FK 1096, 14-moddalar</a></h3>
+        <p>Foydalanishni darhol to'xtatish; ma'naviy zarar; olinmay qolgan foyda; huquqbuzar daromadlarini undirish</p>
+      </div>
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-amber)">Mehnat</span>
+        <h3><a href="https://lex.uz/docs/-6257288" target="_blank" rel="noopener noreferrer" class="law-link">Mehnat kodeksi</a></h3>
+        <p>Tijorat sirini oshkor etgan xodimga moddiy javobgarlik (yangi MK, 28.10.2022, kuchga: 30.04.2023); intizomiy chora — ishdan bo'shatish</p>
+      </div>
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-rose)">Jinoiy</span>
+        <h3><a href="https://lex.uz/docs/-111453" target="_blank" rel="noopener noreferrer" class="law-link">JK 191-modda</a></h3>
+        <p>Katta miqdordagi zarar yetkazilganda jarima, tuzatish ishlari yoki ozodlikdan mahrum etish</p>
+      </div>
+      <div class="resp-card">
+        <span class="resp-tag" style="--tag: var(--c-violet)">Ma'muriy</span>
+        <h3>G'irrom raqobat</h3>
+        <p>Antimonopol qo'mita orqali jarimalar</p>
+      </div>
+    </div>
+
+    <h3 class="subheading reveal-up">Isbotlash yuki (OEA egasi)</h3>
+    <div class="grid-4 reveal-up">
+      <div class="mini-card"><span class="mini-icon">🔐</span><h4>Maxfiylik</h4><p>Choralar mavjudligini isbotlash</p></div>
+      <div class="mini-card"><span class="mini-icon">💵</span><h4>Tijorat qimmati</h4><p>Qimmati borligini ko'rsatish</p></div>
+      <div class="mini-card"><span class="mini-icon">🚨</span><h4>Foydalanish fakti</h4><p>G'ayriqonuniy foydalanish</p></div>
+      <div class="mini-card"><span class="mini-icon">📊</span><h4>Zarar miqdori</h4><p>Yetkazilgan zarar hisob-kitobi</p></div>
+    </div>
+
+    <div class="callout info reveal-up">
+      <strong>📞 Maxsus huquqiy asoslar:</strong> O'zbekiston Respublikasi Fuqarolik kodeksining <a href="https://lex.uz/docs/-111189" target="_blank" rel="noopener noreferrer" class="law-link"><strong>133-moddasi 4-qismi</strong></a> (<em>"Tijorat vakilligi"</em> moddasidagi maxfiylik majburiyati — tijorat vakili topshiriqni bajarib bo'lganidan keyin ham savdo bitimlari to'g'risidagi ma'lumotlarni sir saqlashi shart), <a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link"><strong>786-moddasi</strong></a> (bank siri); <a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link"><strong>"Tijorat siri to'g'risida" Qonunning 14 va 19-moddalari</strong></a>.
+    </div>
+
+    <div class="callout danger reveal-up">
+      <strong>Ogohlantirish majburiyati (FK 1096-m, 3-qism):</strong> Qonuniy egasi insofli egallovchini noqonuniy foydalanish haqida <strong>ogohlantirishi shart</strong> — shundan keyingina javobgarlik vujudga keladi.
+    </div>
+
+    <h3 class="subheading reveal-up">Qonunning 19-moddasi — javobgarlik turlari</h3>
+    <div class="law-quote reveal-up">
+      <div class="law-quote-mark">"</div>
+      <p>Tijorat sirini qonunga xilof ravishda olgan, oshkor etgan yoki ishlatgan shaxs <strong>O'zbekiston Respublikasi qonunchiligiga muvofiq javobgar bo'ladi</strong>. Tijorat siri mulkdoriga yetkazilgan zarar <strong>to'liq hajmda qoplanishi kerak</strong>.</p>
+      <cite><a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri..." Qonunining 19-moddasi · Buzganlik uchun javobgarlik</a></cite>
+    </div>
+
+    <div class="grid-2 reveal-up">
+      <div class="info-block accent-blue">
+        <div class="info-header">
+          <span class="info-badge">17-MODDA · SUDDA HIMOYA</span>
+          <h4>Cheklanmagan foydalanish — 6 ta holat</h4>
+        </div>
+        <p>Sudni va ishtirokchilarni tijorat siri bilan tanishtirish faqat nizoning bevosita taalluqli qismi bo'yicha cheklangan. Cheklanmagan foydalanishga <strong>6 holatda</strong> ruxsat:</p>
+        <ol style="margin-top: 0.5rem; padding-left: 1.2rem;">
+          <li>Mulkdor/konfidentning <strong>davlat organlari bilan</strong> nizolarida</li>
+          <li>Mulkdorning <strong>to'lovga qobiliyatsizligi</strong> (bankrotlik) ishida</li>
+          <li>Mulkdor <strong>tugatilganda</strong> yoki faoliyat tugatilganda</li>
+          <li>Tijorat siri <strong>vorislik obyekti</strong> bo'lganda — vorislik nizolari</li>
+          <li>Er-xotin <strong>umumiy mol-mulkni bo'lish</strong> nizolarida (biri mulkdor bo'lsa)</li>
+          <li>Mulkdor va konfident yoki <strong>muassislar o'rtasidagi</strong> nizolarda</li>
+        </ol>
+      </div>
+      <div class="info-block accent-violet">
+        <div class="info-header">
+          <span class="info-badge">18-MODDA · NIZOLARNI HAL ETISH</span>
+          <h4>Sud va arbitraj tartibi</h4>
+        </div>
+        <p>Tijorat siri bilan bog'liq nizolar quyidagi tartibda hal qilinadi:</p>
+        <ul class="check-list">
+          <li>Fuqarolik sudi yoki iqtisodiy sud — sub'ekt holatiga qarab</li>
+          <li>Xalqaro tijorat arbitraji (xorijiy element bo'lsa)</li>
+          <li>Vositachilik (mediatsiya) — taraflarning kelishuviga ko'ra</li>
+          <li>Apellyatsiya va kassatsiya tartibida shikoyat</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ COMPARISON ═════════════ -->
+<section class="section" id="comparison">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">Qiyosiy tahlil</span>
+      <h2 class="section-title">Tovar belgisi va Tijorat siri — qiyoslash</h2>
+      <p class="section-lede">Bir-birini to'ldiruvchi huquqiy institutlar: ochiq vs maxfiy himoya.</p>
+    </div>
+
+    <div class="comparison-table reveal-up">
+      <table>
+        <thead>
+          <tr><th>Mezon</th><th><span class="tag-blue">🏷️ Tovar belgisi</span></th><th><span class="tag-rose">🔒 Tijorat siri</span></th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Ro'yxatga olish</strong></td><td>Adliya vazirligida majburiy</td><td>Ro'yxatga olinmaydi</td></tr>
+          <tr><td><strong>Oshkoralik</strong></td><td>Ochiq — Davlat reestrida nashr</td><td>To'liq maxfiy</td></tr>
+          <tr><td><strong>Himoya muddati</strong></td><td>10 yil, cheksiz yangilanadi</td><td>Maxfiy qolgancha cheksiz</td></tr>
+          <tr><td><strong>Hududiy ta'sir</strong></td><td>Ro'yxatdan o'tkazilgan davlat hududi</td><td>Hudud bilan cheklanmaydi</td></tr>
+          <tr><td><strong>Huquq yuzaga kelishi</strong></td><td>Guvohnoma berilgan paytdan</td><td>Maxfiylik rejimi joriy qilingan paytdan</td></tr>
+          <tr><td><strong>Reverse engineering</strong></td><td>Himoyaga ta'sir etmaydi</td><td>Halol yo'l bilan topilsa — himoyani buzadi</td></tr>
+          <tr><td><strong>Asosiy xavf</strong></td><td>Adashtirish darajasidagi o'xshashlik</td><td>Insayder oshkor qilishi, sanoat josusligi</td></tr>
+          <tr><td><strong>Tipik misollar</strong></td><td>Apple®, Coca-Cola®, Samsung®</td><td>Coca-Cola retsepti, Google algoritmi, KFC ziravor</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ CONCLUSION ═════════════ -->
+<section class="section section-alt" id="conclusion">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">Xulosa</span>
+      <h2 class="section-title">Asosiy tezislar</h2>
+    </div>
+
+    <div class="thesis-grid reveal-up">
+      <div class="thesis-card"><div class="thesis-num">01</div><p>Individuallashtirish vositalari (tovar belgisi, firma nomi, tovar kelib chiqqan joy nomi) — intellektual mulk huquqining muhim tarmog'i bo'lib, FK 97-modda bilan mustahkamlangan.</p></div>
+      <div class="thesis-card"><div class="thesis-num">02</div><p>Tovar belgisi 2001-yil 30-avgustdagi 267-II Qonun va FK 1102-1107¹ moddalari bilan tartibga solinadi.</p></div>
+      <div class="thesis-card"><div class="thesis-num">03</div><p>Tovar belgisi <strong>farqlash xususiyatiga ega</strong> bo'lishi va boshqa belgilar bilan adashtirilmasligi kerak (10-modda — mutlaq va nisbiy asoslar).</p></div>
+      <div class="thesis-card"><div class="thesis-num">04</div><p>Muhofaza tartibi — 7 bosqich: talabnoma → ustuvorlik → rasmiy ekspertiza (30 kun) → mohiyat ekspertizasi (7 oy) → reestr → guvohnoma → e'lon.</p></div>
+      <div class="thesis-card"><div class="thesis-num">05</div><p>Mutlaq huquq — foydalanish, tasarruf etish va taqiqlash huquqlaridan iborat.</p></div>
+      <div class="thesis-card"><div class="thesis-num">06</div><p>Huquqlarni o'tkazish — oddiy litsenziya, mutlaq litsenziya, franchayzing yoki brendni sotish orqali.</p></div>
+      <div class="thesis-card"><div class="thesis-num">07</div><p>Tovar belgisi guvohnomasi — <strong>10 yil</strong>, cheksiz yangilanadi.</p></div>
+      <div class="thesis-card"><div class="thesis-num">08</div><p>Tijorat siri 2014-yil O'RQ-374 va FK 98-modda bilan himoyalanadi — <strong>3 ta majburiy shart</strong> bir vaqtda kerak.</p></div>
+      <div class="thesis-card"><div class="thesis-num">09</div><p>Tijorat siri ro'yxatga olinmaydi, lekin maxfiy qolgani holda <strong>cheksiz</strong> himoyalanadi (Coca-Cola — 140+ yil).</p></div>
+      <div class="thesis-card"><div class="thesis-num">10</div><p>O'tkazish — litsenziya, mehnat shartnomasi, NDA yoki franchayzing orqali.</p></div>
+      <div class="thesis-card"><div class="thesis-num">11</div><p>Javobgarlik: FK 11, 14; MJTK 177-m (5-10 BHM); Firma nomi Qonuni 12¹-m (100-200 BHM); JK O'RQ-1080 (3 yilgacha).</p></div>
+      <div class="thesis-card"><div class="thesis-num">12</div><p><strong>2025-yil asosiy yangilik:</strong> 13-may O'RQ-1080 — IM qonunlari elektronlashtirildi va jinoiy javobgarlik kuchaytirildi (JST/TRIPS uchun).</p></div>
+    </div>
+
+    <div class="highlight-quote reveal-up">
+      <p><strong>🔑 Asosiy g'oya:</strong> Individuallashtirish vositalari va tijorat siri — <em>bir-birini to'ldiruvchi</em> huquqiy institutlardir: birinchisi — <strong>ochiq, davlat ro'yxati orqali</strong>, ikkinchisi — <strong>maxfiy, ichki rejim orqali</strong> himoya qilish yo'li.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ SOURCES ═════════════ -->
+<section class="section section-dark" id="sources">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow">Foydalanilgan manbalar</span>
+      <h2 class="section-title">Rasmiy hujjatlar va adabiyotlar</h2>
+    </div>
+
+    <div class="sources-grid reveal-up">
+      <div class="source-block">
+        <h4>📕 Kodekslar</h4>
+        <ul>
+          <li><a href="https://lex.uz/docs/-111189" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Fuqarolik kodeksi · 1-qism</strong></a> (1995) — 11, 14, 46, 97, 98, 133-moddalar</li>
+          <li><a href="https://lex.uz/docs/-180552" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Fuqarolik kodeksi · 2-qism</strong></a> (1996) — 786, 1095-1097, 1098-1111-moddalar</li>
+          <li><a href="https://lex.uz/docs/-111453" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Jinoyat kodeksi</strong></a> — 149, 191 moddalar</li>
+          <li><a href="https://lex.uz/docs/-97664" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Ma'muriy javobgarlik kodeksi</strong></a> — 177-modda</li>
+          <li><a href="https://lex.uz/docs/-6257288" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Mehnat kodeksi</strong></a> (yangi tahriri 28.10.2022, kuchga: 30.04.2023) — moddiy javobgarlik qoidalari</li>
+        </ul>
+      </div>
+
+      <div class="source-block">
+        <h4>📜 Maxsus qonunlar</h4>
+        <ul>
+          <li><a href="https://lex.uz/acts/-24925" target="_blank" rel="noopener noreferrer" class="law-link">"Tovar belgilari..." Qonun · <strong>267-II, 30.08.2001</strong></a></li>
+          <li><a href="https://lex.uz/docs/-1055517" target="_blank" rel="noopener noreferrer" class="law-link">"Firma nomlari to'g'risida" · <strong>O'RQ-51, 18.09.2006</strong></a></li>
+          <li><a href="https://lex.uz/docs/-2460801" target="_blank" rel="noopener noreferrer" class="law-link">"Tijorat siri to'g'risida" · <strong>O'RQ-374, 11.09.2014</strong></a></li>
+          <li><a href="https://lex.uz/docs/-5849844" target="_blank" rel="noopener noreferrer" class="law-link">IM jarimalar · <strong>O'RQ-749, 02.02.2022</strong></a></li>
+          <li><a href="https://lex.uz/uz/search/ext?q=O'RQ-908" target="_blank" rel="noopener noreferrer" class="law-link">JST/TRIPS uyg'unlashtirish · <strong>O'RQ-908, 15.02.2024</strong></a></li>
+          <li><a href="https://lex.uz/en/docs/-7061704" target="_blank" rel="noopener noreferrer" class="law-link">Singapur shartnomasi · <strong>O'RQ-941, 13.08.2024</strong></a></li>
+          <li><a href="https://lex.uz/uz/search/ext?q=O'RQ-1080" target="_blank" rel="noopener noreferrer" class="law-link">IM yangiliklari · <strong>O'RQ-1080, 13.05.2025</strong></a></li>
+        </ul>
+      </div>
+
+      <div class="source-block">
+        <h4>📚 Akademik adabiyotlar</h4>
+        <ul>
+          <li><strong>Zokirov I.B.</strong> "Fuqarolik huquqi". I qism, 5-nashr · TDYUI · 2009 (611 bet)</li>
+          <li><strong>Raxmonqulov X., Oqyulov O.</strong> "O'zR FKga sharh". 1-jild · Vektor-Press · 2010 (816 bet)</li>
+          <li><strong>Oqyulov O.</strong> "IM huquqi maqomining nazariy va amaliy muammolari" · TDYUI · 2003-2004</li>
+          <li><strong>Baratov M.</strong> "Mulk huquqi" · Toshkent · 2009</li>
+        </ul>
+      </div>
+
+      <div class="source-block">
+        <h4>🌐 Internet manbalari</h4>
+        <ul>
+          <li><a href="https://lex.uz" target="_blank" rel="noopener noreferrer" class="law-link"><strong>lex.uz</strong></a> · O'zR rasmiy huquqiy ma'lumotlar bazasi</li>
+          <li><a href="https://im.adliya.uz" target="_blank" rel="noopener noreferrer" class="law-link"><strong>im.adliya.uz</strong></a> · Adliya vazirligi IM agentligi</li>
+          <li><a href="https://www.wipo.int/wipolex/en/" target="_blank" rel="noopener noreferrer" class="law-link"><strong>wipo.int/wipolex</strong></a> · WIPO qonunchilik bazasi</li>
+          <li><a href="https://www.gazeta.uz" target="_blank" rel="noopener noreferrer" class="law-link"><strong>gazeta.uz</strong></a> · O'zbekiston yangiliklari</li>
+          <li><a href="https://www.petosevic.com" target="_blank" rel="noopener noreferrer" class="law-link"><strong>petosevic.com</strong></a> / <a href="https://cwbip.com" target="_blank" rel="noopener noreferrer" class="law-link">cwbip.com</a> · IP yangiliklar</li>
+        </ul>
+      </div>
+
+      <div class="source-block">
+        <h4>⚙️ Hukumat hujjatlari</h4>
+        <ul>
+          <li><a href="https://lex.uz/docs/-4430819" target="_blank" rel="noopener noreferrer" class="law-link">VM 609-son, 20.07.2019</a> — IM agentligi tashkil etish</li>
+          <li><a href="https://lex.uz/uz/search/ext?q=286-son+2014" target="_blank" rel="noopener noreferrer" class="law-link">VM 286-son, 11.10.2014</a> — davlat nomi ishlatish</li>
+          <li><a href="https://lex.uz/uz/search/ext?q=66-son+2017" target="_blank" rel="noopener noreferrer" class="law-link">VM 66-son, 09.02.2017</a> — tadbirkorlik davlat ro'yxati</li>
+          <li><a href="https://lex.uz/uz/docs/-6613366" target="_blank" rel="noopener noreferrer" class="law-link">AV 480-son, 19.09.2023</a> — tovar belgisi reglamenti</li>
+          <li><a href="https://lex.uz/uz/docs/-7553322" target="_blank" rel="noopener noreferrer" class="law-link">PF-91, 02.06.2025</a> — BHM 412 000 so'mga oshirildi</li>
+        </ul>
+      </div>
+
+      <div class="source-block">
+        <h4>🌍 Xalqaro shartnomalar</h4>
+        <ul>
+          <li><a href="https://www.wipo.int/treaties/en/ip/paris/" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Parij konvensiyasi</strong></a> (1883) · O'zbekiston 25.12.1991-dan a'zo</li>
+          <li><a href="https://www.wipo.int/treaties/en/ip/berne/" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Bern konvensiyasi</strong></a> · O'zbekiston 2005-yil ratifikatsiya</li>
+          <li><a href="https://www.wipo.int/madrid/en/" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Madrid bitimi va protokoli</strong></a> · WIPO orqali</li>
+          <li><a href="https://www.wipo.int/treaties/en/ip/singapore/" target="_blank" rel="noopener noreferrer" class="law-link"><strong>Singapur shartnomasi</strong></a> (2006) · 2024-yil ratifikatsiya</li>
+          <li><a href="https://www.wto.org/english/tratop_e/trips_e/trips_e.htm" target="_blank" rel="noopener noreferrer" class="law-link"><strong>JST TRIPS bitimi</strong></a> · 2024-yil uyg'unlashtirish</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="thanks-block reveal-up">
+      <h3>🎓 E'TIBORINGIZ UCHUN RAHMAT</h3>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═════════════ FOOTER ═════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="logo-mark">§</span>
+        <div>
+          <strong>Intellektual mulk huquqi</strong>
+          <span>8-mavzu · 2025–2026 o'quv yili · lex.uz manbalari asosida</span>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <a href="#hero">Yuqoriga ↑</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
 </body>
 </html>
